@@ -1,102 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://vitalwell.vercel.app/index.html</loc>
-        <changefreq>weekly</changefreq>
+        <loc>https://boldlybalanced.com/</loc>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/category/lifestyle.html</loc>
+        <loc>https://boldlybalanced.com/category/fitness.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/category/mind.html</loc>
+        <loc>https://boldlybalanced.com/category/nutrition.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/category/body.html</loc>
+        <loc>https://boldlybalanced.com/category/sleep.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/category/nutrition.html</loc>
+        <loc>https://boldlybalanced.com/category/mind.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/category/sleep.html</loc>
+        <loc>https://boldlybalanced.com/category/wellness.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/category/living.html</loc>
+        <loc>https://boldlybalanced.com/category/lifestyle.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/beginner-yoga-routine.html</loc>
+        <loc>https://boldlybalanced.com/category/tech.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/category/recovery.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/category/finance.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/category/case-study.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/category/mindset.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/ai-health-tracking-apps.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/best-running-shoes.html</loc>
+        <loc>https://boldlybalanced.com/posts/ai-personal-assistants-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/best-supplements-2026.html</loc>
+        <loc>https://boldlybalanced.com/posts/ai-personal-growth.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/cheap-lab-tests.html</loc>
+        <loc>https://boldlybalanced.com/posts/analog-lifestyle-digital-detox-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/cold-exposure.html</loc>
+        <loc>https://boldlybalanced.com/posts/analog-morning-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/home-gym-essentials.html</loc>
+        <loc>https://boldlybalanced.com/posts/anti-inflammatory-diet-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/meditation-beginners.html</loc>
+        <loc>https://boldlybalanced.com/posts/beginner-yoga-routine.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/morning-routine-energy.html</loc>
+        <loc>https://boldlybalanced.com/posts/best-home-gym-equipment.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/oura-vs-whoop.html</loc>
+        <loc>https://boldlybalanced.com/posts/best-protein-powders-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/progressive-overload-guide.html</loc>
+        <loc>https://boldlybalanced.com/posts/best-red-light-therapy-belts-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/protein-intake-guide.html</loc>
+        <loc>https://boldlybalanced.com/posts/best-running-shoes.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/sleep-optimization.html</loc>
+        <loc>https://boldlybalanced.com/posts/best-sleep-tech-2026.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://vitalwell.vercel.app/posts/stretching-mobility.html</loc>
+        <loc>https://boldlybalanced.com/posts/best-supplements-sleep-recovery.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/biohacking-beginners.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/brain-wealth.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/build-life-no-vacation.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/cold-exposure.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/desk-stretching-routine.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/digital-detox-guide-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/digital-minimalism-for-busy-life.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/done-is-better-than-perfect.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/glute-gains-guide.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/gut-microbiome-foods.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/health-raves-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/home-gym-essentials.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/hydration-tips.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/i-finished-my-first-project.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/longevity-at-home.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/meditation-beginners.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/mental-health-fitness.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/micro-habits.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/minimalist-morning.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/mitochondrial-repair-protocol.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/money-habits-highly-effective-people.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/morning-routine-blueprint.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/morning-routine-energy.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/oura-vs-whoop.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/pilates-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/progressive-overload-guide.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/protein-intake-guide.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/sleep-optimization.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/sleep-tech-gadgets-2026.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/social-wellness-deep-connections.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/somatic-release.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/strength-training-after-40.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/stretching-mobility.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/sunday-reset.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/walking-for-health.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/wellness-rooms.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/women-sports-economy.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://boldlybalanced.com/posts/zone-2-cardio.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
