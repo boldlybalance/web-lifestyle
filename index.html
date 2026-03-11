@@ -16,6 +16,25 @@
     <meta name="twitter:description" content="Your guide to modern living. Fitness, mindfulness, habits, productivity, and lifestyle.">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
     <link rel="stylesheet" href="styles.css">
+    <!-- FAQ Schema for AEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "How can I balance a full-time job and a side hustle?", "acceptedAnswer": {"@type": "Answer", "text": "Start with realistic time blocks—early mornings or evenings work best. Prioritize tasks that move the needle on your side project and automate or outsource where possible. The key is consistency over intensity: even 30 minutes daily adds up to 15 hours/month."}},
+            {"@type": "Question", "name": "What are the best habits for preventing burnout?", "acceptedAnswer": {"@type": "Answer", "text": "Set firm boundaries around work hours, take regular breaks throughout the day, and protect your sleep. Movement matters—even a 10-minute walk resets your nervous system. Connect with people who energize you, and learn to say no without guilt."}},
+            {"@type": "Question", "name": "How do I start working out again after years of inactivity?", "acceptedAnswer": {"@type": "Answer", "text": "Begin with walking—10 minutes a day is enough to build the habit. Add bodyweight movements (squats, pushups) when you feel ready. The goal is consistency, not intensity. Rest is part of the process."}},
+            {"@type": "Question", "name": "How do I eat healthy on a tight budget?", "acceptedAnswer": {"@type": "Answer", "text": "Focus on whole foods: eggs, beans, frozen vegetables, seasonal produce, and whole grains. Plan meals around sales and what's in season. Cook at home more than eating out. A $40 grocery trip can feed you for a week."}},
+            {"@type": "Question", "name": "How can I improve my sleep quality naturally?", "acceptedAnswer": {"@type": "Answer", "text": "Get morning sunlight within an hour of waking, avoid screens 2 hours before bed, keep your bedroom cool (65-68°F), and maintain a consistent sleep schedule—even on weekends."}},
+            {"@type": "Question", "name": "How do I deal with Sunday scaries?", "acceptedAnswer": {"@type": "Answer", "text": "Reframe Sunday as a transition day, not a dread day. Plan one thing you genuinely look forward to. Do a brain dump of Monday's tasks so they're not swirling in your head."}},
+            {"@type": "Question", "name": "What's the easiest way to start meditating?", "acceptedAnswer": {"@type": "Answer", "text": "Start with 2-3 minutes—just sit and focus on your breath. When your mind wanders, gently bring it back. There's no perfect way to meditate."}},
+            {"@type": "Question", "name": "How do I host a dinner party with no cooking experience?", "acceptedAnswer": {"@type": "Answer", "text": "Keep it simple: one main dish done well beats three mediocre ones. Prep ingredients beforehand, open wine early, and remember—your guests want you to succeed."}},
+            {"@type": "Question", "name": "How do I take a digital sabbatical without panicking?", "acceptedAnswer": {"@type": "Answer", "text": "Tell people you'll be unreachable beforehand. Download maps and entertainment offline. Start small: a weekend at a cabin with no service."}},
+            {"@type": "Question", "name": "How can I build muscle without a gym membership?", "acceptedAnswer": {"@type": "Answer", "text": "Your body is enough: pushups, squats, lunges, planks, and glute bridges build serious strength. Bodyweight training 3-4 times/week with proper rest builds muscle effectively."}}
+        ]
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -97,9 +116,67 @@
                 <!-- Rendered from JSON -->
             </div>
         </section>
-    </main>
 
-    <footer>
+        <!-- FAQ Section for AEO -->
+        <section class="faq-section" style="padding:3rem 2rem;max-width:800px;margin:0 auto;">
+            <h2 style="text-align:center;margin-bottom:2rem;">Frequently Asked Questions</h2>
+            
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How can I balance a full-time job and a side hustle?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Start with realistic time blocks—early mornings or evenings work best. Prioritize tasks that move the needle on your side project and automate or outsource where possible. The key is consistency over intensity: even 30 minutes daily adds up to 15 hours/month.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">What are the best habits for preventing burnout?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Set firm boundaries around work hours, take regular breaks throughout the day, and protect your sleep. Movement matters—even a 10-minute walk resets your nervous system. Connect with people who energize you, and learn to say no without guilt.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How do I start working out again after years of inactivity?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Begin with walking—10 minutes a day is enough to build the habit. Add bodyweight movements (squats, pushups) when you feel ready. The goal is consistency, not intensity. Rest is part of the process. Start where you are, use what you have, do what you can.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How do I eat healthy on a tight budget?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Focus on whole foods: eggs, beans, frozen vegetables, seasonal produce, and whole grains. Plan meals around sales and what's in season. Cook at home more than eating out. A $40 grocery trip can feed you for a week if you plan around staples like rice, beans, and chicken thighs.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How can I improve my sleep quality naturally?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Get morning sunlight within an hour of waking, avoid screens 2 hours before bed, keep your bedroom cool (65-68°F), and maintain a consistent sleep schedule—even on weekends. Limit caffeine after 2 PM. Wind down with a calming routine like reading, stretching, or a warm shower.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How do I deal with Sunday scaries before the work week?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Reframe Sunday as a transition day, not a dread day. Plan one thing you genuinely look forward to. Do a brain dump of Monday's tasks so they're not swirling in your head. Limit work-related emails after Saturday noon. Remember: Monday is just another day—you've handled hundreds of them.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">What's the easiest way to start meditating for beginners?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Start with 2-3 minutes—just sit and focus on your breath. When your mind wanders (it will), gently bring it back. Use an app like Calm or Headspace if you need guidance. There's no "perfect" way to meditate. The practice is noticing your thoughts without judgment and returning to the present.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How do I host a dinner party with no cooking experience?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Keep it simple: one main dish done well beats three mediocre ones. Sheet pan dinners, pasta with jarred sauce, or a build-your-own taco bar are foolproof. Prep ingredients beforehand, open wine early, and remember—your guests want you to succeed, not judge your cooking. Store-bought appetizers are totally fine.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How do I take a digital sabbatical without panicking?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Tell people you'll be unreachable beforehand—set expectations. Download maps and entertainment offline. Start small: a weekend at a cabin with no service. The first day is uncomfortable; by day three, your nervous system thanks you. You'll return more creative, more present, and wondering why you don't do this more often.</p>
+            </details>
+
+            <details style="background:var(--bg-light);border-radius:12px;padding:1rem;margin-bottom:1rem;cursor:pointer;">
+                <summary style="font-weight:600;cursor:pointer;">How can I build muscle without a gym membership?</summary>
+                <p style="margin-top:1rem;color:var(--text-muted);">Your body is enough: pushups, squats, lunges, planks, and glute bridges build serious strength. Add resistance bands ($20 for a set) for progressive overload. Bodyweight training 3-4 times/week with proper rest builds muscle effectively. Consistency beats intensity—show up regularly.</p>
+            </details>
+        </section>
+
+        <!-- FAQ Schema Markup -->
+        <script type="application/ld+json">
+        </section>
+
+        <footer>
         <p>© 2026 Boldly Balanced.</p>
     </footer>
 
