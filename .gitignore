@@ -1,4 +1,5 @@
 scripts/
+outlines/
 
 # Internal documentation and configs - DO NOT COMMIT
 *.md
