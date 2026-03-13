@@ -5,20 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sleep | Boldly Balance</title>
     <link rel="canonical" href="https://boldlybalance.life/category/sleep.html">
-    <meta name="description" content="Explore our Sleep articles and guides for a healthier, balanced life.">
+    <meta name="description" content="Sleep better without supplements. Optimize your environment, routines, and habits for deep, restorative rest that actually restores you.">
     <meta property="og:title" content="Sleep | Boldly Balance">
-    <meta property="og:description" content="Explore our Sleep articles and guides for a healthier, balanced life.">
+    <meta property="og:description" content="Sleep better without supplements. Environment, routines, and habits for deep rest.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://boldlybalance.life/category/sleep.html">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1515894203077-9cd36032142f?w=1200&h=630&fit=crop">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Sleep | Boldly Balance">
-    <meta name="twitter:description" content="Explore our Sleep articles and guides for a healthier, balanced life.">
     <link rel="stylesheet" href="../styles.css">
-    <script>
-        const categorySlug = "sleep";
-        const categoryName = "Sleep";
-    </script>
+    <script>const categorySlug = "sleep"; const categoryName = "Sleep";</script>
 </head>
 <body>
     <header>
@@ -30,61 +25,60 @@
                     <div class="dropdown-content">
                         <a href="../category/fitness.html">Fitness</a>
                         <a href="../category/nutrition.html">Nutrition</a>
-                        <a href="../category/sleep.html">Sleep</a>
-                        <a href="../category/mind.html">Mind</a>
+                        <a href="../category/mindset.html">Mindset</a>
                         <a href="../category/wellness.html">Wellness</a>
                         <a href="../category/lifestyle.html">Lifestyle</a>
-                        <a href="../category/tech.html">Tech</a>
-                        <a href="../category/recovery.html">Recovery</a>
-                        <a href="../category/finance.html">Finance</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section class="hero" style="padding: 3rem 2rem;">
-            <h1 id="cat-title">Loading...</h1>
-            <p>Browse all <span id="cat-name">CATEGORY</span> articles.</p>
+        <section style="padding:3rem 2rem;text-align:center;max-width:800px;margin:0 auto;">
+            <h1 style="font-size:2.5rem;margin-bottom:1rem;">Sleep</h1>
+            <p style="font-size:1.1rem;color:#a1a1aa;max-width:600px;margin:0 auto 2rem;">Sleep better without supplements. Optimize your environment, routines, and habits for deep, restorative rest that actually restores you.</p>
         </section>
-        <section class="posts">
-            <div class="post-grid" id="category-posts">
+
+        <!-- Featured Articles -->
+        <section style="padding:0 2rem 2rem;max-width:900px;margin:0 auto;">
+            <h2 style="font-size:1.3rem;margin-bottom:1rem;">Featured</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;">
+                <a href="../posts/sleep-environment-optimization.html" style="text-decoration:none;display:block;background:#18181f;border-radius:12px;padding:1.5rem;border:1px solid #27272a;transition:transform 0.2s;">
+                    <span style="font-size:0.75rem;color:#10b981;text-transform:uppercase;font-weight:600;">Sleep</span>
+                    <p style="margin:0.5rem 0 0 0;font-size:1rem;font-weight:500;color:#f4f4f5;">Your Bedroom Is Keeping You Awake: The Complete Sleep Environment Guide</p>
+                    <p style="margin:0.5rem 0 0 0;font-size:0.85rem;color:#a1a1aa;">Temperature, light, sound, air quality—your bedroom affects sleep more than any supplement.</p>
+                </a>
+                <a href="../posts/why-youre-tired-all-the-time.html" style="text-decoration:none;display:block;background:#18181f;border-radius:12px;padding:1.5rem;border:1px solid #27272a;transition:transform 0.2s;">
+                    <span style="font-size:0.75rem;color:#10b981;text-transform:uppercase;font-weight:600;">Sleep</span>
+                    <p style="margin:0.5rem 0 0 0;font-size:1rem;font-weight:500;color:#f4f4f5;">Why You're Tired All the Time (And It's Not Just Lack of Sleep)</p>
+                    <p style="margin:0.5rem 0 0 0;font-size:0.85rem;color:#a1a1aa;">The problem isn't sleep quantity—it's sleep quality.</p>
+                </a>
+                <a href="../posts/evening-routine-sleep-preparation.html" style="text-decoration:none;display:block;background:#18181f;border-radius:12px;padding:1.5rem;border:1px solid #27272a;transition:transform 0.2s;">
+                    <span style="font-size:0.75rem;color:#10b981;text-transform:uppercase;font-weight:600;">Sleep</span>
+                    <p style="margin:0.5rem 0 0 0;font-size:1rem;font-weight:500;color:#f4f4f5;">The Evening Routine That Prepares You for Sleep</p>
+                    <p style="margin:0.5rem 0 0 0;font-size:0.85rem;color:#a1a1aa;">Stop trying to fall asleep. Start preparing for it.</p>
+                </a>
             </div>
         </section>
+
+        <!-- All Articles -->
+        <section class="posts">
+            <h2>All Sleep Articles</h2>
+            <div class="post-grid" id="category-posts"></div>
+        </section>
     </main>
-    <footer>
-        <p>© 2026 Boldly Balance.</p>
-    </footer>
+    <footer><p>&copy; 2026 Boldly Balance.</p></footer>
     <script>
         async function loadCategoryPosts() {
             try {
-                const response = await fetch('../posts.json');
-                const allPosts = await response.json();
-                const categoryPosts = allPosts.filter(p => p.category === categoryName);
-                categoryPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-                document.getElementById('cat-title').textContent = categoryName;
-                document.title = categoryName + ' | Boldly Balance';
-                const container = document.getElementById('category-posts');
-                if (categoryPosts.length === 0) {
-                    container.innerHTML = '<p>No articles in this category yet.</p>';
-                    return;
-                }
-                container.innerHTML = categoryPosts.map(post => `
-                    <a href="../posts/${post.slug}.html" class="post-card">
-                        <div class="post-card-image">
-                            <img loading="lazy" src="https://images.unsplash.com/${post.image}?w=1200&q=80" alt="${post.title} cover">
-                        </div>
-                        <div class="post-card-content">
-                            <span class="tag">${post.category}</span>
-                            <h3>${post.title}</h3>
-                            <p>${post.excerpt}</p>
-                            <span class="read-more">Read more</span>
-                        </div>
-                    </a>
-                `).join('');
-            } catch (e) {
-                console.error('Error loading posts:', e);
-            }
+                const res = await fetch('../posts.json');
+                const posts = await res.json();
+                const filtered = posts.filter(p => p.category.toLowerCase() === 'sleep');
+                const grid = document.getElementById('category-posts');
+                filtered.forEach(p => {
+                    grid.innerHTML += `<a href="../posts/${p.slug}.html" class="post-card"><h3>${p.title}</h3><p>${p.excerpt}</p></a>`;
+                });
+            } catch(e) { console.error(e); }
         }
         loadCategoryPosts();
     </script>
