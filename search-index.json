@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy",
+      "url": "posts/gut-brain-connection.html",
+      "tags": [
+        "gut-health",
+        "brain",
+        "nutrition",
+        "wellness",
+        "focus"
+      ]
+    },
+    {
       "title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters",
       "url": "posts/sleep-architecture-8-hours-myth.html",
       "tags": [
