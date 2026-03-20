@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "title": "Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back",
+      "url": "posts/burnout-recovery-guide.html",
+      "tags": [
+        "burnout",
+        "mental health",
+        "work life balance",
+        "stress",
+        "recovery"
+      ]
+    },
+    {
+      "title": "The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)",
+      "url": "posts/gratitude-practice-scientific-benefits.html",
+      "tags": [
+        "gratitude",
+        "mental health",
+        "wellness",
+        "habits",
+        "psychology"
+      ]
+    },
+    {
       "title": "Journaling: The Science-Backed Guide to Why It Works",
       "url": "posts/journaling-science-backed-guide.html",
       "tags": [
