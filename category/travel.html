@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel | Boldly Balance</title>
     <link rel="canonical" href="https://boldlybalance.life/category/travel.html">
-    <meta name="description" content="Explore the world with intention. Travel tips, destinations, and mindset for meaningful adventures.">
+    <meta name="description" content="Travel with intention. Slow travel, destination guides, and the art of meaningful exploration.">
     <meta property="og:title" content="Travel | Boldly Balance">
-    <meta property="og:description" content="Explore the world with intention. Travel tips, destinations, and mindset for meaningful adventures.">
+    <meta property="og:description" content="Travel with intention. Slow travel, destination guides, and the art of meaningful exploration.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://boldlybalance.life/category/travel.html">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=630&fit=crop">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&h=630&fit=crop">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="../styles.css">
     <script>const categorySlug = "travel"; const categoryName = "Travel";</script>
     <style>
-        .cat-hero { text-align:center;padding:4rem 2rem 2rem;max-width:700px;margin:0 auto; }
+.cat-hero { text-align:center;padding:4rem 2rem 2rem;max-width:700px;margin:0 auto; }
         .cat-hero h1 { font-size:2.5rem;font-weight:700;margin-bottom:0.75rem;letter-spacing:-0.02em; }
         .cat-hero p { font-size:1.1rem;color:var(--text-muted);line-height:1.6;max-width:500px;margin:0 auto; }
         .featured-grid { display:grid;grid-template-columns:1fr 1fr;gap:1rem;max-width:900px;margin:0 auto;padding:1.5rem 2rem; }
@@ -55,6 +55,7 @@
                         <a href="../category/fitness.html">Fitness</a>
                         <a href="../category/food.html">Food</a>
                         <a href="../category/sleep.html">Sleep</a>
+                        <a href="../category/mindset.html">Mindset</a>
                         <a href="../category/wellness.html">Wellness</a>
                         <a href="../category/lifestyle.html">Lifestyle</a>
                     </div>
@@ -65,35 +66,11 @@
     <main>
         <div class="cat-hero">
             <h1>Travel</h1>
-            <p>Explore the world with intention. Travel tips, destinations, and mindset for meaningful adventures.</p>
+            <p>Travel with intention. Slow travel, destination guides, and the art of meaningful exploration.</p>
         </div>
 
-        <!-- Featured Articles -->
-        <div class="featured-grid">
-            <a href="../posts/micro-retreats-3-day-reset.html" class="featured-main">
-                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop" alt="Mountain retreat">
-                <div class="overlay">
-                    <span>Travel</span>
-                    <h2>Micro-Retreats: The 3-Day Reset</h2>
-                </div>
-            </a>
-            <a href="../posts/digital-sabbaticals-offline-travel.html" class="featured-side">
-                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=200&fit=crop" alt="Digital sabbatical">
-                <div class="side-content">
-                    <span>Travel</span>
-                    <h3>Digital Sabbaticals: The Offline-Only Traveler</h3>
-                </div>
-            </a>
-            <a href="../posts/first-solo-weekend-trip.html" class="featured-side">
-                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400&h=200&fit=crop" alt="Solo travel">
-                <div class="side-content">
-                    <span>Travel</span>
-                    <h3>The First Solitude Trip</h3>
-                </div>
-            </a>
-        </div>
+        <div class="featured-grid" id="featured-grid"></div>
 
-        <!-- All Articles -->
         <div class="all-articles">
             <h2>All Travel Articles</h2>
             <div class="article-list" id="category-posts"></div>
@@ -105,11 +82,35 @@
             try {
                 const res = await fetch('../posts.json');
                 const posts = await res.json();
-                const featured = ['micro-retreats-3-day-reset','digital-sabbaticals-offline-travel','first-solo-weekend-trip'];
-                const filtered = posts.filter(p => p.category.toLowerCase() === 'travel' && !featured.includes(p.slug));
-                const grid = document.getElementById('category-posts');
-                filtered.forEach(p => {
-                    grid.innerHTML += `
+                const catPosts = posts.filter(p => p.category === 'Travel');
+                const featured = catPosts.slice(0, 3);
+                const grid = document.getElementById('featured-grid');
+                if (featured.length > 0) {
+                    const main = featured[0];
+                    grid.innerHTML = `
+                        <a href="../posts/${main.slug}.html" class="featured-main">
+                            <img src="https://images.unsplash.com/${main.image}?w=600&h=400&fit=crop" alt="${main.title}">
+                            <div class="overlay">
+                                <span>${main.category}</span>
+                                <h2>${main.title}</h2>
+                            </div>
+                        </a>`;
+                    for (let i = 1; i < featured.length && i < 3; i++) {
+                        const p = featured[i];
+                        grid.innerHTML += `
+                        <a href="../posts/${p.slug}.html" class="featured-side">
+                            <img src="https://images.unsplash.com/${p.image}?w=400&h=200&fit=crop" alt="${p.title}">
+                            <div class="side-content">
+                                <span>${p.category}</span>
+                                <h3>${p.title}</h3>
+                            </div>
+                        </a>`;
+                    }
+                }
+                const list = document.getElementById('category-posts');
+                const remaining = catPosts.slice(3);
+                remaining.forEach(p => {
+                    list.innerHTML += `
                         <a href="../posts/${p.slug}.html" class="article-item">
                             <div class="article-info">
                                 <span class="tag">${p.category}</span>
