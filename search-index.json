@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "title": "Journaling: The Science-Backed Guide to Why It Works",
+      "url": "posts/journaling-science-backed-guide.html",
+      "tags": [
+        "journaling",
+        "mental health",
+        "anxiety",
+        "productivity",
+        "habits"
+      ]
+    },
+    {
+      "title": "The Art of Boundaries: A Practical Guide to Protecting Your Time and Energy",
+      "url": "posts/boundaries-guide-work-life-balance.html",
+      "tags": [
+        "boundaries",
+        "work life balance",
+        "burnout",
+        "mental health",
+        "productivity"
+      ]
+    },
+    {
       "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
       "url": "posts/omega-3-dosage-guide.html",
       "tags": [
