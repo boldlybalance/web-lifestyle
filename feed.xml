@@ -5,13 +5,31 @@
     <link>https://boldlybalance.life</link>
     <description>Science-backed wellness, lifestyle, and personal growth. Practical strategies for living well in a connected world.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2026 09:17:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 09:27:21 +0000</lastBuildDate>
     <atom:link href="https://boldlybalance.life/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>https://boldlybalance.life/favicon.ico</url>
       <title>Boldly Balance</title>
       <link>https://boldlybalance.life</link>
     </image>
+    <item>
+      <title>Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back</title>
+      <link>https://boldlybalance.life/posts/burnout-recovery-guide.html</link>
+      <guid isPermaLink="true">https://boldlybalance.life/posts/burnout-recovery-guide.html</guid>
+      <description>Burnout isn't just exhaustion — it's a specific syndrome with distinct stages. Here's how to recognize it, recover from it, and build genuine resistance.</description>
+      <category>Mindset</category>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1499728603263-13726abce5fd?w=1200&amp;h=630&amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)</title>
+      <link>https://boldlybalance.life/posts/gratitude-practice-scientific-benefits.html</link>
+      <guid isPermaLink="true">https://boldlybalance.life/posts/gratitude-practice-scientific-benefits.html</guid>
+      <description>Gratitude lists have become a cliché. But the science is real — with important caveats about HOW to practice gratitude effectively.</description>
+      <category>Mind</category>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&amp;h=630&amp;fit=crop" type="image/jpeg" length="0" />
+    </item>
     <item>
       <title>Journaling: The Science-Backed Guide to Why It Works</title>
       <link>https://boldlybalance.life/posts/journaling-science-backed-guide.html</link>
@@ -173,24 +191,6 @@
       <category>Finance</category>
       <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
       <enclosure url="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&amp;h=630&amp;fit=crop" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Traveling With Zero Plans: The Art of Getting Lost on Purpose</title>
-      <link>https://boldlybalance.life/posts/traveling-zero-plans.html</link>
-      <guid isPermaLink="true">https://boldlybalance.life/posts/traveling-zero-plans.html</guid>
-      <description>The best travel experiences happen when you stop trying to optimize every moment. Here's how to embrace spontaneity without spiraling into anxiety.</description>
-      <category>Travel</category>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1200&amp;h=630&amp;fit=crop" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy</title>
-      <link>https://boldlybalance.life/posts/gut-brain-connection.html</link>
-      <guid isPermaLink="true">https://boldlybalance.life/posts/gut-brain-connection.html</guid>
-      <description>Your gut talks to your brain constantly. Here's the science behind the connection—and the foods that actually improve it.</description>
-      <category>Food</category>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&amp;h=630&amp;fit=crop" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
