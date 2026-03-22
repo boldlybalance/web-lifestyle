@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "why-counting-calories-making-you-hungrier",
+      "title": "Why Counting Calories Is Making You Hungrier",
+      "category": "Food",
+      "excerpt": "You have been counting for three months. Every meal logged, every snack weighed, every morsel accounted for. And somehow, you are more hungry than when you started. Here is what nutrition science actually says about calorie counting.",
+      "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+      "url": "https://blog.boldlybalance.life/posts/why-counting-calories-making-you-hungrier.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/why-counting-calories-making-you-hungrier.json",
+      "date": "2026-03-22",
+      "readingTime": 7
+    },
+    {
       "slug": "why-pre-sleep-routine-making-sleep-worse",
       "title": "Why Your Pre-Sleep Routine Is Making Sleep Worse",
       "category": "Sleep",
