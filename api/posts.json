@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "decision-fatigue-real-cost-bad-choices",
+      "title": "The Real Cost of Decision Fatigue: Why You Make Worse Decisions All Day",
+      "category": "Mind",
+      "excerpt": "You made 200 decisions before 9 AM. What to wear, what to eat, whether to answer that email or wait, the temperature on the thermostat, the route to work. By the time you get to the important decision, you have already spent most of your decision-making budget. This is not a productivity problem. This is a biology problem.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+      "url": "https://blog.boldlybalance.life/posts/decision-fatigue-real-cost-bad-choices.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/decision-fatigue-real-cost-bad-choices.json",
+      "date": "2026-03-22",
+      "readingTime": 7
+    },
+    {
       "slug": "sleep-hunger-metabolism-missing-link",
       "title": "Why You Are Always Hungry: The Sleep-Metabolism Connection",
       "category": "Sleep",
