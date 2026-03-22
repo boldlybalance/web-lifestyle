@@ -1,5 +1,11 @@
 [
   {
+    "slug": "biohacking-my-90-day-experiment",
+    "title": "I Tried Biohacking for 90 Days \u2014 Here's What Actually Worked",
+    "category": "Case Study",
+    "date": "2026-03-22"
+  },
+  {
     "slug": "10000-steps-per-day-benefits",
     "title": "10000 Steps a Day: The Simple Habit That Transforms Your Health",
     "category": "Fitness",
@@ -765,6 +771,14 @@
     "category": "CATEGORY",
     "excerpt": "EXCERPT",
     "image": "photo-1541781774459",
+    "date": "2026-03-22"
+  },
+  {
+    "slug": "why-you-wake-up-at-3am",
+    "title": "Why You Wake Up at 3 AM (And How to Fix It)",
+    "category": "Sleep",
+    "excerpt": "Waking up at 3 AM isn't random\u2014it's your cortisol spike. Learn the science behind middle-of-the-night awakenings and evidence-based strategies to sleep through the night.",
+    "image": "photo-1515894203077",
     "date": "2026-03-22"
   },
   {
