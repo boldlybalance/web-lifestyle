@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "latent-tax-burnout",
+      "title": "Your 'Good' Job Is Costing You More Than You Know",
+      "category": "Finance",
+      "excerpt": "Income doesn't equal wealth. Most high earners are one layoff away from financial disaster because they spend as fast as they earn. True financial health is about cash flow, not salary.",
+      "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e",
+      "url": "https://blog.boldlybalance.life/posts/latent-tax-burnout.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/latent-tax-burnout.json",
+      "date": "2026-03-22",
+      "readingTime": 6
+    },
+    {
       "slug": "ice-baths-inflammation",
       "title": "Ice Baths Reduce Inflammation (But Not For The Reason You Think)",
       "category": "Recovery",
