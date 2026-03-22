@@ -1,45 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta property="og:image" content="https://images.unsplash.com/PHOTO_ID?w=1200&h=630&fit=crop">
-    <link rel="canonical" href="CANONICAL_URL">
-    <link rel="alternate" hreflang="en" href="CANONICAL_URL">
-    <link rel="alternate" hreflang="x-default" href="https://boldlybalance.life/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TITLE | Boldly Balance</title>
     <meta name="description" content="META_DESCRIPTION">
     <meta property="og:title" content="TITLE">
     <meta property="og:description" content="META_DESCRIPTION">
+    <meta property="og:image" content="OG_IMAGE_URL?w=1200&h=630&fit=crop">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="CANONICAL_URL">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="CANONICAL_URL">
+    <link rel="alternate" type="application/rss+xml" title="Boldly Balance RSS Feed" href="/feed.xml">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-    <!-- Article Schema -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "TITLE",
         "description": "META_DESCRIPTION",
-        "author": {
-            "@type": "Person",
-            "name": "Boldly Balance"
-        },
+        "author": {"@type": "Person", "name": "Boldly Balance"},
         "datePublished": "DATE_PUBLISHED",
         "dateModified": "DATE_PUBLISHED",
-        "image": "https://images.unsplash.com/PHOTO_ID",
+        "image": "OG_IMAGE_URL",
         "url": "CANONICAL_URL",
         "publisher": {
             "@type": "Organization",
             "name": "Boldly Balance",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop"
-            }
+            "logo": {"@type": "ImageObject", "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop"}
         },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "CANONICAL_URL"
-        }
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "CANONICAL_URL"}
     }
     </script>
 </head>
@@ -56,88 +48,62 @@
             <h1>TITLE</h1>
             <span class="reading-time"><span class="reading-icon">⏱️</span><span>READING_TIME min read</span></span>
             
-            <p class="excerpt">META_DESCRIPTION</p>
-            <!-- TL;DR - Zero-click optimization for AI citation -->
+            <p class="excerpt">EXCERPT</p>
+            
             <div style="background:var(--bg-light);padding:1.5rem;border-radius:12px;margin-bottom:2rem;">
                 <h3 style="margin:0 0 0.5rem;font-size:0.85rem;text-transform:uppercase;color:var(--primary);font-weight:600;">TL;DR</h3>
                 <p style="margin:0;font-weight:500;color:var(--text);">TLDR_CONTENT</p>
             </div>
 
-            <img src="https://images.unsplash.com/PHOTO_ID?w=1200&h=630&fit=crop" alt="ARTICLE_IMAGE_ALT" style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;margin:2rem 0;">
+            <img src="OG_IMAGE_URL?w=1200&h=630&fit=crop" alt="ARTICLE_IMAGE_ALT" style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;margin:2rem 0;">
             
             CONTENT_GOES_HERE
         </article>
+
+        <!-- Related Articles -->
+        <div style="margin-top:2.5rem;padding:1.5rem;background:var(--bg-light);border-radius:16px;border:1px solid var(--border);">
+            <h3 style="margin:0 0 1rem 0;color:var(--text);font-size:1.1rem;font-weight:600;">Keep Reading</h3>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;">
+                <a href="RELATED_LINK_1" style="text-decoration:none;display:block;">
+                    <div style="background:var(--bg-card);border-radius:12px;padding:1rem;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);">
+                        <span style="font-size:0.75rem;color:var(--primary);text-transform:uppercase;font-weight:600;">RELATED_CAT_1</span>
+                        <p style="margin:0.5rem 0 0 0;font-size:0.9rem;font-weight:500;color:var(--text);">RELATED_TITLE_1</p>
+                        <p style="margin:0.25rem 0 0 0;font-size:0.8rem;color:var(--text-muted);">RELATED_DESC_1</p>
+                    </div>
+                </a>
+                <a href="RELATED_LINK_2" style="text-decoration:none;display:block;">
+                    <div style="background:var(--bg-card);border-radius:12px;padding:1rem;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);">
+                        <span style="font-size:0.75rem;color:var(--primary);text-transform:uppercase;font-weight:600;">RELATED_CAT_2</span>
+                        <p style="margin:0.5rem 0 0 0;font-size:0.9rem;font-weight:500;color:var(--text);">RELATED_TITLE_2</p>
+                        <p style="margin:0.25rem 0 0 0;font-size:0.8rem;color:var(--text-muted);">RELATED_DESC_2</p>
+                    </div>
+                </a>
+                <a href="RELATED_LINK_3" style="text-decoration:none;display:block;">
+                    <div style="background:var(--bg-card);border-radius:12px;padding:1rem;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);">
+                        <span style="font-size:0.75rem;color:var(--primary);text-transform:uppercase;font-weight:600;">RELATED_CAT_3</span>
+                        <p style="margin:0.5rem 0 0 0;font-size:0.9rem;font-weight:500;color:var(--text);">RELATED_TITLE_3</p>
+                        <p style="margin:0.25rem 0 0 0;font-size:0.8rem;color:var(--text-muted);">RELATED_DESC_3</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Share Buttons -->
+        <div style="margin-top:2.5rem;padding:1.5rem;background:var(--bg-light);border-radius:16px;border:1px solid var(--border);text-align:center;">
+            <p style="margin-bottom:1rem;color:var(--text-muted);font-size:0.85rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;">Share this article</p>
+            <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;">
+                <a href="SHARE_FB" target="_blank" aria-label="Facebook" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#1877f2;color:#fff;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                <a href="SHARE_X" target="_blank" aria-label="X" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#fff;color:#000;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                <a href="SHARE_LI" target="_blank" aria-label="LinkedIn" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#0a66c2;color:#fff;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                <a href="SHARE_BSKY" target="_blank" aria-label="Bluesky" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#0285e7;color:#fff;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+                <a href="SHARE_PIN" target="_blank" aria-label="Pinterest" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#e60023;color:#fff;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg></a>
+                <a href="SHARE_EMAIL" aria-label="Email" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:var(--primary);color:#fff;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+            </div>
+        </div>
     </main>
-
-    <!-- Keep Reading Section -->
-    <section class="keep-reading">
-        <div class="container">
-            <h2>Keep Reading</h2>
-            <div class="post-grid" style="gap: 1.5rem;">
-                <a href="RELATED_LINK_1" class="post-card">
-                    <div class="post-card-image">
-                        <img src="RELATED_IMG_1" alt="RELATED_TITLE_1" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">RELATED_CAT_1</span>
-                        <h3>RELATED_TITLE_1</h3>
-                        <p>RELATED_DESC_1</p>
-                    </div>
-                </a>
-                <a href="RELATED_LINK_2" class="post-card">
-                    <div class="post-card-image">
-                        <img src="RELATED_IMG_2" alt="RELATED_TITLE_2" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">RELATED_CAT_2</span>
-                        <h3>RELATED_TITLE_2</h3>
-                        <p>RELATED_DESC_2</p>
-                    </div>
-                </a>
-                <a href="RELATED_LINK_3" class="post-card">
-                    <div class="post-card-image">
-                        <img src="RELATED_IMG_3" alt="RELATED_TITLE_3" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <span class="tag">RELATED_CAT_3</span>
-                        <h3>RELATED_TITLE_3</h3>
-                        <p>RELATED_DESC_3</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Sharing Section -->
-    <section class="social-sharing">
-        <div class="container">
-            <h2>Share This Article</h2>
-            <div class="social-links">
-                <a href="SHARE_X" target="_blank" rel="noopener" class="social-link twitter">
-                    <span>Twitter</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
-                    </svg>
-                </a>
-                <a href="SHARE_FB" target="_blank" rel="noopener" class="social-link facebook">
-                    <span>Facebook</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-                    </svg>
-                </a>
-                <a href="SHARE_LI" target="_blank" rel="noopener" class="social-link linkedin">
-                    <span>LinkedIn</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </section>
 
     <footer>
         <p>© 2026 Boldly Balance.</p>
     </footer>
-    <script src="../reading-time.js"></script>
 </body>
 </html>
