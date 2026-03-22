@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "social-wellness-rituals-community-self-care",
+      "title": "Why Group Wellness Rituals Work Better Than Solo Self-Care",
+      "category": "Wellness",
+      "excerpt": "Self-care has become an individual sport. The wellness industry has sold it to you as a solo pursuit: your morning routine, your meditation cushion, your solo run, your quiet cup of coffee before the world wakes up. And all of that is fine. But the research on what actually sustains wellness behaviors over time points in a different direction. The people who maintain healthy habits for decades are almost never doing it alone.",
+      "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1",
+      "url": "https://blog.boldlybalance.life/posts/social-wellness-rituals-community-self-care.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/social-wellness-rituals-community-self-care.json",
+      "date": "2026-03-22",
+      "readingTime": 7
+    },
+    {
       "slug": "virtual-wellness-communities-2026",
       "title": "The Rise of Virtual Wellness Communities: Why Solo Wellness Fails and What Replaces It",
       "category": "Wellness",
