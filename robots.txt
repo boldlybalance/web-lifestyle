@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://boldlybalance.life/sitemap.xml
+Sitemap: https://blog.boldlybalance.life/sitemap.xml
