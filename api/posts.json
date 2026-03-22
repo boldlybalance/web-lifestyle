@@ -1,199 +1,996 @@
-{"posts": [
-{"slug": "10000-steps-per-day-benefits", "title": "10000-steps-per-day-benefits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "20-minute-room-transform-no-renovation", "title": "20-minute-room-transform-no-renovation", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "4-day-workweek-reality", "title": "4-day-workweek-reality", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "50-30-20-rule-dead", "title": "50-30-20-rule-dead", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "aesthetic-bedroom-ruining-sleep", "title": "aesthetic-bedroom-ruining-sleep", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "ai-personal-assistants-2026", "title": "ai-personal-assistants-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "ai-personal-growth", "title": "ai-personal-growth", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "ai-tool-that-actually-saved-time", "title": "ai-tool-that-actually-saved-time", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "analog-lifestyle-digital-detox-2026", "title": "analog-lifestyle-digital-detox-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "analog-morning-2026", "title": "analog-morning-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "anti-algorithm-movement", "title": "anti-algorithm-movement", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "anti-inflammatory-diet-2026", "title": "anti-inflammatory-diet-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "best-home-gym-equipment", "title": "best-home-gym-equipment", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "best-red-light-therapy-belts-2026", "title": "best-red-light-therapy-belts-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "best-sleep-tech-2026", "title": "best-sleep-tech-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "best-supplements-sleep-recovery", "title": "best-supplements-sleep-recovery", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "biohacking-beginners", "title": "biohacking-beginners", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "boundaries-guide-work-life-balance", "title": "boundaries-guide-work-life-balance", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "brain-wealth", "title": "brain-wealth", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "breathwork-stress-focus", "title": "breathwork-stress-focus", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "budget-solo-trip-complete-guide", "title": "budget-solo-trip-complete-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "build-life-no-vacation", "title": "build-life-no-vacation", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "burnout-recovery-guide", "title": "burnout-recovery-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "cgm-wellness-2026", "title": "cgm-wellness-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "circadian-living-guide", "title": "circadian-living-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "cold-exposure-therapy-science", "title": "cold-exposure-therapy-science", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "cold-plunge-science-backed-benefits", "title": "cold-plunge-science-backed-benefits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "cold-shower-benefits", "title": "cold-shower-benefits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "confidence-paradox-imposter-syndrome", "title": "confidence-paradox-imposter-syndrome", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "constant-connectivity-rewiring-brain", "title": "constant-connectivity-rewiring-brain", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "creatine-benefits", "title": "creatine-benefits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "decision-fatigue-fewer-choices", "title": "decision-fatigue-fewer-choices", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "deep-work-focus", "title": "deep-work-focus", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "desk-stretching-routine", "title": "desk-stretching-routine", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "digital-detox-guide-2026", "title": "digital-detox-guide-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "digital-minimalism-for-busy-life", "title": "digital-minimalism-for-busy-life", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "digital-sabbaticals-offline-travel", "title": "digital-sabbaticals-offline-travel", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "digital-sunset-evening-routine", "title": "digital-sunset-evening-routine", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "done-is-better-than-perfect", "title": "done-is-better-than-perfect", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "evening-routine-sleep-preparation", "title": "evening-routine-sleep-preparation", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "financial-wellness-basics-nobody-taught", "title": "financial-wellness-basics-nobody-taught", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "first-solo-weekend-trip", "title": "first-solo-weekend-trip", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "glp-1-lifestyle-shift", "title": "glp-1-lifestyle-shift", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "glp-1-muscle-crisis", "title": "glp-1-muscle-crisis", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "glute-gains-guide", "title": "glute-gains-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "gratitude-practice-scientific-benefits", "title": "gratitude-practice-scientific-benefits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "grounded-optimism-life-guide", "title": "grounded-optimism-life-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "gut-brain-connection", "title": "gut-brain-connection", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "gut-health-what-actually-matters", "title": "gut-health-what-actually-matters", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "host-dinner-party-40-dollars", "title": "host-dinner-party-40-dollars", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "how-to-build-training-routine", "title": "how-to-build-training-routine", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "hydration-tips", "title": "hydration-tips", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "i-finished-my-first-project", "title": "i-finished-my-first-project", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "intermittent-fasting-what-science-says", "title": "intermittent-fasting-what-science-says", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "journaling-science-backed-guide", "title": "journaling-science-backed-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "joyspan-mindset", "title": "joyspan-mindset", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "micro-habits", "title": "micro-habits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "micro-habits-small-changes-big-results", "title": "micro-habits-small-changes-big-results", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "micro-retreats-3-day-reset", "title": "micro-retreats-3-day-reset", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "micro-sabbaticals-career-reset", "title": "micro-sabbaticals-career-reset", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "minimalist-morning", "title": "minimalist-morning", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "mitochondrial-repair-protocol", "title": "mitochondrial-repair-protocol", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "money-habits-highly-effective-people", "title": "money-habits-highly-effective-people", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "morning-routine-blueprint", "title": "morning-routine-blueprint", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "nad-senolytics-science-living-longer-better", "title": "nad-senolytics-science-living-longer-better", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "nsdr-non-sleep-deep-rest", "title": "nsdr-non-sleep-deep-rest", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "omega-3-dosage-guide", "title": "omega-3-dosage-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "omega-3-fatty-acids-complete-guide", "title": "omega-3-fatty-acids-complete-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "over-optimization-trap", "title": "over-optimization-trap", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "overthinking-emotion-not-logic", "title": "overthinking-emotion-not-logic", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "phone-defaults-sabotaging-productivity", "title": "phone-defaults-sabotaging-productivity", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "pilates-2026", "title": "pilates-2026", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "productivity-apps-make-you-less-productive", "title": "productivity-apps-make-you-less-productive", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "productivity-app-trap", "title": "productivity-app-trap", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "real-dopamine-detox-brain-reward-system", "title": "real-dopamine-detox-brain-reward-system", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "restart-fitness-after-years", "title": "restart-fitness-after-years", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "routine-when-you-hate-routines", "title": "routine-when-you-hate-routines", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "sauna-therapy-benefits", "title": "sauna-therapy-benefits", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "sleep-architecture-8-hours-myth", "title": "sleep-architecture-8-hours-myth", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "sleep-environment-optimization", "title": "sleep-environment-optimization", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "sleep-hacks-what-actually-works", "title": "sleep-hacks-what-actually-works", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "sleep-optimization", "title": "sleep-optimization", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "slow-travel-complete-guide", "title": "slow-travel-complete-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "social-wellness-deep-connections", "title": "social-wellness-deep-connections", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "somatic-release", "title": "somatic-release", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "spermidine-longevity", "title": "spermidine-longevity", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "spring-reset-morning-routine", "title": "spring-reset-morning-routine", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "staying-positive-anxiety", "title": "staying-positive-anxiety", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "strength-training-after-40", "title": "strength-training-after-40", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "sunday-reset", "title": "sunday-reset", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "toxic-positivity-anxiety", "title": "toxic-positivity-anxiety", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "traveling-zero-plans", "title": "traveling-zero-plans", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "wellness-rooms", "title": "wellness-rooms", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "wellness-travel-2026-staycations-new-vacations", "title": "wellness-travel-2026-staycations-new-vacations", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "why-digital-detoxes-fail", "title": "why-digital-detoxes-fail", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "why-pre-sleep-routine-making-sleep-worse", "title": "why-pre-sleep-routine-making-sleep-worse", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "why-youre-tired-all-the-time", "title": "why-youre-tired-all-the-time", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "work-from-home-survival-guide", "title": "work-from-home-survival-guide", "category": "General", "date": "2026-03-22"}
-,
-{"slug": "zone-2-cardio", "title": "zone-2-cardio", "category": "General", "date": "2026-03-22"}
-]}
+{
+  "posts": [
+    {
+      "slug": "10000-steps-per-day-benefits",
+      "title": "10000 Steps a Day: The Simple Habit That Transforms Your Health",
+      "category": "Fitness",
+      "excerpt": "Walking 10,000 steps daily boosts heart health, burns calories, and improves mood. Learn how to reach your daily goal and the surprising benefits.",
+      "date": "2026-03-22",
+      "image": "photo-1476480862126",
+      "url": "https://boldlybalance.life/posts/10000-steps-per-day-benefits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/10000-steps-per-day-benefits.json"
+    },
+    {
+      "slug": "20-minute-room-transform-no-renovation",
+      "title": "The 20-Minute Room: How to Transform Any Space Without Renovation",
+      "category": "Home Decor",
+      "excerpt": "Your apartment feels like a dorm. You can't paint, can't drill, can't renovate. Here's how to turn any rented space into something that actually feels like yours.",
+      "date": "2026-03-22",
+      "image": "photo-1616486338812",
+      "url": "https://boldlybalance.life/posts/20-minute-room-transform-no-renovation.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/20-minute-room-transform-no-renovation.json"
+    },
+    {
+      "slug": "4-day-workweek-reality",
+      "title": "The 4-Day Workweek Reality: What Nobody Tells You About Working Less",
+      "category": "Lifestyle",
+      "excerpt": "The 4-day workweek sounds like a dream. Three-day weekends, every week. More time for family, hobbies, rest. But what's the reality? We explore the truth about compressed schedules, productivity myths, and how to actually make it work for your life.",
+      "date": "2026-03-22",
+      "image": "photo-1499750310107",
+      "url": "https://boldlybalance.life/posts/4-day-workweek-reality.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/4-day-workweek-reality.json"
+    },
+    {
+      "slug": "50-30-20-rule-dead",
+      "title": "The 50/30/20 Rule Is Dead: A Realistic Budget Framework for 2026",
+      "category": "Finance",
+      "excerpt": "You've heard it a thousand times: 50% for needs, 30% for wants, 20% for savings. Great advice—except your rent alone is 45% of your take-home. Here's a budget framework built for the world you actually live in.",
+      "date": "2026-03-22",
+      "image": "photo-1554224155",
+      "url": "https://boldlybalance.life/posts/50-30-20-rule-dead.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/50-30-20-rule-dead.json"
+    },
+    {
+      "slug": "aesthetic-bedroom-ruining-sleep",
+      "title": "The Aesthetic Bedroom Trend That's Costing You Hours of Sleep",
+      "category": "Home Decor",
+      "excerpt": "Your Instagram-worthy bedroom might be sabotaging your sleep. From LED strips to all-black interiors, here's how aesthetics clash with recovery.",
+      "date": "2026-03-22",
+      "image": "photo-1616594039964",
+      "url": "https://boldlybalance.life/posts/aesthetic-bedroom-ruining-sleep.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/aesthetic-bedroom-ruining-sleep.json"
+    },
+    {
+      "slug": "ai-personal-assistants-2026",
+      "title": "AI Personal Assistants",
+      "category": "Technology",
+      "excerpt": "Siri feels like a flip phone. Discover the AI assistants that handle scheduling, email, research, and workflow automation in 2026.",
+      "date": "2026-03-22",
+      "image": "photo-1620712943543",
+      "url": "https://boldlybalance.life/posts/ai-personal-assistants-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/ai-personal-assistants-2026.json"
+    },
+    {
+      "slug": "ai-personal-growth",
+      "title": "AI for Personal Growth: The Tools That Actually Help",
+      "category": "Technology",
+      "excerpt": "Discover how AI tools can accelerate your personal growth. From habit tracking to learning, these tools will transform how you live.",
+      "date": "2026-03-22",
+      "image": "photo-1485827404703",
+      "url": "https://boldlybalance.life/posts/ai-personal-growth.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/ai-personal-growth.json"
+    },
+    {
+      "slug": "ai-tool-that-actually-saved-time",
+      "title": "The AI Tool That Actually Saved Me Time (After Three That Didn't)",
+      "category": "Technology",
+      "excerpt": "I tried three AI productivity tools that promised to save hours. Only one delivered. Here's what actually worked and why the others failed.",
+      "date": "2026-03-22",
+      "image": "photo-1677442136019",
+      "url": "https://boldlybalance.life/posts/ai-tool-that-actually-saved-time.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/ai-tool-that-actually-saved-time.json"
+    },
+    {
+      "slug": "analog-lifestyle-digital-detox-2026",
+      "title": "The Analog Lifestyle: Digital Detox for 2026",
+      "category": "Lifestyle",
+      "excerpt": "Reclaim your time and attention. Discover 10 actionable analog activities that replace doomscrolling and restore focus in a hyperconnected world.",
+      "date": "2026-03-22",
+      "image": "photo-1726494556466",
+      "url": "https://boldlybalance.life/posts/analog-lifestyle-digital-detox-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/analog-lifestyle-digital-detox-2026.json"
+    },
+    {
+      "slug": "analog-morning-2026",
+      "title": "The Analog Morning: Reclaiming Focus Before the Day Starts",
+      "category": "Lifestyle",
+      "excerpt": "In a world where workstreams increasingly rely on automation, the morning is still one of the few hours you own. This article outlines a lifestyle-first approach to starting your day with intention.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/analog-morning-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/analog-morning-2026.json"
+    },
+    {
+      "slug": "anti-algorithm-movement",
+      "title": "The Anti-Algorithm Movement: Reclaiming Your Attention in the Age of Infinite Scroll",
+      "category": "Lifestyle",
+      "excerpt": "Discover how people are deliberately ditching algorithmic feeds, embracing boredom, and finding deeper satisfaction through intentional media consumption.",
+      "date": "2026-03-22",
+      "image": "photo-1499750310107",
+      "url": "https://boldlybalance.life/posts/anti-algorithm-movement.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/anti-algorithm-movement.json"
+    },
+    {
+      "slug": "anti-inflammatory-diet-2026",
+      "title": "Anti-Inflammatory Diet 2026: The Complete Guide",
+      "category": "Food",
+      "excerpt": "The complete guide to anti-inflammatory eating in 2026. Foods to eat, foods to avoid, and practical tips to reduce inflammation.",
+      "date": "2026-03-22",
+      "image": "photo-1490645935967",
+      "url": "https://boldlybalance.life/posts/anti-inflammatory-diet-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/anti-inflammatory-diet-2026.json"
+    },
+    {
+      "slug": "best-home-gym-equipment",
+      "title": "Best Home Gym Equipment for 2026",
+      "category": "Fitness",
+      "excerpt": "Building a home gym doesn't have to break the bank. Here's our curated list of essential equipment that delivers real results.",
+      "date": "2026-03-22",
+      "image": "photo-1534438327276",
+      "url": "https://boldlybalance.life/posts/best-home-gym-equipment.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/best-home-gym-equipment.json"
+    },
+    {
+      "slug": "best-red-light-therapy-belts-2026",
+      "title": "Best Red Light Therapy Belts 2026: Top Picks for Pain Relief & Recovery",
+      "category": "Recovery",
+      "excerpt": "Discover the best red light therapy belts of 2026. Our expert-reviewed guide covers benefits, science, and top product recommendations for at-home recovery.",
+      "date": "2026-03-22",
+      "image": "photo-1710056618331",
+      "url": "https://boldlybalance.life/posts/best-red-light-therapy-belts-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/best-red-light-therapy-belts-2026.json"
+    },
+    {
+      "slug": "best-sleep-tech-2026",
+      "title": "Best Sleep Tech 2026: Tested & Reviewed",
+      "category": "Reviews",
+      "excerpt": "We've tested the latest sleep technology to bring you the best products. Here's what actually works.",
+      "date": "2026-03-22",
+      "image": "photo-1515894203077",
+      "url": "https://boldlybalance.life/posts/best-sleep-tech-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/best-sleep-tech-2026.json"
+    },
+    {
+      "slug": "best-supplements-sleep-recovery",
+      "title": "Best Supplements for Sleep & Recovery in 2026",
+      "category": "Reviews",
+      "excerpt": "The best supplements for better sleep and faster recovery. Our expert picks based on research, user reviews, and effectiveness.",
+      "date": "2026-03-22",
+      "image": "photo-1559757175",
+      "url": "https://boldlybalance.life/posts/best-supplements-sleep-recovery.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/best-supplements-sleep-recovery.json"
+    },
+    {
+      "slug": "biohacking-beginners",
+      "title": "Biohacking for Beginners: Start Simple",
+      "category": "Fitness",
+      "excerpt": "What is biohacking? A practical guide for beginners to optimize energy, sleep, and performance without extreme measures.",
+      "date": "2026-03-22",
+      "image": "photo-1544367567",
+      "url": "https://boldlybalance.life/posts/biohacking-beginners.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/biohacking-beginners.json"
+    },
+    {
+      "slug": "boundaries-guide-work-life-balance",
+      "title": "The Art of Boundaries: A Practical Guide to Protecting Your Time and Energy",
+      "category": "Mindset",
+      "excerpt": "You don't have a time management problem. You have a boundary problem. Here's how to fix it — without guilt, without apology, and without burning bridges.",
+      "date": "2026-03-22",
+      "image": "photo-1529156069898",
+      "url": "https://boldlybalance.life/posts/boundaries-guide-work-life-balance.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/boundaries-guide-work-life-balance.json"
+    },
+    {
+      "slug": "brain-wealth",
+      "title": "Brain Wealth: The Newest Form of Riches",
+      "category": "Mind",
+      "excerpt": "Brain wealth is the ultimate investment you'll ever make. Discover how to build cognitive reserve, optimize your mind, and create lasting mental fitness.",
+      "date": "2026-03-22",
+      "image": "photo-1507003211169",
+      "url": "https://boldlybalance.life/posts/brain-wealth.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/brain-wealth.json"
+    },
+    {
+      "slug": "breathwork-stress-focus",
+      "title": "Breathwork for Stress & Focus: The Science-Backed Guide",
+      "category": "Mind",
+      "excerpt": "Learn breathing techniques to reduce stress, improve focus, and boost recovery. Science-backed methods from box breathing to 4-7-8.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/breathwork-stress-focus.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/breathwork-stress-focus.json"
+    },
+    {
+      "slug": "budget-solo-trip-complete-guide",
+      "title": "How to Plan a Budget Solo Trip: The Complete 2026 Guide",
+      "category": "Travel",
+      "excerpt": "Solo travel doesn't have to cost a fortune. Here's the exact framework for seeing the world on $50/day — without the hostel-of-youth-hostel-energy.",
+      "date": "2026-03-22",
+      "image": "photo-1488646953014",
+      "url": "https://boldlybalance.life/posts/budget-solo-trip-complete-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/budget-solo-trip-complete-guide.json"
+    },
+    {
+      "slug": "build-life-no-vacation",
+      "title": "How to Build a Life You Don't Need a Vacation From",
+      "category": "Lifestyle",
+      "excerpt": "What if you didn't need to escape your life to feel at peace? Here's how to build a life that feels like vacation—every single day.",
+      "date": "2026-03-22",
+      "image": "photo-1507525428034",
+      "url": "https://boldlybalance.life/posts/build-life-no-vacation.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/build-life-no-vacation.json"
+    },
+    {
+      "slug": "burnout-recovery-guide",
+      "title": "Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back",
+      "category": "Mindset",
+      "excerpt": "You've tried休息. You've tried \"unplugging.\" You're still exhausted. That's because burnout isn't solved by a vacation. Here's the actual recovery framework.",
+      "date": "2026-03-22",
+      "image": "photo-1499728603263",
+      "url": "https://boldlybalance.life/posts/burnout-recovery-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/burnout-recovery-guide.json"
+    },
+    {
+      "slug": "cgm-wellness-2026",
+      "title": "Why Everyone's Talking About Continuous Glucose Monitors in 2026 (Even If They're Not Diabetic)",
+      "category": "Wellness",
+      "excerpt": "From biohackers to wellness influencers, continuous glucose monitors have escaped the medical aisle and landed on the wrists of anyone curious about what's really happening inside their body.",
+      "date": "2026-03-22",
+      "image": "photo-1559757175",
+      "url": "https://boldlybalance.life/posts/cgm-wellness-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/cgm-wellness-2026.json"
+    },
+    {
+      "slug": "circadian-living-guide",
+      "title": "Circadian Living: Designing Your Day Around Your Biology, Not the 9-to-5",
+      "category": "Wellness",
+      "excerpt": "Discover how to align your daily routine with your circadian rhythm for better sleep, energy, and health. Learn how light, timing, and lifestyle design can transform your life.",
+      "date": "2026-03-22",
+      "image": "photo-1500530855697",
+      "url": "https://boldlybalance.life/posts/circadian-living-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/circadian-living-guide.json"
+    },
+    {
+      "slug": "cold-exposure-therapy-science",
+      "title": "Cold Exposure Therapy: The Science of Getting Uncomfortable",
+      "category": "Wellness",
+      "excerpt": "Cold plunges and cold showers are trending. But behind the hype, there's real science. Here's what cold exposure actually does to your body—and how to start without overthinking it.",
+      "date": "2026-03-22",
+      "image": "photo-1544367567",
+      "url": "https://boldlybalance.life/posts/cold-exposure-therapy-science.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/cold-exposure-therapy-science.json"
+    },
+    {
+      "slug": "cold-plunge-science-backed-benefits",
+      "title": "The Cold Plunge: What the Science Actually Says",
+      "category": "Recovery",
+      "excerpt": "You've seen the videos. Ice baths at 6 AM. Celebrities swearing by cold immersion. Wim Hof breathing. But what does the actual research say? Here's the honest breakdown.",
+      "date": "2026-03-22",
+      "image": "photo-1544161515",
+      "url": "https://boldlybalance.life/posts/cold-plunge-science-backed-benefits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/cold-plunge-science-backed-benefits.json"
+    },
+    {
+      "slug": "cold-shower-benefits",
+      "title": "Cold Shower Benefits: The Simple Practice That Transforms Your Health",
+      "category": "Wellness",
+      "excerpt": "Discover the proven benefits of cold showers - from improved immunity to better mood. Learn how to start and make cold exposure part of your routine.",
+      "date": "2026-03-22",
+      "image": "photo-1622942819501",
+      "url": "https://boldlybalance.life/posts/cold-shower-benefits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/cold-shower-benefits.json"
+    },
+    {
+      "slug": "confidence-paradox-imposter-syndrome",
+      "title": "The Confidence Paradox: Why You're Most Insecure Exactly Where You're Most Competent",
+      "category": "Mindset",
+      "excerpt": "The more skilled you become, the more you doubt yourself. Here's the surprising psychology behind imposter syndrome—and how to finally believe in your own competence.",
+      "date": "2026-03-22",
+      "image": "photo-1573496359142",
+      "url": "https://boldlybalance.life/posts/confidence-paradox-imposter-syndrome.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/confidence-paradox-imposter-syndrome.json"
+    },
+    {
+      "slug": "constant-connectivity-rewiring-brain",
+      "title": "Why Constant Connectivity Is Rewiring Your Brain",
+      "category": "Technology",
+      "excerpt": "Your phone buzzes. You check it. A notification leads to a scroll. Twenty minutes vanish. Sound familiar? Constant connectivity isn't just eating your time — it's physically changing the way your brain works. Here's what's actually happening, and the counter-strategies that give you back control.",
+      "date": "2026-03-22",
+      "image": "photo-1516321318423",
+      "url": "https://boldlybalance.life/posts/constant-connectivity-rewiring-brain.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/constant-connectivity-rewiring-brain.json"
+    },
+    {
+      "slug": "creatine-benefits",
+      "title": "Creatine: The Most Researched Supplement",
+      "category": "Food",
+      "excerpt": "Creatine isn't trendy—it's proven. Since the 1990s, thousands of studies have confirmed its benef...",
+      "date": "2026-03-22",
+      "image": "photo-1571019613454",
+      "url": "https://boldlybalance.life/posts/creatine-benefits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/creatine-benefits.json"
+    },
+    {
+      "slug": "decision-fatigue-fewer-choices",
+      "title": "Decision Fatigue: Why Making Fewer Choices Makes You More Effective",
+      "category": "Mindset",
+      "excerpt": "Every decision you make drains your brain. Here's why successful people minimize choices—and how to design your life to make fewer decisions without losing control.",
+      "date": "2026-03-22",
+      "image": "photo-1523875194681",
+      "url": "https://boldlybalance.life/posts/decision-fatigue-fewer-choices.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/decision-fatigue-fewer-choices.json"
+    },
+    {
+      "slug": "deep-work-focus",
+      "title": "Deep Work: The Skill That Separates Good from Great",
+      "category": "Lifestyle",
+      "excerpt": "Deep work is the ability to focus without distraction on cognitively demanding tasks. Learn how to develop this rare and valuable skill.",
+      "date": "2026-03-22",
+      "image": "photo-1484480974693",
+      "url": "https://boldlybalance.life/posts/deep-work-focus.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/deep-work-focus.json"
+    },
+    {
+      "slug": "desk-stretching-routine",
+      "title": "Desk Stretching Routine: Quick Relief for Office Workers",
+      "category": "Fitness",
+      "excerpt": "Hours of sitting at a desk takes a toll on your body. Tight hips, sore neck, lower back pain—thes...",
+      "date": "2026-03-22",
+      "image": "photo-1599058917212",
+      "url": "https://boldlybalance.life/posts/desk-stretching-routine.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/desk-stretching-routine.json"
+    },
+    {
+      "slug": "digital-detox-guide-2026",
+      "title": "The Digital Detox Guide: Reclaim Your Attention in 2026",
+      "category": "Lifestyle",
+      "excerpt": "Screen time is killing your focus, sleep, and creativity. Here's a practical guide to digital detox without quitting technology entirely.",
+      "date": "2026-03-22",
+      "image": "photo-1726494556466",
+      "url": "https://boldlybalance.life/posts/digital-detox-guide-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/digital-detox-guide-2026.json"
+    },
+    {
+      "slug": "digital-minimalism-for-busy-life",
+      "title": "Digital Minimalism for a Busy Life",
+      "category": "Technology",
+      "excerpt": "Practical, science-based steps to reduce digital clutter and boost focus, with a simple 2-week plan to reclaim your attention.",
+      "date": "2026-03-22",
+      "image": "photo-1496181133206",
+      "url": "https://boldlybalance.life/posts/digital-minimalism-for-busy-life.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/digital-minimalism-for-busy-life.json"
+    },
+    {
+      "slug": "digital-sabbaticals-offline-travel",
+      "title": "Digital Sabbaticals: The Rise of the \"Offline-Only\" Traveler",
+      "category": "Lifestyle",
+      "excerpt": "More travelers are ditching WiFi, choosing remote destinations without connectivity, and rediscovering what it feels like to truly disconnect.",
+      "date": "2026-03-22",
+      "image": "photo-1506905925346",
+      "url": "https://boldlybalance.life/posts/digital-sabbaticals-offline-travel.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/digital-sabbaticals-offline-travel.json"
+    },
+    {
+      "slug": "digital-sunset-evening-routine",
+      "title": "The Digital Sunset: A Complete Guide to Evening Screen-Free Time",
+      "category": "Wellness",
+      "excerpt": "Learn how to create a peaceful evening ritual that reduces stress, improves sleep, and helps you disconnect from the digital world without missing out.",
+      "date": "2026-03-22",
+      "image": "photo-1718866033984",
+      "url": "https://boldlybalance.life/posts/digital-sunset-evening-routine.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/digital-sunset-evening-routine.json"
+    },
+    {
+      "slug": "done-is-better-than-perfect",
+      "title": "Done Is Better Than Perfect: Start Before You're Ready",
+      "category": "Mindset",
+      "excerpt": "The only way to actually finish something is to start it before you feel ready. Here's why done beats perfect every single time.",
+      "date": "2026-03-22",
+      "image": "photo-1517842645767",
+      "url": "https://boldlybalance.life/posts/done-is-better-than-perfect.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/done-is-better-than-perfect.json"
+    },
+    {
+      "slug": "evening-routine-sleep-preparation",
+      "title": "The Evening Routine That Actually Prepares You for Sleep",
+      "category": "Sleep",
+      "excerpt": "Stop trying to fall asleep. Start preparing for it. This evening routine retrains your brain to associate evenings with rest—no sleep aids, no supplements, no 47-step bedtime rituals.",
+      "date": "2026-03-22",
+      "image": "photo-1511295742362",
+      "url": "https://boldlybalance.life/posts/evening-routine-sleep-preparation.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/evening-routine-sleep-preparation.json"
+    },
+    {
+      "slug": "financial-wellness-basics-nobody-taught",
+      "title": "Financial Wellness: The Basics Nobody Taught You",
+      "category": "Finance",
+      "excerpt": "Most personal finance advice assumes you have money stress because you don't know spreadsheets. You probably don't — you just never learned the fundamentals. Here's what actually matters.",
+      "date": "2026-03-22",
+      "image": "photo-1579621970563",
+      "url": "https://boldlybalance.life/posts/financial-wellness-basics-nobody-taught.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/financial-wellness-basics-nobody-taught.json"
+    },
+    {
+      "slug": "first-solo-weekend-trip",
+      "title": "The First \"Solitude\" Trip: Why Your First Solo Weekend Away Matters More Than Graduation",
+      "category": "Lifestyle",
+      "excerpt": "Your first solo trip isn't just a vacation. It's the moment you stop being someone else's plus-one and become your own person. Here's why it matters more than you think.",
+      "date": "2026-03-22",
+      "image": "photo-1501785888041",
+      "url": "https://boldlybalance.life/posts/first-solo-weekend-trip.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/first-solo-weekend-trip.json"
+    },
+    {
+      "slug": "glp-1-lifestyle-shift",
+      "title": "The GLP-1 Lifestyle Shift: How Weight-Loss Medications Are Reshaping Fitness Culture",
+      "category": "Wellness",
+      "excerpt": "From Ozempic to Wegovy, GLP-1 medications are transforming how we think about weight management. Here's what the fitness industry is doing to adapt.",
+      "date": "2026-03-22",
+      "image": "photo-1571019614242",
+      "url": "https://boldlybalance.life/posts/glp-1-lifestyle-shift.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/glp-1-lifestyle-shift.json"
+    },
+    {
+      "slug": "glp-1-muscle-crisis",
+      "title": "The GLP-1 Muscle Crisis: Why Weight-Loss Drugs Are Stealing Your Strength (And How to Stop It)",
+      "category": "Wellness",
+      "excerpt": "You lost 40 pounds in three months. Your blood sugar is perfect. Your doctor is thrilled. But you can't open a jar anymore. Welcome to the GLP-1 muscle crisis—the epidemic nobody warned you about.",
+      "date": "2026-03-22",
+      "image": "photo-1534438327276",
+      "url": "https://boldlybalance.life/posts/glp-1-muscle-crisis.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/glp-1-muscle-crisis.json"
+    },
+    {
+      "slug": "glute-gains-guide",
+      "title": "Glute Gains: The Complete Guide to Building a Stronger, Bigger Butt",
+      "category": "Fitness",
+      "excerpt": "The truth is, building glutes isn't just about squatting. It's about understanding muscle anatomy...",
+      "date": "2026-03-22",
+      "image": "photo-1541534741688",
+      "url": "https://boldlybalance.life/posts/glute-gains-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/glute-gains-guide.json"
+    },
+    {
+      "slug": "gratitude-practice-scientific-benefits",
+      "title": "The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)",
+      "category": "Mind",
+      "excerpt": "You've been told to write gratitude lists. You've tried. It felt shallow. Here's why — and what actually works, according to the science.",
+      "date": "2026-03-22",
+      "image": "photo-1506905925346",
+      "url": "https://boldlybalance.life/posts/gratitude-practice-scientific-benefits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/gratitude-practice-scientific-benefits.json"
+    },
+    {
+      "slug": "grounded-optimism-life-guide",
+      "title": "Grounded Optimism: The Revolutionary Art of Finding Joy Right Now",
+      "category": "Mindset",
+      "excerpt": "Discover the powerful mindset of grounded optimism—finding profound contentment and joy in your current life while still dreaming big. A guide to peace without stagnation.",
+      "date": "2026-03-22",
+      "image": "photo-1589004491830",
+      "url": "https://boldlybalance.life/posts/grounded-optimism-life-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/grounded-optimism-life-guide.json"
+    },
+    {
+      "slug": "gut-brain-connection",
+      "title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy",
+      "category": "Food",
+      "excerpt": "Your gut talks to your brain constantly. Here's the science behind the connection—and the foods that actually improve it.",
+      "date": "2026-03-22",
+      "image": "photo-1490645935967",
+      "url": "https://boldlybalance.life/posts/gut-brain-connection.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/gut-brain-connection.json"
+    },
+    {
+      "slug": "gut-health-what-actually-matters",
+      "title": "Gut Health: What Actually Matters (And What's Just Noise)",
+      "category": "Food",
+      "excerpt": "Everyone's talking about the gut microbiome. probiotic this, fermented that. But sorting the evidence from the hype is harder than it looks. Here's the honest picture.",
+      "date": "2026-03-22",
+      "image": "photo-1512621776951",
+      "url": "https://boldlybalance.life/posts/gut-health-what-actually-matters.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/gut-health-what-actually-matters.json"
+    },
+    {
+      "slug": "host-dinner-party-40-dollars",
+      "title": "How to Host a Dinner Party With $40, a Messy Apartment, and No Idea What You're Doing",
+      "category": "Lifestyle",
+      "excerpt": "You don't need a pristine home or big budget to host an unforgettable dinner. Here's how to pull off a dinner party with $40, clutter everywhere, and zero experience.",
+      "date": "2026-03-22",
+      "image": "photo-1414235077428",
+      "url": "https://boldlybalance.life/posts/host-dinner-party-40-dollars.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/host-dinner-party-40-dollars.json"
+    },
+    {
+      "slug": "how-to-build-training-routine",
+      "title": "How to Build a Training Routine That Supports Your Life — Not Consumes It",
+      "category": "Fitness",
+      "excerpt": "Learn how to design a sustainable training routine that fits your lifestyle. Build consistency without burnout using evidence-based scheduling and exercise selection.",
+      "date": "2026-03-22",
+      "image": "photo-1571388208497",
+      "url": "https://boldlybalance.life/posts/how-to-build-training-routine.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/how-to-build-training-routine.json"
+    },
+    {
+      "slug": "hydration-tips",
+      "title": "Hydration Tips: How Much Water Do You Really Need?",
+      "category": "Food",
+      "excerpt": "Proper hydration is one of the simplest yet most overlooked aspects of health. Yet most people wa...",
+      "date": "2026-03-22",
+      "image": "photo-1548839140",
+      "url": "https://boldlybalance.life/posts/hydration-tips.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/hydration-tips.json"
+    },
+    {
+      "slug": "i-finished-my-first-project",
+      "title": "I Finally Finished My First Project — And It Wasn't Perfect",
+      "category": "Case Study",
+      "excerpt": "For five years, I started projects. Websites, apps, side businesses — you name it, I started it. ...",
+      "date": "2026-03-22",
+      "image": "photo-1497032628192",
+      "url": "https://boldlybalance.life/posts/i-finished-my-first-project.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/i-finished-my-first-project.json"
+    },
+    {
+      "slug": "intermittent-fasting-what-science-says",
+      "title": "Intermittent Fasting: What the Science Actually Says",
+      "category": "Nutrition",
+      "excerpt": "16:8, 5:2, OMAD — everyone has an opinion on intermittent fasting. The influencers say it melts fat, regulates insulin, and extends your life. The research is more nuanced.",
+      "date": "2026-03-22",
+      "image": "photo-1504674900247",
+      "url": "https://boldlybalance.life/posts/intermittent-fasting-what-science-says.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/intermittent-fasting-what-science-says.json"
+    },
+    {
+      "slug": "journaling-science-backed-guide",
+      "title": "Journaling: The Science-Backed Guide to Why It Works",
+      "category": "Mind",
+      "excerpt": "You've tried journaling. It lasted three days. Here's why it didn't stick — and how to make it actually work, with the science to back it up.",
+      "date": "2026-03-22",
+      "image": "photo-1517842645767",
+      "url": "https://boldlybalance.life/posts/journaling-science-backed-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/journaling-science-backed-guide.json"
+    },
+    {
+      "slug": "joyspan-mindset",
+      "title": "The Joyspan Mindset: Finding Lasting Joy in Every Moment",
+      "category": "Mindset",
+      "excerpt": "Discover the Joyspan Mindset—a transformative approach to experiencing genuine happiness. Learn how to find joy in ordinary moments, cultivate gratitude, and create a life filled with purpose.",
+      "date": "2026-03-22",
+      "image": "photo-1512438248247",
+      "url": "https://boldlybalance.life/posts/joyspan-mindset.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/joyspan-mindset.json"
+    },
+    {
+      "slug": "micro-habits-small-changes-big-results",
+      "title": "Micro-Habits: The Small Changes That Compound Into Big Results",
+      "category": "Mindset",
+      "excerpt": "You don't need a complete life overhaul. You don't need a 30-day challenge. You need habits so small you can't say no—and a system to make them stick forever.",
+      "date": "2026-03-22",
+      "image": "photo-1484480974693",
+      "url": "https://boldlybalance.life/posts/micro-habits-small-changes-big-results.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/micro-habits-small-changes-big-results.json"
+    },
+    {
+      "slug": "micro-habits",
+      "title": "Micro-Habits: The Small Changes That Actually Stick",
+      "category": "Mindset",
+      "excerpt": "Forget big transformations. The secret to lasting change isn't more discipline—it's smaller habits. Discover the power of micro-habits.",
+      "date": "2026-03-22",
+      "image": "photo-1517842645767",
+      "url": "https://boldlybalance.life/posts/micro-habits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/micro-habits.json"
+    },
+    {
+      "slug": "micro-retreats-3-day-reset",
+      "title": "Micro-Retreats: The 3-Day Reset for People Who Can't Take a Week Off",
+      "category": "Lifestyle",
+      "excerpt": "You need a reset, but you can't disappear for a week. Your boss expects you back Monday. Your budget doesn't stretch to a $3,000 wellness resort. Enter the micro-retreat: a concentrated dose of restoration that fits in a long weekend and actually works.",
+      "date": "2026-03-22",
+      "image": "photo-1506905925346",
+      "url": "https://boldlybalance.life/posts/micro-retreats-3-day-reset.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/micro-retreats-3-day-reset.json"
+    },
+    {
+      "slug": "micro-sabbaticals-career-reset",
+      "title": "Micro-Sabbaticals: The Mid-Career Reset That Transforms Your Life",
+      "category": "Lifestyle",
+      "excerpt": "Discover how micro-sabbaticals—short, intentional breaks from work—can reset your career, refresh your creativity, and prevent burnout without quitting your job.",
+      "date": "2026-03-22",
+      "image": "photo-1507525428034",
+      "url": "https://boldlybalance.life/posts/micro-sabbaticals-career-reset.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/micro-sabbaticals-career-reset.json"
+    },
+    {
+      "slug": "minimalist-morning",
+      "title": "The Minimalist Morning",
+      "category": "Lifestyle",
+      "excerpt": "Your alarm goes off. What's your first move?",
+      "date": "2026-03-22",
+      "image": "photo-1517694712202",
+      "url": "https://boldlybalance.life/posts/minimalist-morning.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/minimalist-morning.json"
+    },
+    {
+      "slug": "mitochondrial-repair-protocol",
+      "title": "The Mitochondrial Repair Protocol",
+      "category": "Wellness",
+      "excerpt": "Your cells are only as young as your mitochondria. Here's the evidence-based protocol to repair and regenerate your cellular powerhouses.",
+      "date": "2026-03-22",
+      "image": "photo-1571019614242",
+      "url": "https://boldlybalance.life/posts/mitochondrial-repair-protocol.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/mitochondrial-repair-protocol.json"
+    },
+    {
+      "slug": "money-habits-highly-effective-people",
+      "title": "The Money Habits of Highly Effective People",
+      "category": "Finance",
+      "excerpt": "Discover the financial habits that separate average earners from wealth builders. Real strategies, real mindsets, and actionable steps.",
+      "date": "2026-03-22",
+      "image": "photo-1554224155",
+      "url": "https://boldlybalance.life/posts/money-habits-highly-effective-people.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/money-habits-highly-effective-people.json"
+    },
+    {
+      "slug": "morning-routine-blueprint",
+      "title": "Morning Routine Blueprint: Your Complete 60-Minute Reset",
+      "category": "Routine",
+      "excerpt": "Your body was designed to move after rest. Even minimal movement increases blood flow, delivers oxygen to the brain, and releases endorphins.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/morning-routine-blueprint.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/morning-routine-blueprint.json"
+    },
+    {
+      "slug": "nad-senolytics-science-living-longer-better",
+      "title": "NAD+ and Senolytics: The Science of Living Longer, Better",
+      "category": "Recovery",
+      "excerpt": "The wellness industry found its next frontier: targeting the cellular mechanisms of aging itself. NAD+ boosters and senolytic compounds promise not just longer life, but longer healthspan. Here's what the science actually says.",
+      "date": "2026-03-22",
+      "image": "photo-1571019613454",
+      "url": "https://boldlybalance.life/posts/nad-senolytics-science-living-longer-better.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/nad-senolytics-science-living-longer-better.json"
+    },
+    {
+      "slug": "nsdr-non-sleep-deep-rest",
+      "title": "NSDR: Non-Sleep Deep Rest Explained",
+      "category": "Recovery",
+      "excerpt": "NSDR (Non-Sleep Deep Rest) restores energy without sleeping. Learn how to use yoga nidra, meditation, and breathwork for recovery.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/nsdr-non-sleep-deep-rest.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/nsdr-non-sleep-deep-rest.json"
+    },
+    {
+      "slug": "omega-3-dosage-guide",
+      "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
+      "category": "Nutrition",
+      "excerpt": "Everyone says to take omega-3. But how much? EPA vs DHA? Fish oil vs algae? And does it actually do anything? Here's the evidence-based guide.",
+      "date": "2026-03-22",
+      "image": "photo-1577401239170",
+      "url": "https://boldlybalance.life/posts/omega-3-dosage-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/omega-3-dosage-guide.json"
+    },
+    {
+      "slug": "omega-3-fatty-acids-complete-guide",
+      "title": "Omega-3 Fatty Acids: The Complete Guide to Benefits, Dosage, and Supplements",
+      "category": "Food",
+      "excerpt": "Discover the proven benefits of omega-3 fatty acids. Learn about DHA, EPA, dosage recommendations, best supplements, and how to get more omega-3s in your diet.",
+      "date": "2026-03-22",
+      "image": "photo-1505577058444",
+      "url": "https://boldlybalance.life/posts/omega-3-fatty-acids-complete-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/omega-3-fatty-acids-complete-guide.json"
+    },
+    {
+      "slug": "over-optimization-trap",
+      "title": "The Over-Optimization Trap: When Self-Improvement Hurts You",
+      "category": "Mindset",
+      "excerpt": "You track every calorie, optimize every morning, hustle every hour. But what if all that self-improvement is making you worse? The uncomfortable case for doing less, not more.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/over-optimization-trap.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/over-optimization-trap.json"
+    },
+    {
+      "slug": "overthinking-emotion-not-logic",
+      "title": "Why Overthinking Isn't Actually a Thinking Problem",
+      "category": "Mind",
+      "excerpt": "You've tried thinking your way out of overthinking. It didn't work — because the problem was never your brain's logic. It's running a completely different program.",
+      "date": "2026-03-22",
+      "image": "photo-1506905925346",
+      "url": "https://boldlybalance.life/posts/overthinking-emotion-not-logic.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/overthinking-emotion-not-logic.json"
+    },
+    {
+      "slug": "phone-defaults-sabotaging-productivity",
+      "title": "Why Your Phone's Default Settings Are Sabotaging Your Productivity",
+      "category": "Tech",
+      "excerpt": "Your phone comes preconfigured to fragment your attention. Here's exactly what to change—and why the defaults aren't neutral.",
+      "date": "2026-03-22",
+      "image": "photo-1512941937669",
+      "url": "https://boldlybalance.life/posts/phone-defaults-sabotaging-productivity.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/phone-defaults-sabotaging-productivity.json"
+    },
+    {
+      "slug": "pilates-2026",
+      "title": "Pilates 2026: The Complete Guide",
+      "category": "Fitness",
+      "excerpt": "66% increase in bookings since 2024. Celebrities, athletes, and office workers alike have discove...",
+      "date": "2026-03-22",
+      "image": "photo-1518611012118",
+      "url": "https://boldlybalance.life/posts/pilates-2026.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/pilates-2026.json"
+    },
+    {
+      "slug": "productivity-app-trap",
+      "title": "Why Your Productivity App Is Making You Less Productive",
+      "category": "Technology",
+      "excerpt": "You downloaded the app to save time. Six months later, you're spending 40 minutes a day managing task lists, color-coding projects, and tweaking dashboards — and your actual output hasn't budged. Here's the uncomfortable truth about the productivity app industrial complex.",
+      "date": "2026-03-22",
+      "image": "photo-1512941937669",
+      "url": "https://boldlybalance.life/posts/productivity-app-trap.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/productivity-app-trap.json"
+    },
+    {
+      "slug": "productivity-apps-make-you-less-productive",
+      "title": "Why Productivity Apps Make You Less Productive — And What to Do Instead",
+      "category": "Tech",
+      "excerpt": "You have Notion for planning, Todoist for tasks, Toggl for tracking, Forest for focus, and a Pomodoro timer running in the background. You've spent more time organizing your productivity system than actually being productive. Here's why that happens — and how to break the cycle.",
+      "date": "2026-03-22",
+      "image": "photo-1484480974693",
+      "url": "https://boldlybalance.life/posts/productivity-apps-make-you-less-productive.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/productivity-apps-make-you-less-productive.json"
+    },
+    {
+      "slug": "real-dopamine-detox-brain-reward-system",
+      "title": "The Real Dopamine Detox: How to Reset Your Brain's Reward System",
+      "category": "Mindset",
+      "excerpt": "You don't need to quit everything you enjoy. A real dopamine detox is about resetting your brain's reward system so small pleasures feel big again. Here's the science-backed approach.",
+      "date": "2026-03-22",
+      "image": "photo-1499750310107",
+      "url": "https://boldlybalance.life/posts/real-dopamine-detox-brain-reward-system.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/real-dopamine-detox-brain-reward-system.json"
+    },
+    {
+      "slug": "restart-fitness-after-years",
+      "title": "How to Work Out When You Haven't Worked Out in 2 Years: A Realistic Restart Guide",
+      "category": "Fitness",
+      "excerpt": "You haven't worked out in years. The gym feels intimidating. Your body feels different. Here's exactly how to restart fitness from zero—without burning out or hurting yourself.",
+      "date": "2026-03-22",
+      "image": "photo-1595078475328",
+      "url": "https://boldlybalance.life/posts/restart-fitness-after-years.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/restart-fitness-after-years.json"
+    },
+    {
+      "slug": "routine-when-you-hate-routines",
+      "title": "How to Build a Routine When You Hate Routines",
+      "category": "Routine",
+      "excerpt": "You tried the 5 AM club. You tried habit stacking. You tried making it non-negotiable. The routine collapsed by day 4. Here's why rigid routines fail most people — and the flexible alternative that actually works.",
+      "date": "2026-03-22",
+      "image": "photo-1544367567",
+      "url": "https://boldlybalance.life/posts/routine-when-you-hate-routines.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/routine-when-you-hate-routines.json"
+    },
+    {
+      "slug": "sauna-therapy-benefits",
+      "title": "Sauna Therapy: Benefits, Protocol & Science",
+      "category": "Recovery",
+      "excerpt": "Discover sauna therapy benefits: improved heart health, faster recovery, mental clarity, and longevity. Plus optimal sauna protocols for beginners.",
+      "date": "2026-03-22",
+      "image": "photo-1505577058444",
+      "url": "https://boldlybalance.life/posts/sauna-therapy-benefits.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/sauna-therapy-benefits.json"
+    },
+    {
+      "slug": "sleep-architecture-8-hours-myth",
+      "title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters",
+      "category": "Sleep",
+      "excerpt": "You slept 8 hours but wake up exhausted. The problem isn't duration—it's architecture. Understanding sleep stages changed everything about how I think about rest.",
+      "date": "2026-03-22",
+      "image": "photo-1540206395",
+      "url": "https://boldlybalance.life/posts/sleep-architecture-8-hours-myth.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/sleep-architecture-8-hours-myth.json"
+    },
+    {
+      "slug": "sleep-environment-optimization",
+      "title": "Your Bedroom Is Keeping You Awake: The Complete Sleep Environment Guide",
+      "category": "Sleep",
+      "excerpt": "You've tried melatonin, sleep teas, and apps. But your bedroom itself—temperature, light, noise, air—has more impact on sleep quality than any supplement. Here's how to fix it.",
+      "date": "2026-03-22",
+      "image": "photo-1522771739844",
+      "url": "https://boldlybalance.life/posts/sleep-environment-optimization.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/sleep-environment-optimization.json"
+    },
+    {
+      "slug": "sleep-hacks-what-actually-works",
+      "title": "Sleep Hacks That Actually Work (And the Ones That Don't)",
+      "category": "Sleep",
+      "excerpt": "You've tried the blue light glasses, the magnesium, the blackout curtains. You're still exhausted. Here's what's actually missing from your sleep routine — and the three changes that make the biggest difference.",
+      "date": "2026-03-22",
+      "image": "photo-1518481852452",
+      "url": "https://boldlybalance.life/posts/sleep-hacks-what-actually-works.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/sleep-hacks-what-actually-works.json"
+    },
+    {
+      "slug": "sleep-optimization",
+      "title": "Sleep Optimization: The Ultimate Guide",
+      "category": "Wellness",
+      "excerpt": "Sleep is the foundation of health. Optimize it and everything else gets easier. Here's how.",
+      "date": "2026-03-22",
+      "image": "photo-1515894203077",
+      "url": "https://boldlybalance.life/posts/sleep-optimization.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/sleep-optimization.json"
+    },
+    {
+      "slug": "slow-travel-complete-guide",
+      "title": "Slow Travel: A Complete Guide to Working From Anywhere",
+      "category": "Travel",
+      "excerpt": "\"Quievakations\" are up 340% as remote workers ditch resorts for real neighborhoods. Here's how to do slow travel without losing your job or your mind.",
+      "date": "2026-03-22",
+      "image": "photo-1528164344705",
+      "url": "https://boldlybalance.life/posts/slow-travel-complete-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/slow-travel-complete-guide.json"
+    },
+    {
+      "slug": "social-wellness-deep-connections",
+      "title": "Social Wellness",
+      "category": "Lifestyle",
+      "excerpt": "Loneliness is as deadly as smoking. Discover the science behind social wellness and actionable strategies to build meaningful connections in 2026.",
+      "date": "2026-03-22",
+      "image": "photo-1529156069898",
+      "url": "https://boldlybalance.life/posts/social-wellness-deep-connections.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/social-wellness-deep-connections.json"
+    },
+    {
+      "slug": "somatic-release",
+      "title": "The Rise of Somatic Release: Why Screaming in a Circle Might Be the Best Therapy You'll Ever Try",
+      "category": "Lifestyle",
+      "excerpt": "It starts as a whisper.",
+      "date": "2026-03-22",
+      "image": "photo-1544367567",
+      "url": "https://boldlybalance.life/posts/somatic-release.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/somatic-release.json"
+    },
+    {
+      "slug": "spermidine-longevity",
+      "title": "Spermidine: The Longevity Molecule",
+      "category": "Wellness",
+      "excerpt": "Spermidine triggers autophagy and may extend lifespan. Learn about this emerging longevity compound and how to increase levels naturally.",
+      "date": "2026-03-22",
+      "image": "photo-1512069772995",
+      "url": "https://boldlybalance.life/posts/spermidine-longevity.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/spermidine-longevity.json"
+    },
+    {
+      "slug": "spring-reset-morning-routine",
+      "title": "The Spring Reset: Build a Morning Routine That Actually Sticks",
+      "category": "Routine",
+      "excerpt": "Transform your mornings with a science-backed routine that sticks. Practical steps, real examples, and a 21-day reset plan to build lasting habits this spring.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/spring-reset-morning-routine.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/spring-reset-morning-routine.json"
+    },
+    {
+      "slug": "staying-positive-anxiety",
+      "title": "Why \"Staying Positive\" Is Making You More Anxious",
+      "category": "Mindset",
+      "excerpt": "You've been told to think positive, stay grateful, and look on the bright side. So why does forcing optimism leave you feeling more anxious than before? Because your brain knows when you're lying to it.",
+      "date": "2026-03-22",
+      "image": "photo-1516810714657",
+      "url": "https://boldlybalance.life/posts/staying-positive-anxiety.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/staying-positive-anxiety.json"
+    },
+    {
+      "slug": "strength-training-after-40",
+      "title": "Strength Training After 40: The Reality of Building Muscle When You're Not 25 Anymore",
+      "category": "Fitness",
+      "excerpt": "The fitness industry loves showing you jacked 25-year-olds and calling it \"inspiration.\" But what about the rest of us? Here's what actually happens when you start lifting after 40—and how to do it without breaking yourself.",
+      "date": "2026-03-22",
+      "image": "photo-1605296867304",
+      "url": "https://boldlybalance.life/posts/strength-training-after-40.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/strength-training-after-40.json"
+    },
+    {
+      "slug": "sunday-reset",
+      "title": "The Sunday Reset: 2-Hour Routine That Makes Your Week 10x Better",
+      "category": "Lifestyle",
+      "excerpt": "What if Sunday wasn't about dreading Monday? Here's a 2-hour Sunday Reset routine that sets you up for your best week ever.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/sunday-reset.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/sunday-reset.json"
+    },
+    {
+      "slug": "toxic-positivity-anxiety",
+      "title": "Why \"Staying Positive\" Is Making You More Anxious",
+      "category": "Mind",
+      "excerpt": "The advice sounds harmless — maybe even helpful. But research shows that forcing yourself to stay positive can create a second layer of anxiety on top of whatever you were already feeling. Here's what's actually going on inside your head.",
+      "date": "2026-03-22",
+      "image": "photo-1506126613408",
+      "url": "https://boldlybalance.life/posts/toxic-positivity-anxiety.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/toxic-positivity-anxiety.json"
+    },
+    {
+      "slug": "traveling-zero-plans",
+      "title": "Traveling With Zero Plans: The Art of Getting Lost on Purpose",
+      "category": "Travel",
+      "excerpt": "You land in a new city with no hotel booked, no itinerary, and no restaurant reservations. Your Type-A brain is screaming. But somewhere between the panic and the discovery, you find something the guidebooks never captured.",
+      "date": "2026-03-22",
+      "image": "photo-1488646953014",
+      "url": "https://boldlybalance.life/posts/traveling-zero-plans.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/traveling-zero-plans.json"
+    },
+    {
+      "slug": "wellness-rooms",
+      "title": "Wellness Rooms: The New Must-Have in Every Home",
+      "category": "Wellness",
+      "excerpt": "Transform a corner of your home into a wellness sanctuary. The complete guide to creating a space for meditation, rest, and rejuvenation.",
+      "date": "2026-03-22",
+      "image": "photo-1544843776",
+      "url": "https://boldlybalance.life/posts/wellness-rooms.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/wellness-rooms.json"
+    },
+    {
+      "slug": "wellness-travel-2026-staycations-new-vacations",
+      "title": "Wellness Travel 2026: Why Staycations Are the New Vacations",
+      "category": "Travel",
+      "excerpt": "The luxury wellness resort is having a moment — but the real trend is quieter. Americans are spending $10K+ on week-long wellness retreats. The smarter play: recreate the benefits at home for a fraction of the cost.",
+      "date": "2026-03-22",
+      "image": "photo-1596394516093",
+      "url": "https://boldlybalance.life/posts/wellness-travel-2026-staycations-new-vacations.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/wellness-travel-2026-staycations-new-vacations.json"
+    },
+    {
+      "slug": "why-digital-detoxes-fail",
+      "title": "Why Digital Detoxes Fail — And the Tech Habits That Actually Stick",
+      "category": "Technology",
+      "excerpt": "You deleted Instagram for a weekend. You felt great on Monday. By Wednesday you'd reinstalled it and scrolled for two hours straight. Here's why the all-or-nothing approach to technology keeps failing — and what actually works instead.",
+      "date": "2026-03-22",
+      "image": "photo-1516321318423",
+      "url": "https://boldlybalance.life/posts/why-digital-detoxes-fail.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/why-digital-detoxes-fail.json"
+    },
+    {
+      "slug": "why-pre-sleep-routine-making-sleep-worse",
+      "title": "TITLE",
+      "category": "CATEGORY",
+      "excerpt": "EXCERPT",
+      "date": "2026-03-22",
+      "image": "photo-1541781774459",
+      "url": "https://boldlybalance.life/posts/why-pre-sleep-routine-making-sleep-worse.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/why-pre-sleep-routine-making-sleep-worse.json"
+    },
+    {
+      "slug": "why-youre-tired-all-the-time",
+      "title": "Why You're Tired All the Time (And It's Not Just Lack of Sleep)",
+      "category": "Sleep",
+      "excerpt": "You sleep 8 hours but still wake up exhausted. You drink coffee all day but never feel alert. You go to bed tired but can't fall asleep. The problem isn't sleep quantity—it's sleep quality, circadian rhythm, and modern life sabotaging your rest. Here's how to fix it.",
+      "date": "2026-03-22",
+      "image": "photo-1515894203077",
+      "url": "https://boldlybalance.life/posts/why-youre-tired-all-the-time.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/why-youre-tired-all-the-time.json"
+    },
+    {
+      "slug": "work-from-home-survival-guide",
+      "title": "Working From Home Without Losing Your Mind: A Survival Guide",
+      "category": "Lifestyle",
+      "excerpt": "The coffee shop is closed, your apartment is your office, and you're going slightly insane. Here's how to survive WFH without losing your mind.",
+      "date": "2026-03-22",
+      "image": "photo-1593642632559",
+      "url": "https://boldlybalance.life/posts/work-from-home-survival-guide.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/work-from-home-survival-guide.json"
+    },
+    {
+      "slug": "zone-2-cardio",
+      "title": "Zone 2 Cardio: The Foundation of Endurance",
+      "category": "Fitness",
+      "excerpt": "Your body becomes better at burning fat for fuel. This improves body composition and provides a steady energy source during longer activities.",
+      "date": "2026-03-22",
+      "image": "photo-1571019614242",
+      "url": "https://boldlybalance.life/posts/zone-2-cardio.html",
+      "apiUrl": "https://boldlybalance.life/api/posts/zone-2-cardio.json"
+    }
+  ],
+  "total": 99,
+  "generatedAt": "2026-03-22T11:36:10.795Z"
+}

@@ -2,12 +2,12 @@
   "name": "Boldly Balance API",
   "version": "1.0.0",
   "description": "Public API for accessing Boldly Balance blog content",
-  "baseUrl": "https://blog.boldlybalance.life/api",
+  "baseUrl": "https://boldlybalance.life/api",
   "endpoints": {
     "posts": "/api/posts.json",
     "categories": "/api/categories.json",
     "post": "/api/posts/{slug}.json"
   },
-  "generatedAt": "2026-03-20T10:26:31.471Z",
-  "totalPosts": 112
+  "generatedAt": "2026-03-22T11:36:10.794Z",
+  "totalPosts": 99
 }

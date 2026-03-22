@@ -2,325 +2,109 @@
   "categories": [
     {
       "name": "Lifestyle",
-      "count": 21,
+      "count": 17,
       "posts": [
-        {
-          "slug": "micro-retreats-3-day-reset",
-          "title": "Micro-Retreats: The 3-Day Reset for People Who Can't Take a Week Off",
-          "date": "2026-03-12",
-          "url": "https://boldlybalance.life/posts/micro-retreats-3-day-reset.html"
-        },
         {
           "slug": "4-day-workweek-reality",
           "title": "The 4-Day Workweek Reality: What Nobody Tells You About Working Less",
-          "date": "2026-03-12",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/4-day-workweek-reality.html"
-        },
-        {
-          "slug": "work-from-home-survival-guide",
-          "title": "Working From Home Without Losing Your Mind: A Survival Guide",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/work-from-home-survival-guide.html"
-        },
-        {
-          "slug": "first-solo-weekend-trip",
-          "title": "The First Solitude Trip: Why Your First Solo Weekend Away Matters More Than Graduation",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/first-solo-weekend-trip.html"
-        },
-        {
-          "slug": "host-dinner-party-40-dollars",
-          "title": "How to Host a Dinner Party With $40, a Messy Apartment, and No Idea What You're Doing",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/host-dinner-party-40-dollars.html"
-        },
-        {
-          "slug": "digital-sabbaticals-offline-travel",
-          "title": "Digital Sabbaticals: The Rise of the \"Offline-Only\" Traveler",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/digital-sabbaticals-offline-travel.html"
-        },
-        {
-          "slug": "anti-algorithm-movement",
-          "title": "The Anti-Algorithm Movement: Reclaiming Your Attention in the Age of Infinite Scroll",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/anti-algorithm-movement.html"
-        },
-        {
-          "slug": "micro-sabbaticals-career-reset",
-          "title": "Micro-Sabbaticals: The Mid-Career Reset That Transforms Your Life",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/micro-sabbaticals-career-reset.html"
         },
         {
           "slug": "analog-lifestyle-digital-detox-2026",
           "title": "The Analog Lifestyle: Digital Detox for 2026",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/analog-lifestyle-digital-detox-2026.html"
         },
         {
           "slug": "analog-morning-2026",
           "title": "The Analog Morning: Reclaiming Focus Before the Day Starts",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/analog-morning-2026.html"
         },
         {
-          "slug": "best-protein-powders-2026",
-          "title": "Best Protein Powders 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/best-protein-powders-2026.html"
+          "slug": "anti-algorithm-movement",
+          "title": "The Anti-Algorithm Movement: Reclaiming Your Attention in the Age of Infinite Scroll",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/anti-algorithm-movement.html"
         },
         {
           "slug": "build-life-no-vacation",
           "title": "How to Build a Life You Don't Need a Vacation From",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/build-life-no-vacation.html"
         },
         {
           "slug": "deep-work-focus",
           "title": "Deep Work: The Skill That Separates Good from Great",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/deep-work-focus.html"
         },
         {
           "slug": "digital-detox-guide-2026",
           "title": "The Digital Detox Guide: Reclaim Your Attention in 2026",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/digital-detox-guide-2026.html"
         },
         {
-          "slug": "health-raves-2026",
-          "title": "Health Raves: The New Way to Workout Without Realizing It",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/health-raves-2026.html"
+          "slug": "digital-sabbaticals-offline-travel",
+          "title": "Digital Sabbaticals: The Rise of the \"Offline-Only\" Traveler",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/digital-sabbaticals-offline-travel.html"
         },
         {
-          "slug": "longevity-at-home",
-          "title": "Longevity at Home",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/longevity-at-home.html"
+          "slug": "first-solo-weekend-trip",
+          "title": "The First \"Solitude\" Trip: Why Your First Solo Weekend Away Matters More Than Graduation",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/first-solo-weekend-trip.html"
+        },
+        {
+          "slug": "host-dinner-party-40-dollars",
+          "title": "How to Host a Dinner Party With $40, a Messy Apartment, and No Idea What You're Doing",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/host-dinner-party-40-dollars.html"
+        },
+        {
+          "slug": "micro-retreats-3-day-reset",
+          "title": "Micro-Retreats: The 3-Day Reset for People Who Can't Take a Week Off",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/micro-retreats-3-day-reset.html"
+        },
+        {
+          "slug": "micro-sabbaticals-career-reset",
+          "title": "Micro-Sabbaticals: The Mid-Career Reset That Transforms Your Life",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/micro-sabbaticals-career-reset.html"
         },
         {
           "slug": "minimalist-morning",
-          "title": "The Minimalist Morning: Small Rituals for Big Outcomes",
-          "date": "2026-03-10",
+          "title": "The Minimalist Morning",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/minimalist-morning.html"
         },
         {
           "slug": "social-wellness-deep-connections",
-          "title": "Social Wellness: Building Deep Connections",
-          "date": "2026-03-10",
+          "title": "Social Wellness",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/social-wellness-deep-connections.html"
         },
         {
           "slug": "somatic-release",
-          "title": "The Rise of Somatic Release: Why Screaming Might Be the Best Therapy",
-          "date": "2026-03-10",
+          "title": "The Rise of Somatic Release: Why Screaming in a Circle Might Be the Best Therapy You'll Ever Try",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/somatic-release.html"
         },
         {
           "slug": "sunday-reset",
-          "title": "The Sunday Reset: 2-Hour Routine",
-          "date": "2026-03-10",
+          "title": "The Sunday Reset: 2-Hour Routine That Makes Your Week 10x Better",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/sunday-reset.html"
         },
         {
-          "slug": "women-sports-economy",
-          "title": "Women & Sports Economy 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/women-sports-economy.html"
-        }
-      ]
-    },
-    {
-      "name": "Fitness",
-      "count": 16,
-      "posts": [
-        {
-          "slug": "restart-fitness-after-years",
-          "title": "How to Work Out When You Haven't Worked Out in 2 Years: A Realistic Restart Guide",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/restart-fitness-after-years.html"
-        },
-        {
-          "slug": "how-to-build-training-routine",
-          "title": "How to Build a Training Routine That Supports Your Life — Not Consumes It",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/how-to-build-training-routine.html"
-        },
-        {
-          "slug": "10000-steps-per-day-benefits",
-          "title": "10000 Steps a Day: The Simple Habit That Transforms Your Health",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/10000-steps-per-day-benefits.html"
-        },
-        {
-          "slug": "beginner-yoga-routine",
-          "title": "Beginner Yoga Routine",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/beginner-yoga-routine.html"
-        },
-        {
-          "slug": "best-home-gym-equipment",
-          "title": "Best Home Gym Equipment 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/best-home-gym-equipment.html"
-        },
-        {
-          "slug": "best-running-shoes",
-          "title": "Best Running Shoes 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/best-running-shoes.html"
-        },
-        {
-          "slug": "biohacking-beginners",
-          "title": "Biohacking for Beginners",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/biohacking-beginners.html"
-        },
-        {
-          "slug": "desk-stretching-routine",
-          "title": "Desk Stretching Routine: Relief for Office Workers",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/desk-stretching-routine.html"
-        },
-        {
-          "slug": "glute-gains-guide",
-          "title": "Glute Gains: The Complete Guide to Building a Stronger, Bigger Butt",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/glute-gains-guide.html"
-        },
-        {
-          "slug": "home-gym-essentials",
-          "title": "Home Gym Essentials Under $500",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/home-gym-essentials.html"
-        },
-        {
-          "slug": "pilates-2026",
-          "title": "Pilates 2026: Why Everyone's Doing It",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/pilates-2026.html"
-        },
-        {
-          "slug": "progressive-overload-guide",
-          "title": "Progressive Overload Guide",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/progressive-overload-guide.html"
-        },
-        {
-          "slug": "strength-training-after-40",
-          "title": "Strength Training After 40: The Reality of Building Muscle When You're Not 25 Anymore",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/strength-training-after-40.html"
-        },
-        {
-          "slug": "stretching-mobility",
-          "title": "Stretching & Mobility Guide",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/stretching-mobility.html"
-        },
-        {
-          "slug": "walking-for-health",
-          "title": "Walking for Health",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/walking-for-health.html"
-        },
-        {
-          "slug": "zone-2-cardio",
-          "title": "Zone 2 Cardio: The Foundation of Endurance",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/zone-2-cardio.html"
-        }
-      ]
-    },
-    {
-      "name": "Wellness",
-      "count": 14,
-      "posts": [
-        {
-          "slug": "cold-exposure-therapy-science",
-          "title": "Cold Exposure Therapy: The Science of Getting Uncomfortable",
-          "date": "2026-03-13",
-          "url": "https://boldlybalance.life/posts/cold-exposure-therapy-science.html"
-        },
-        {
-          "slug": "glp-1-muscle-crisis",
-          "title": "The GLP-1 Muscle Crisis: Why Weight-Loss Drugs Are Stealing Your Strength",
-          "date": "2026-03-12",
-          "url": "https://boldlybalance.life/posts/glp-1-muscle-crisis.html"
-        },
-        {
-          "slug": "cgm-wellness-2026",
-          "title": "Why Everyone's Talking About Continuous Glucose Monitors in 2026 (Even If They're Not Diabetic)",
-          "date": "2026-03-12",
-          "url": "https://boldlybalance.life/posts/cgm-wellness-2026.html"
-        },
-        {
-          "slug": "glp-1-lifestyle-shift",
-          "title": "The GLP-1 Lifestyle Shift: How Weight-Loss Medications Are Reshaping Fitness Culture",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/glp-1-lifestyle-shift.html"
-        },
-        {
-          "slug": "circadian-living-guide",
-          "title": "Circadian Living: Designing Your Day Around Your Biology, Not the 9-to-5",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/circadian-living-guide.html"
-        },
-        {
-          "slug": "cold-shower-benefits",
-          "title": "Cold Shower Benefits: The Simple Practice That Transforms Your Health",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/cold-shower-benefits.html"
-        },
-        {
-          "slug": "morning-sun-exposure-benefits",
-          "title": "Morning Sun Exposure: The Simple Habit That Transforms Your Health",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/morning-sun-exposure-benefits.html"
-        },
-        {
-          "slug": "cold-exposure",
-          "title": "Cold Exposure Benefits",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/cold-exposure.html"
-        },
-        {
-          "slug": "meditation-beginners",
-          "title": "Meditation for Beginners",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/meditation-beginners.html"
-        },
-        {
-          "slug": "mitochondrial-repair-protocol",
-          "title": "The Mitochondrial Repair Protocol",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/mitochondrial-repair-protocol.html"
-        },
-        {
-          "slug": "sleep-optimization",
-          "title": "Sleep Optimization Guide",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/sleep-optimization.html"
-        },
-        {
-          "slug": "spermidine-longevity",
-          "title": "Spermidine: The Longevity Molecule",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/spermidine-longevity.html"
-        },
-        {
-          "slug": "wellness-rooms",
-          "title": "Wellness Rooms: Create Your Home Sanctuary",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/wellness-rooms.html"
-        },
-        {
-          "slug": "digital-sunset-evening-routine",
-          "title": "The Digital Sunset: A Complete Guide to Evening Screen-Free Time",
-          "date": "2026-03-11",
-          "url": "https://boldlybalance.life/posts/digital-sunset-evening-routine.html"
+          "slug": "work-from-home-survival-guide",
+          "title": "Working From Home Without Losing Your Mind: A Survival Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/work-from-home-survival-guide.html"
         }
       ]
     },
@@ -329,190 +113,214 @@
       "count": 12,
       "posts": [
         {
-          "slug": "burnout-recovery-guide",
-          "title": "Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/burnout-recovery-guide.html"
-        },
-        {
           "slug": "boundaries-guide-work-life-balance",
           "title": "The Art of Boundaries: A Practical Guide to Protecting Your Time and Energy",
-          "date": "2026-03-20",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/boundaries-guide-work-life-balance.html"
         },
         {
-          "slug": "staying-positive-anxiety",
-          "title": "Why \"Staying Positive\" Is Making You More Anxious",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/staying-positive-anxiety.html"
-        },
-        {
-          "slug": "over-optimization-trap",
-          "title": "The Over-Optimization Trap: When Self-Improvement Hurts You",
-          "date": "2026-03-14",
-          "url": "https://boldlybalance.life/posts/over-optimization-trap.html"
-        },
-        {
-          "slug": "real-dopamine-detox-brain-reward-system",
-          "title": "The Real Dopamine Detox: How to Reset Your Brain's Reward System",
-          "date": "2026-03-14",
-          "url": "https://boldlybalance.life/posts/real-dopamine-detox-brain-reward-system.html"
-        },
-        {
-          "slug": "decision-fatigue-fewer-choices",
-          "title": "Decision Fatigue: Why Making Fewer Choices Makes You More Effective",
-          "date": "2026-03-13",
-          "url": "https://boldlybalance.life/posts/decision-fatigue-fewer-choices.html"
-        },
-        {
-          "slug": "micro-habits-small-changes-big-results",
-          "title": "Micro-Habits: The Small Changes That Compound Into Big Results",
-          "date": "2026-03-13",
-          "url": "https://boldlybalance.life/posts/micro-habits-small-changes-big-results.html"
+          "slug": "burnout-recovery-guide",
+          "title": "Burnout Recovery: The Evidence-Based Guide to Getting Yourself Back",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/burnout-recovery-guide.html"
         },
         {
           "slug": "confidence-paradox-imposter-syndrome",
           "title": "The Confidence Paradox: Why You're Most Insecure Exactly Where You're Most Competent",
-          "date": "2026-03-12",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/confidence-paradox-imposter-syndrome.html"
+        },
+        {
+          "slug": "decision-fatigue-fewer-choices",
+          "title": "Decision Fatigue: Why Making Fewer Choices Makes You More Effective",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/decision-fatigue-fewer-choices.html"
+        },
+        {
+          "slug": "done-is-better-than-perfect",
+          "title": "Done Is Better Than Perfect: Start Before You're Ready",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/done-is-better-than-perfect.html"
         },
         {
           "slug": "grounded-optimism-life-guide",
           "title": "Grounded Optimism: The Revolutionary Art of Finding Joy Right Now",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/grounded-optimism-life-guide.html"
         },
         {
           "slug": "joyspan-mindset",
           "title": "The Joyspan Mindset: Finding Lasting Joy in Every Moment",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/joyspan-mindset.html"
         },
         {
-          "slug": "done-is-better-than-perfect",
-          "title": "Done Is Better Than Perfect: Start Before You're Ready",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/done-is-better-than-perfect.html"
+          "slug": "micro-habits-small-changes-big-results",
+          "title": "Micro-Habits: The Small Changes That Compound Into Big Results",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/micro-habits-small-changes-big-results.html"
         },
         {
           "slug": "micro-habits",
           "title": "Micro-Habits: The Small Changes That Actually Stick",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/micro-habits.html"
-        }
-      ]
-    },
-    {
-      "name": "Food",
-      "count": 9,
-      "posts": [
-        {
-          "slug": "gut-health-what-actually-matters",
-          "title": "Gut Health: What Actually Matters (And What's Just Noise)",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/gut-health-what-actually-matters.html"
         },
         {
-          "slug": "gut-brain-connection",
-          "title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/gut-brain-connection.html"
+          "slug": "over-optimization-trap",
+          "title": "The Over-Optimization Trap: When Self-Improvement Hurts You",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/over-optimization-trap.html"
         },
         {
-          "slug": "omega-3-fatty-acids-complete-guide",
-          "title": "Omega-3 Fatty Acids: The Complete Guide to Benefits, Dosage, and Supplements",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/omega-3-fatty-acids-complete-guide.html"
+          "slug": "real-dopamine-detox-brain-reward-system",
+          "title": "The Real Dopamine Detox: How to Reset Your Brain's Reward System",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/real-dopamine-detox-brain-reward-system.html"
         },
         {
-          "slug": "anti-inflammatory-diet-2026",
-          "title": "Anti-Inflammatory Diet 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/anti-inflammatory-diet-2026.html"
-        },
-        {
-          "slug": "creatine-benefits",
-          "title": "Creatine: The Most Researched Supplement",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/creatine-benefits.html"
-        },
-        {
-          "slug": "gut-microbiome-foods",
-          "title": "Gut Microbiome Foods",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/gut-microbiome-foods.html"
-        },
-        {
-          "slug": "hydration-tips",
-          "title": "Hydration Tips: How Much Water Do You Really Need?",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/hydration-tips.html"
-        },
-        {
-          "slug": "magnesium-benefits",
-          "title": "Magnesium: The Mineral That Fixes Everything",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/magnesium-benefits.html"
-        },
-        {
-          "slug": "protein-intake-guide",
-          "title": "Protein Intake Guide",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/protein-intake-guide.html"
-        }
-      ]
-    },
-    {
-      "name": "Mind",
-      "count": 8,
-      "posts": [
-        {
-          "slug": "gratitude-practice-scientific-benefits",
-          "title": "The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/gratitude-practice-scientific-benefits.html"
-        },
-        {
-          "slug": "journaling-science-backed-guide",
-          "title": "Journaling: The Science-Backed Guide to Why It Works",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/journaling-science-backed-guide.html"
-        },
-        {
-          "slug": "toxic-positivity-anxiety",
+          "slug": "staying-positive-anxiety",
           "title": "Why \"Staying Positive\" Is Making You More Anxious",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/toxic-positivity-anxiety.html"
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/staying-positive-anxiety.html"
+        }
+      ]
+    },
+    {
+      "name": "Wellness",
+      "count": 11,
+      "posts": [
+        {
+          "slug": "cgm-wellness-2026",
+          "title": "Why Everyone's Talking About Continuous Glucose Monitors in 2026 (Even If They're Not Diabetic)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/cgm-wellness-2026.html"
         },
         {
-          "slug": "overthinking-emotion-not-logic",
-          "title": "Why Overthinking Isn't Actually a Thinking Problem",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/overthinking-emotion-not-logic.html"
+          "slug": "circadian-living-guide",
+          "title": "Circadian Living: Designing Your Day Around Your Biology, Not the 9-to-5",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/circadian-living-guide.html"
         },
         {
-          "slug": "ai-health-tracking-apps",
-          "title": "AI Health Tracking Apps 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/ai-health-tracking-apps.html"
+          "slug": "cold-exposure-therapy-science",
+          "title": "Cold Exposure Therapy: The Science of Getting Uncomfortable",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/cold-exposure-therapy-science.html"
         },
         {
-          "slug": "brain-wealth",
-          "title": "Brain Wealth: The Newest Form of Riches",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/brain-wealth.html"
+          "slug": "cold-shower-benefits",
+          "title": "Cold Shower Benefits: The Simple Practice That Transforms Your Health",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/cold-shower-benefits.html"
         },
         {
-          "slug": "breathwork-stress-focus",
-          "title": "Breathwork for Stress & Focus: The Science-Backed Guide",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/breathwork-stress-focus.html"
+          "slug": "digital-sunset-evening-routine",
+          "title": "The Digital Sunset: A Complete Guide to Evening Screen-Free Time",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/digital-sunset-evening-routine.html"
         },
         {
-          "slug": "mental-health-fitness",
-          "title": "Mental Health + Fitness Connection",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/mental-health-fitness.html"
+          "slug": "glp-1-lifestyle-shift",
+          "title": "The GLP-1 Lifestyle Shift: How Weight-Loss Medications Are Reshaping Fitness Culture",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/glp-1-lifestyle-shift.html"
+        },
+        {
+          "slug": "glp-1-muscle-crisis",
+          "title": "The GLP-1 Muscle Crisis: Why Weight-Loss Drugs Are Stealing Your Strength (And How to Stop It)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/glp-1-muscle-crisis.html"
+        },
+        {
+          "slug": "mitochondrial-repair-protocol",
+          "title": "The Mitochondrial Repair Protocol",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/mitochondrial-repair-protocol.html"
+        },
+        {
+          "slug": "sleep-optimization",
+          "title": "Sleep Optimization: The Ultimate Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/sleep-optimization.html"
+        },
+        {
+          "slug": "spermidine-longevity",
+          "title": "Spermidine: The Longevity Molecule",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/spermidine-longevity.html"
+        },
+        {
+          "slug": "wellness-rooms",
+          "title": "Wellness Rooms: The New Must-Have in Every Home",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/wellness-rooms.html"
+        }
+      ]
+    },
+    {
+      "name": "Fitness",
+      "count": 10,
+      "posts": [
+        {
+          "slug": "10000-steps-per-day-benefits",
+          "title": "10000 Steps a Day: The Simple Habit That Transforms Your Health",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/10000-steps-per-day-benefits.html"
+        },
+        {
+          "slug": "best-home-gym-equipment",
+          "title": "Best Home Gym Equipment for 2026",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/best-home-gym-equipment.html"
+        },
+        {
+          "slug": "biohacking-beginners",
+          "title": "Biohacking for Beginners: Start Simple",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/biohacking-beginners.html"
+        },
+        {
+          "slug": "desk-stretching-routine",
+          "title": "Desk Stretching Routine: Quick Relief for Office Workers",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/desk-stretching-routine.html"
+        },
+        {
+          "slug": "glute-gains-guide",
+          "title": "Glute Gains: The Complete Guide to Building a Stronger, Bigger Butt",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/glute-gains-guide.html"
+        },
+        {
+          "slug": "how-to-build-training-routine",
+          "title": "How to Build a Training Routine That Supports Your Life — Not Consumes It",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/how-to-build-training-routine.html"
+        },
+        {
+          "slug": "pilates-2026",
+          "title": "Pilates 2026: The Complete Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/pilates-2026.html"
+        },
+        {
+          "slug": "restart-fitness-after-years",
+          "title": "How to Work Out When You Haven't Worked Out in 2 Years: A Realistic Restart Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/restart-fitness-after-years.html"
+        },
+        {
+          "slug": "strength-training-after-40",
+          "title": "Strength Training After 40: The Reality of Building Muscle When You're Not 25 Anymore",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/strength-training-after-40.html"
+        },
+        {
+          "slug": "zone-2-cardio",
+          "title": "Zone 2 Cardio: The Foundation of Endurance",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/zone-2-cardio.html"
         }
       ]
     },
@@ -521,142 +329,256 @@
       "count": 7,
       "posts": [
         {
-          "slug": "constant-connectivity-rewiring-brain",
-          "title": "Why Constant Connectivity Is Rewiring Your Brain",
-          "date": "2026-03-17",
-          "url": "https://boldlybalance.life/posts/constant-connectivity-rewiring-brain.html"
-        },
-        {
-          "slug": "productivity-app-trap",
-          "title": "Why Your Productivity App Is Making You Less Productive",
-          "date": "2026-03-16",
-          "url": "https://boldlybalance.life/posts/productivity-app-trap.html"
-        },
-        {
-          "slug": "why-digital-detoxes-fail",
-          "title": "Why Digital Detoxes Fail — And the Tech Habits That Actually Stick",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/why-digital-detoxes-fail.html"
-        },
-        {
           "slug": "ai-personal-assistants-2026",
-          "title": "AI Personal Assistants: Your 2026 Digital Co-Pilot",
-          "date": "2026-03-10",
+          "title": "AI Personal Assistants",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/ai-personal-assistants-2026.html"
         },
         {
           "slug": "ai-personal-growth",
           "title": "AI for Personal Growth: The Tools That Actually Help",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/ai-personal-growth.html"
+        },
+        {
+          "slug": "ai-tool-that-actually-saved-time",
+          "title": "The AI Tool That Actually Saved Me Time (After Three That Didn't)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/ai-tool-that-actually-saved-time.html"
+        },
+        {
+          "slug": "constant-connectivity-rewiring-brain",
+          "title": "Why Constant Connectivity Is Rewiring Your Brain",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/constant-connectivity-rewiring-brain.html"
         },
         {
           "slug": "digital-minimalism-for-busy-life",
           "title": "Digital Minimalism for a Busy Life",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/digital-minimalism-for-busy-life.html"
         },
         {
-          "slug": "oura-vs-whoop",
-          "title": "Oura Ring vs Whoop",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/oura-vs-whoop.html"
+          "slug": "productivity-app-trap",
+          "title": "Why Your Productivity App Is Making You Less Productive",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/productivity-app-trap.html"
+        },
+        {
+          "slug": "why-digital-detoxes-fail",
+          "title": "Why Digital Detoxes Fail — And the Tech Habits That Actually Stick",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/why-digital-detoxes-fail.html"
         }
       ]
     },
     {
-      "name": "Sleep",
+      "name": "Food",
       "count": 6,
       "posts": [
         {
-          "slug": "sleep-hacks-what-actually-works",
-          "title": "Sleep Hacks That Actually Work (And the Ones That Don't)",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/sleep-hacks-what-actually-works.html"
+          "slug": "anti-inflammatory-diet-2026",
+          "title": "Anti-Inflammatory Diet 2026: The Complete Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/anti-inflammatory-diet-2026.html"
         },
         {
-          "slug": "sleep-architecture-8-hours-myth",
-          "title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters",
-          "date": "2026-03-14",
-          "url": "https://boldlybalance.life/posts/sleep-architecture-8-hours-myth.html"
+          "slug": "creatine-benefits",
+          "title": "Creatine: The Most Researched Supplement",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/creatine-benefits.html"
         },
         {
-          "slug": "sleep-environment-optimization",
-          "title": "Your Bedroom Is Keeping You Awake: The Complete Sleep Environment Guide",
-          "date": "2026-03-13",
-          "url": "https://boldlybalance.life/posts/sleep-environment-optimization.html"
+          "slug": "gut-brain-connection",
+          "title": "The Gut-Brain Connection: How Your Digestive System Shapes Your Mood, Focus, and Energy",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/gut-brain-connection.html"
         },
         {
-          "slug": "evening-routine-sleep-preparation",
-          "title": "The Evening Routine That Actually Prepares You for Sleep",
-          "date": "2026-03-13",
-          "url": "https://boldlybalance.life/posts/evening-routine-sleep-preparation.html"
+          "slug": "gut-health-what-actually-matters",
+          "title": "Gut Health: What Actually Matters (And What's Just Noise)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/gut-health-what-actually-matters.html"
         },
         {
-          "slug": "why-youre-tired-all-the-time",
-          "title": "Why You're Tired All the Time (And It's Not Just Lack of Sleep)",
-          "date": "2026-03-12",
-          "url": "https://boldlybalance.life/posts/why-youre-tired-all-the-time.html"
+          "slug": "hydration-tips",
+          "title": "Hydration Tips: How Much Water Do You Really Need?",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/hydration-tips.html"
         },
         {
-          "slug": "sleep-tech-gadgets-2026",
-          "title": "Sleep Tech Gadgets 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/sleep-tech-gadgets-2026.html"
+          "slug": "omega-3-fatty-acids-complete-guide",
+          "title": "Omega-3 Fatty Acids: The Complete Guide to Benefits, Dosage, and Supplements",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/omega-3-fatty-acids-complete-guide.html"
+        }
+      ]
+    },
+    {
+      "name": "Mind",
+      "count": 6,
+      "posts": [
+        {
+          "slug": "brain-wealth",
+          "title": "Brain Wealth: The Newest Form of Riches",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/brain-wealth.html"
+        },
+        {
+          "slug": "breathwork-stress-focus",
+          "title": "Breathwork for Stress & Focus: The Science-Backed Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/breathwork-stress-focus.html"
+        },
+        {
+          "slug": "gratitude-practice-scientific-benefits",
+          "title": "The Gratitude Practice That Actually Works (And Why Most People Do It Wrong)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/gratitude-practice-scientific-benefits.html"
+        },
+        {
+          "slug": "journaling-science-backed-guide",
+          "title": "Journaling: The Science-Backed Guide to Why It Works",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/journaling-science-backed-guide.html"
+        },
+        {
+          "slug": "overthinking-emotion-not-logic",
+          "title": "Why Overthinking Isn't Actually a Thinking Problem",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/overthinking-emotion-not-logic.html"
+        },
+        {
+          "slug": "toxic-positivity-anxiety",
+          "title": "Why \"Staying Positive\" Is Making You More Anxious",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/toxic-positivity-anxiety.html"
         }
       ]
     },
     {
       "name": "Recovery",
-      "count": 4,
+      "count": 5,
       "posts": [
+        {
+          "slug": "best-red-light-therapy-belts-2026",
+          "title": "Best Red Light Therapy Belts 2026: Top Picks for Pain Relief & Recovery",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/best-red-light-therapy-belts-2026.html"
+        },
         {
           "slug": "cold-plunge-science-backed-benefits",
           "title": "The Cold Plunge: What the Science Actually Says",
-          "date": "2026-03-20",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/cold-plunge-science-backed-benefits.html"
         },
         {
-          "slug": "best-red-light-therapy-belts-2026",
-          "title": "Best Red Light Therapy Belts 2026",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/best-red-light-therapy-belts-2026.html"
+          "slug": "nad-senolytics-science-living-longer-better",
+          "title": "NAD+ and Senolytics: The Science of Living Longer, Better",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/nad-senolytics-science-living-longer-better.html"
         },
         {
           "slug": "nsdr-non-sleep-deep-rest",
           "title": "NSDR: Non-Sleep Deep Rest Explained",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/nsdr-non-sleep-deep-rest.html"
         },
         {
           "slug": "sauna-therapy-benefits",
           "title": "Sauna Therapy: Benefits, Protocol & Science",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/sauna-therapy-benefits.html"
         }
       ]
     },
     {
-      "name": "Tech",
+      "name": "Sleep",
+      "count": 5,
+      "posts": [
+        {
+          "slug": "evening-routine-sleep-preparation",
+          "title": "The Evening Routine That Actually Prepares You for Sleep",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/evening-routine-sleep-preparation.html"
+        },
+        {
+          "slug": "sleep-architecture-8-hours-myth",
+          "title": "Sleep Architecture: Why 8 Hours Is a Myth and What Actually Matters",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/sleep-architecture-8-hours-myth.html"
+        },
+        {
+          "slug": "sleep-environment-optimization",
+          "title": "Your Bedroom Is Keeping You Awake: The Complete Sleep Environment Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/sleep-environment-optimization.html"
+        },
+        {
+          "slug": "sleep-hacks-what-actually-works",
+          "title": "Sleep Hacks That Actually Work (And the Ones That Don't)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/sleep-hacks-what-actually-works.html"
+        },
+        {
+          "slug": "why-youre-tired-all-the-time",
+          "title": "Why You're Tired All the Time (And It's Not Just Lack of Sleep)",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/why-youre-tired-all-the-time.html"
+        }
+      ]
+    },
+    {
+      "name": "Travel",
+      "count": 4,
+      "posts": [
+        {
+          "slug": "budget-solo-trip-complete-guide",
+          "title": "How to Plan a Budget Solo Trip: The Complete 2026 Guide",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/budget-solo-trip-complete-guide.html"
+        },
+        {
+          "slug": "slow-travel-complete-guide",
+          "title": "Slow Travel: A Complete Guide to Working From Anywhere",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/slow-travel-complete-guide.html"
+        },
+        {
+          "slug": "traveling-zero-plans",
+          "title": "Traveling With Zero Plans: The Art of Getting Lost on Purpose",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/traveling-zero-plans.html"
+        },
+        {
+          "slug": "wellness-travel-2026-staycations-new-vacations",
+          "title": "Wellness Travel 2026: Why Staycations Are the New Vacations",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/wellness-travel-2026-staycations-new-vacations.html"
+        }
+      ]
+    },
+    {
+      "name": "Finance",
       "count": 3,
       "posts": [
         {
-          "slug": "phone-defaults-sabotaging-productivity",
-          "title": "Why Your Phone's Default Settings Are Sabotaging Your Productivity",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/phone-defaults-sabotaging-productivity.html"
+          "slug": "50-30-20-rule-dead",
+          "title": "The 50/30/20 Rule Is Dead: A Realistic Budget Framework for 2026",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/50-30-20-rule-dead.html"
         },
         {
-          "slug": "ai-tool-that-actually-saved-time",
-          "title": "The AI Tool That Actually Saved Me Time (After Three That Didn't)",
-          "date": "2026-03-19",
-          "url": "https://boldlybalance.life/posts/ai-tool-that-actually-saved-time.html"
+          "slug": "financial-wellness-basics-nobody-taught",
+          "title": "Financial Wellness: The Basics Nobody Taught You",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/financial-wellness-basics-nobody-taught.html"
         },
         {
-          "slug": "productivity-apps-make-you-less-productive",
-          "title": "Why Productivity Apps Make You Less Productive — And What to Do Instead",
-          "date": "2026-03-18",
-          "url": "https://boldlybalance.life/posts/productivity-apps-make-you-less-productive.html"
+          "slug": "money-habits-highly-effective-people",
+          "title": "The Money Habits of Highly Effective People",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/money-habits-highly-effective-people.html"
         }
       ]
     },
@@ -665,58 +587,40 @@
       "count": 3,
       "posts": [
         {
-          "slug": "spring-reset-morning-routine",
-          "title": "The Spring Reset: Build a Morning Routine That Actually Sticks",
-          "date": "2026-03-12",
-          "url": "https://boldlybalance.life/posts/spring-reset-morning-routine.html"
-        },
-        {
           "slug": "morning-routine-blueprint",
-          "title": "Morning Routine Blueprint: Your 60-Minute Reset",
-          "date": "2026-03-10",
+          "title": "Morning Routine Blueprint: Your Complete 60-Minute Reset",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/morning-routine-blueprint.html"
         },
         {
-          "slug": "morning-routine-energy",
-          "title": "Morning Routine for Peak Energy",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/morning-routine-energy.html"
+          "slug": "routine-when-you-hate-routines",
+          "title": "How to Build a Routine When You Hate Routines",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/routine-when-you-hate-routines.html"
+        },
+        {
+          "slug": "spring-reset-morning-routine",
+          "title": "The Spring Reset: Build a Morning Routine That Actually Sticks",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/spring-reset-morning-routine.html"
         }
       ]
     },
     {
-      "name": "Nutrition",
+      "name": "Home Decor",
       "count": 2,
       "posts": [
         {
-          "slug": "omega-3-dosage-guide",
-          "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/omega-3-dosage-guide.html"
+          "slug": "20-minute-room-transform-no-renovation",
+          "title": "The 20-Minute Room: How to Transform Any Space Without Renovation",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/20-minute-room-transform-no-renovation.html"
         },
         {
-          "slug": "intermittent-fasting-what-science-says",
-          "title": "Intermittent Fasting: What the Science Actually Says",
-          "date": "2026-03-20",
-          "url": "https://boldlybalance.life/posts/intermittent-fasting-what-science-says.html"
-        }
-      ]
-    },
-    {
-      "name": "Finance",
-      "count": 2,
-      "posts": [
-        {
-          "slug": "50-30-20-rule-dead",
-          "title": "The 50/30/20 Rule Is Dead: A Realistic Budget Framework for 2026",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/50-30-20-rule-dead.html"
-        },
-        {
-          "slug": "money-habits-highly-effective-people",
-          "title": "The Money Habits of Highly Effective People",
-          "date": "2026-03-10",
-          "url": "https://boldlybalance.life/posts/money-habits-highly-effective-people.html"
+          "slug": "aesthetic-bedroom-ruining-sleep",
+          "title": "The Aesthetic Bedroom Trend That's Costing You Hours of Sleep",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/aesthetic-bedroom-ruining-sleep.html"
         }
       ]
     },
@@ -726,39 +630,51 @@
       "posts": [
         {
           "slug": "best-sleep-tech-2026",
-          "title": "Best Sleep Tech 2026",
-          "date": "2026-03-10",
+          "title": "Best Sleep Tech 2026: Tested & Reviewed",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/best-sleep-tech-2026.html"
         },
         {
           "slug": "best-supplements-sleep-recovery",
-          "title": "Best Supplements for Sleep & Recovery 2026",
-          "date": "2026-03-10",
+          "title": "Best Supplements for Sleep & Recovery in 2026",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/best-supplements-sleep-recovery.html"
         }
       ]
     },
     {
-      "name": "Home Decor",
-      "count": 1,
+      "name": "Nutrition",
+      "count": 2,
       "posts": [
         {
-          "slug": "aesthetic-bedroom-ruining-sleep",
-          "title": "The Aesthetic Bedroom Trend That's Costing You Hours of Sleep",
-          "date": "2026-03-17",
-          "url": "https://boldlybalance.life/posts/aesthetic-bedroom-ruining-sleep.html"
+          "slug": "intermittent-fasting-what-science-says",
+          "title": "Intermittent Fasting: What the Science Actually Says",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/intermittent-fasting-what-science-says.html"
+        },
+        {
+          "slug": "omega-3-dosage-guide",
+          "title": "Omega-3: The Complete Guide to Dosage, Sources, and What Actually Works",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/omega-3-dosage-guide.html"
         }
       ]
     },
     {
-      "name": "Travel",
-      "count": 1,
+      "name": "Tech",
+      "count": 2,
       "posts": [
         {
-          "slug": "traveling-zero-plans",
-          "title": "Traveling With Zero Plans: The Art of Getting Lost on Purpose",
-          "date": "2026-03-15",
-          "url": "https://boldlybalance.life/posts/traveling-zero-plans.html"
+          "slug": "phone-defaults-sabotaging-productivity",
+          "title": "Why Your Phone's Default Settings Are Sabotaging Your Productivity",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/phone-defaults-sabotaging-productivity.html"
+        },
+        {
+          "slug": "productivity-apps-make-you-less-productive",
+          "title": "Why Productivity Apps Make You Less Productive — And What to Do Instead",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/productivity-apps-make-you-less-productive.html"
         }
       ]
     },
@@ -769,12 +685,24 @@
         {
           "slug": "i-finished-my-first-project",
           "title": "I Finally Finished My First Project — And It Wasn't Perfect",
-          "date": "2026-03-10",
+          "date": "2026-03-22",
           "url": "https://boldlybalance.life/posts/i-finished-my-first-project.html"
+        }
+      ]
+    },
+    {
+      "name": "CATEGORY",
+      "count": 1,
+      "posts": [
+        {
+          "slug": "why-pre-sleep-routine-making-sleep-worse",
+          "title": "TITLE",
+          "date": "2026-03-22",
+          "url": "https://boldlybalance.life/posts/why-pre-sleep-routine-making-sleep-worse.html"
         }
       ]
     }
   ],
-  "totalCategories": 17,
-  "generatedAt": "2026-03-20T10:26:31.472Z"
+  "totalCategories": 18,
+  "generatedAt": "2026-03-22T11:36:10.795Z"
 }
