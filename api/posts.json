@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "blocking-time-deep-work",
+      "title": "Stop Scheduling Your Day (Do This Instead)",
+      "category": "Routine",
+      "excerpt": "Calendars fill with meetings that could be emails. The most productive people don't manage time\u2014they protect blocks of uninterrupted focus. Here's the architecture of a deep work routine.",
+      "image": "https://images.unsplash.com/photo-1506784983877-45584a362b4a",
+      "url": "https://blog.boldlybalance.life/posts/blocking-time-deep-work.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/blocking-time-deep-work.json",
+      "date": "2026-03-22",
+      "readingTime": 6
+    },
+    {
       "slug": "90-day-transformation-habits",
       "title": "What Happened When I Focused on One Habit for 90 Days",
       "category": "Case Study",
