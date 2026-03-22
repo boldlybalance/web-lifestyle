@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "whoop-vs-oura-sleep-tracking",
+      "title": "I Wore Whoop and Oura for 30 Days: Here's What Actually Matters",
+      "category": "Reviews",
+      "excerpt": "BothWhoop and Oura promise to optimize your life with biometric data. After a month with both, the differences are revealing\u2014and most reviews get the tradeoffs completely wrong.",
+      "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288",
+      "url": "https://blog.boldlybalance.life/posts/whoop-vs-oura-sleep-tracking.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/whoop-vs-oura-sleep-tracking.json",
+      "date": "2026-03-22",
+      "readingTime": 6
+    },
+    {
       "slug": "blocking-time-deep-work",
       "title": "Stop Scheduling Your Day (Do This Instead)",
       "category": "Routine",
