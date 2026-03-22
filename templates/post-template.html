@@ -15,26 +15,8 @@
     <meta name="twitter:description" content="META_DESCRIPTION">
     <meta name="twitter:image" content="OG_IMAGE_URL?w=1200&h=630&fit=crop">
     <link rel="canonical" href="CANONICAL_URL">
+    <link rel="alternate" type="application/rss+xml" title="Boldly Balance RSS Feed" href="/feed.xml">
     <link rel="stylesheet" href="../styles.css">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "TITLE",
-        "description": "META_DESCRIPTION",
-        "author": {
-            "@type": "Person",
-            "name": "Prose"
-        },
-        "datePublished": "DATE_PUBLISHED",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Boldly Balance",
-            "url": "https://blog.boldlybalance.life"
-        },
-        "image": "OG_IMAGE_URL?w=1200&h=630&fit=crop"
-    }
-    </script>
 </head>
 <body>
     <header>
@@ -49,7 +31,6 @@
             <p style="margin:0.5rem 0;color:var(--text-muted);font-size:0.85rem;">⏱️ READING_TIME min read</p>
             <p class="excerpt">EXCERPT</p>
             
-            <!-- TL;DR - Zero-click optimization for AI citation -->
             <div style="background:var(--bg-light);padding:1.5rem;border-radius:12px;margin-bottom:2rem;">
                 <h3 style="margin:0 0 0.5rem;font-size:0.85rem;text-transform:uppercase;color:var(--primary);font-weight:600;">TL;DR</h3>
                 <p style="margin:0;font-weight:500;color:var(--text);">TLDR_CONTENT</p>
@@ -58,61 +39,34 @@
             <img src="OG_IMAGE_URL?w=1200&h=630&fit=crop" alt="ARTICLE_IMAGE_ALT" style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;margin:2rem 0;">
             
             CONTENT_GOES_HERE
-            
+
         </article>
 
-            <!-- Related Articles -->
-            <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border);">
-                <h3 style="margin:0 0 1.5rem;font-size:1.25rem;color:var(--text);font-weight:600;">Keep Reading</h3>
-                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem;">
-                    
-                    <!-- Related Article 1 -->
-                    <a href="RELATED_LINK_1" style="text-decoration:none;color:inherit;display:block;">
-                        <article style="background:var(--bg-card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:transform 0.2s,box-shadow 0.2s;">
-                            <div style="height:140px;background:var(--bg-light);display:flex;align-items:center;justify-content:center;overflow:hidden;">
-                                <img src="RELATED_IMG_1" alt="" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">
-                            </div>
-                            <div style="padding:1rem;">
-                                <span style="font-size:0.7rem;text-transform:uppercase;color:var(--primary);font-weight:600;letter-spacing:0.5px;">RELATED_CAT_1</span>
-                                <h4 style="margin:0.5rem 0 0;font-size:1rem;font-weight:600;color:var(--text);line-height:1.4;">RELATED_TITLE_1</h4>
-                                <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--text-muted);">RELATED_DESC_1</p>
-                            </div>
-                        </article>
+            <div class="related-articles" style="margin-top:2.5rem;padding:1.5rem;background:var(--bg-light);border-radius:16px;border:1px solid var(--border);">
+                <h3 style="margin:0 0 1rem 0;color:var(--text);font-size:1.1rem;font-weight:600;">Keep Reading</h3>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;">
+                    <a href="RELATED_LINK_1" style="text-decoration:none;display:block;">
+                        <div style="background:var(--bg-card);border-radius:12px;padding:1rem;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);">
+                            <span style="font-size:0.75rem;color:var(--primary);text-transform:uppercase;font-weight:600;">RELATED_CAT_1</span>
+                            <p style="margin:0.5rem 0 0 0;font-size:0.9rem;font-weight:500;color:var(--text);">RELATED_TITLE_1</p>
+                        </div>
                     </a>
-                    
-                    <!-- Related Article 2 -->
-                    <a href="RELATED_LINK_2" style="text-decoration:none;color:inherit;display:block;">
-                        <article style="background:var(--bg-card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:transform 0.2s,box-shadow 0.2s;">
-                            <div style="height:140px;background:var(--bg-light);display:flex;align-items:center;justify-content:center;overflow:hidden;">
-                                <img src="RELATED_IMG_2" alt="" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">
-                            </div>
-                            <div style="padding:1rem;">
-                                <span style="font-size:0.7rem;text-transform:uppercase;color:var(--primary);font-weight:600;letter-spacing:0.5px;">RELATED_CAT_2</span>
-                                <h4 style="margin:0.5rem 0 0;font-size:1rem;font-weight:600;color:var(--text);line-height:1.4;">RELATED_TITLE_2</h4>
-                                <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--text-muted);">RELATED_DESC_2</p>
-                            </div>
-                        </article>
+                    <a href="RELATED_LINK_2" style="text-decoration:none;display:block;">
+                        <div style="background:var(--bg-card);border-radius:12px;padding:1rem;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);">
+                            <span style="font-size:0.75rem;color:var(--primary);text-transform:uppercase;font-weight:600;">RELATED_CAT_2</span>
+                            <p style="margin:0.5rem 0 0 0;font-size:0.9rem;font-weight:500;color:var(--text);">RELATED_TITLE_2</p>
+                        </div>
                     </a>
-                    
-                    <!-- Related Article 3 -->
-                    <a href="RELATED_LINK_3" style="text-decoration:none;color:inherit;display:block;">
-                        <article style="background:var(--bg-card);border-radius:12px;overflow:hidden;border:1px solid var(--border);transition:transform 0.2s,box-shadow 0.2s;">
-                            <div style="height:140px;background:var(--bg-light);display:flex;align-items:center;justify-content:center;overflow:hidden;">
-                                <img src="RELATED_IMG_3" alt="" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">
-                            </div>
-                            <div style="padding:1rem;">
-                                <span style="font-size:0.7rem;text-transform:uppercase;color:var(--primary);font-weight:600;letter-spacing:0.5px;">RELATED_CAT_3</span>
-                                <h4 style="margin:0.5rem 0 0;font-size:1rem;font-weight:600;color:var(--text);line-height:1.4;">RELATED_TITLE_3</h4>
-                                <p style="margin:0.5rem 0 0;font-size:0.85rem;color:var(--text-muted);">RELATED_DESC_3</p>
-                            </div>
-                        </article>
+                    <a href="RELATED_LINK_3" style="text-decoration:none;display:block;">
+                        <div style="background:var(--bg-card);border-radius:12px;padding:1rem;transition:transform 0.2s,box-shadow 0.2s;border:1px solid var(--border);">
+                            <span style="font-size:0.75rem;color:var(--primary);text-transform:uppercase;font-weight:600;">RELATED_CAT_3</span>
+                            <p style="margin:0.5rem 0 0 0;font-size:0.9rem;font-weight:500;color:var(--text);">RELATED_TITLE_3</p>
+                        </div>
                     </a>
-                    
                 </div>
             </div>
 
-            <!-- Share Buttons -->
-            <div style="margin-top:2.5rem;padding:1.5rem;background:var(--bg-light);border-radius:16px;border:1px solid var(--border);text-align:center;">
+            <div class="share-buttons" style="margin-top:2.5rem;padding:1.5rem;background:var(--bg-light);border-radius:16px;border:1px solid var(--border);text-align:center;">
                 <p style="margin-bottom:1rem;color:var(--text-muted);font-size:0.85rem;font-weight:600;text-transform:uppercase;letter-spacing:1px;">Share this article</p>
                 <div style="display:flex;justify-content:center;gap:0.75rem;flex-wrap:wrap;">
                     <a href="SHARE_FB" target="_blank" aria-label="Facebook" style="display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;background:#1877f2;color:#fff;border-radius:50%;text-decoration:none;"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
