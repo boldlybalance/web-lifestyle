@@ -1,6 +1,17 @@
 {
   "posts": [
     {
+      "slug": "ice-baths-inflammation",
+      "title": "Ice Baths Reduce Inflammation (But Not For The Reason You Think)",
+      "category": "Recovery",
+      "excerpt": "Everyone talks about ice baths for recovery, but the science is nuanced. Cold exposure triggers specific anti-inflammatory responses\u2014but the biggest recovery benefits come from what you do after.",
+      "image": "https://images.unsplash.com/photo-1607961535401-425959898d9f",
+      "url": "https://blog.boldlybalance.life/posts/ice-baths-inflammation.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/ice-baths-inflammation.json",
+      "date": "2026-03-22",
+      "readingTime": 6
+    },
+    {
       "slug": "negative-reappraisal-anxiety",
       "title": "The Mental Technique That Rewires Anxiety Into Calm",
       "category": "Mind",
