@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "thriving-decades-capability-aging",
+      "title": "Thriving Decades: Why Aging Well Is the Ultimate Performance Goal",
+      "category": "Mindset",
+      "image": "photo-1559839734-2b71ea197ec2",
+      "excerpt": "The longevity industry wants you to live longer. The evidence-based fitness world wants you to train for something more useful: being the person who still hikes at 70, carries their own groceries at 75, and plays on the floor with grandchildren at 80.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html"
+    },
+    {
       "slug": "overthinking-fix-stop-ruminating",
       "title": "Why Overthinking Is Your Brain Protecting You \u2014 And How to Actually Stop",
       "category": "Mind",
@@ -155,5 +164,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 16
+  "total": 17
 }
