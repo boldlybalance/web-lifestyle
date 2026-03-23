@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "social-wellness-connections-matter",
+      "title": "Why Social Wellness Connections Matter More Than Your Morning Routine",
+      "category": "Wellness",
+      "image": "photo-1529156069898-49953e39b3ac",
+      "excerpt": "Your morning routine is optimized. Your supplements are sorted. Your sleep is tracked. But if you are doing wellness alone, you are leaving something significant on the table.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/social-wellness-connections-matter.html"
+    },
+    {
       "slug": "finance-pay-yourself-first",
       "title": "The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack",
       "category": "Finance",
@@ -90,5 +99,6 @@
       "apiUrl": "https://blog.boldlybalance.life/api/posts/sustainable-wellness-habits.json",
       "date": "2026-03-22"
     }
-  ]
+  ],
+  "total": 10
 }
