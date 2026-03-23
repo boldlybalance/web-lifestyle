@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "progressive-overload-not-what-you-think",
+      "title": "The Progressive Overload Principle: Why Doing More Is Not the Same as Getting Stronger",
+      "category": "Fitness",
+      "image": "photo-1534438327276-14e5300c3a48",
+      "excerpt": "Progressive overload is the most misunderstood principle in strength training. Adding weight is one method. Adding reps, adding sets, slowing tempo \u2014 those are progressive overload too.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/progressive-overload-not-what-you-think.html"
+    },
+    {
       "slug": "recovery-science-why-less-is-more",
       "title": "The Recovery Myth: Why Doing Less Is the Actual Performance Strategy",
       "category": "Recovery",
@@ -203,5 +212,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 21
+  "total": 22
 }
