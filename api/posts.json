@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "recovery-the-missing-piece-fitness",
+      "title": "Why Recovery Is the Missing Piece of Your Fitness Puzzle",
+      "category": "Recovery",
+      "excerpt": "You train five days a week. You eat enough protein. You sleep seven hours. But you're still not making the progress you expect. The missing variable is almost always recovery.",
+      "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+      "url": "https://blog.boldlybalance.life/posts/recovery-the-missing-piece-fitness.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/recovery-the-missing-piece-fitness.json",
+      "date": "2026-03-23"
+    },
+    {
       "slug": "app-ecosystem-wellness-communities",
       "title": "The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins",
       "category": "Wellness",

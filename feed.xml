@@ -1,92 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-<title>Boldly Balance</title>
-<link>https://blog.boldlybalance.life</link>
-<description>Your daily dose of lifestyle inspiration.</description>
-<item>
-<title>Thriving Decades: Why Aging Well Is the Ultimate Performance Goal</title>
-<link>https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html</link>
-<description>The longevity industry wants you to live longer. The evidence-based fitness world wants you to train for something more useful: capability at 70, 75, and beyond.</description>
-<guid>https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html</guid>
-<pubDate>2026-03-23</pubDate>
-</item>
-<item>
-<title>The Real Reason You Cannot Focus: What Attention Residue Is Costing You</title>
-<link>https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html</link>
-<description>Every time you switch tasks, part of your attention stays behind. Sophie Leroy named it attention residue. The cost shows up in slower problem-solving, more errors, and worse decisions.</description>
-<guid>https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html</guid>
-<pubDate>2026-03-23</pubDate>
-</item>
-<item>
-<title>Why Your Morning Coffee Might Be Sabotaging Your Sleep</title>
-<link>https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html</link>
-<description>You finish your last cup at 2 PM. So why are you still wired at 11 PM? Caffeine's half-life is 5-6 hours. Learn how timing your coffee can transform your sleep.</description>
-<guid>https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-<item>
-<title>The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack</title>
-<link>https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html</link>
-<description>Most people save what's left after spending. The wealthy save first and spend what's left. That single reversal changes everything about your financial future.</description>
-<guid>https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html</guid>
-<pubDate>2026-03-23</pubDate>
-</item>
-<item>
-<title>Why You're Not Getting Fitter Despite Training Harder</title>
-<link>https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html</link>
-<description>You hit the gym five days a week but feel worse, not better. Your body doesn't build muscle during exercise—it builds muscle during recovery. More training without recovery is just accumulated stress.</description>
-<guid>https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-<item>
-<title>The 30-Gram Protein Myth: Why Distribution Matters More Than Total Intake</title>
-<link>https://blog.boldlybalance.life/posts/food-protein-distribution.html</link>
-<description>You've been told to eat 120 grams of protein a day. But when you eat it matters just as much as how much.</description>
-<guid>https://blog.boldlybalance.life/posts/food-protein-distribution.html</guid>
-<pubDate>2026-03-23</pubDate>
-</item>
-<item>
-<title>Digital Boundaries: How to Use Technology Without Letting It Use You</title>
-<link>https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html</link>
-<description>Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.</description>
-<guid>https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-<item>
-<title>The Real Reason You're Stuck: What Adversity Actually Does to You</title>
-<link>https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html</link>
-<description>Adversity doesn't build character. It reveals it. Here's the neuroscience behind why some people bounce back and others break.</description>
-<guid>https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-<item>
-<title>The 5 AM Advantage: How to Build a Morning Routine for Peak Performance</title>
-<link>https://blog.boldlybalance.life/posts/morning-routine-high-performance.html</link>
-<description>Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.</description>
-<guid>https://blog.boldlybalance.life/posts/morning-routine-high-performance.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-<item>
-<title>The Science of Optimal Workout Timing: When to Exercise for Maximum Results</title>
-<link>https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html</link>
-<description>You're working out consistently, but are you working out at the right time? Science says timing matters more than you think—and it affects sleep, recovery, and performance.</description>
-<guid>https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html</guid>
-<pubDate>2026-03-23</pubDate>
-</item>
-<item>
-<title>Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick</title>
-<link>https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html</link>
-<description>Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.</description>
-<guid>https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-<item>
-<title>The Case for Tourist Traps (Why You Should Visit Them Anyway)</title>
-<link>https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html</link>
-<description>You roll your eyes at the Eiffel Tower. But tourist traps aren't scams—they're popular for a reason. Here's why you should visit them anyway.</description>
-<guid>https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html</guid>
-<pubDate>2026-03-22</pubDate>
-</item>
-</channel>
-</rss>
+<rss version="2.0"><channel><title>Boldly Balance</title><link>https://blog.boldlybalance.life</link><description>Your daily dose of lifestyle inspiration.</description>
+<item><title>Why Recovery Is the Missing Piece of Your Fitness Puzzle</title><link>https://blog.boldlybalance.life/posts/recovery-the-missing-piece-fitness.html</link><description>You train five days a week. You eat enough protein. You sleep seven hours. But you're still not making the progress you expect. The missing variable is almost always recovery.</description><guid>https://blog.boldlybalance.life/posts/recovery-the-missing-piece-fitness.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins</title><link>https://blog.boldlybalance.life/posts/app-ecosystem-wellness-communities.html</link><description></description><guid>https://blog.boldlybalance.life/posts/app-ecosystem-wellness-communities.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>Thriving Decades: Why Aging Well Is the Ultimate Performance Goal</title><link>https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html</link><description>The longevity industry wants you to live longer. The evidence-based fitness world wants you to train for something more useful: capability at 70, 75, and beyond.</description><guid>https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>The Real Reason You Cannot Focus: What Attention Residue Is Costing You</title><link>https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html</link><description>Every time you switch tasks, part of your attention stays behind. Sophie Leroy named it attention residue. The cost shows up in slower problem-solving, more errors, and worse decisions.</description><guid>https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>Why Your Morning Coffee Might Be Sabotaging Your Sleep</title><link>https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html</link><description>You finish your last cup at 2 PM. So why are you still wired at 11 PM? Caffeine's half-life is 5-6 hours. Learn how timing your coffee can transform your sleep.</description><guid>https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html</guid><pubDate>2026-03-22</pubDate></item>
+<item><title>The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack</title><link>https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html</link><description>Most people save what's left after spending. The wealthy save first and spend what's left. That single reversal changes everything about your financial future.</description><guid>https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>Why You're Not Getting Fitter Despite Training Harder</title><link>https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html</link><description>You hit the gym five days a week but feel worse, not better. Your body doesn't build muscle during exercise—it builds muscle during recovery. More training without recovery is just accumulated stress.</description><guid>https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html</guid><pubDate>2026-03-22</pubDate></item>
+<item><title>The 30-Gram Protein Myth: Why Distribution Matters More Than Total Intake</title><link>https://blog.boldlybalance.life/posts/food-protein-distribution.html</link><description>You've been told to eat 120 grams of protein a day. But when you eat it matters just as much as how much.</description><guid>https://blog.boldlybalance.life/posts/food-protein-distribution.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>Digital Boundaries: How to Use Technology Without Letting It Use You</title><link>https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html</link><description>Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.</description><guid>https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html</guid><pubDate>2026-03-22</pubDate></item>
+<item><title>The Real Reason You're Stuck: What Adversity Actually Does to You</title><link>https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html</link><description>Adversity doesn't build character. It reveals it. Here's the neuroscience behind why some people bounce back and others break.</description><guid>https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html</guid><pubDate>2026-03-22</pubDate></item>
+<item><title>The 5 AM Advantage: How to Build a Morning Routine for Peak Performance</title><link>https://blog.boldlybalance.life/posts/morning-routine-high-performance.html</link><description>Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.</description><guid>https://blog.boldlybalance.life/posts/morning-routine-high-performance.html</guid><pubDate>2026-03-22</pubDate></item>
+<item><title>The Science of Optimal Workout Timing: When to Exercise for Maximum Results</title><link>https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html</link><description>You're working out consistently, but are you working out at the right time? Science says timing matters more than you think—and it affects sleep, recovery, and performance.</description><guid>https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html</guid><pubDate>2026-03-23</pubDate></item>
+<item><title>Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick</title><link>https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html</link><description>Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.</description><guid>https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html</guid><pubDate>2026-03-22</pubDate></item>
+<item><title>The Case for Tourist Traps (Why You Should Visit Them Anyway)</title><link>https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html</link><description>You roll your eyes at the Eiffel Tower. But tourist traps aren't scams—they're popular for a reason. Here's why you should visit them anyway.</description><guid>https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html</guid><pubDate>2026-03-22</pubDate></item>
+</channel></rss>
