@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "sleep-myths-science-march-2026",
+      "title": "The Six Sleep Myths That Will Not Die: What the Science Actually Says in 2026",
+      "category": "Sleep",
+      "image": "photo-1541781774459-bb2af2f05b55",
+      "excerpt": "Eight hours is not universal. Weekend sleep debt is not real. Smart beds are mostly marketing. Sleep scientists have been saying this for years \u2014 yet the myths persist. A 2026 evidence review.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/sleep-myths-science-march-2026.html"
+    },
+    {
       "slug": "mindfulness-meditation-missing-piece",
       "title": "Mindfulness Meditation Is Not About Clearing Your Mind: What the Research Actually Says Works",
       "category": "Mind",
@@ -266,5 +275,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 28
+  "total": 29
 }
