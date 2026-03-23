@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "lo-fi-wellness-travel-trend",
+      "title": "Lo-Fi Wellness: The Travel Trend for People Done With Optimizing",
+      "category": "Travel",
+      "image": "photo-1507525428034-b723cf961d3e",
+      "excerpt": "The wellness travel industry is worth $1.4 trillion and changing course. The next big thing is not a better biohacking clinic. It is a sauna with no WiFi, a sound bath in a barn, and the radical act of doing nothing well.",
+      "date": "2026-03-23",
+      "url": "https://blog.boldlybalance.life/posts/lo-fi-wellness-travel-trend.html"
+    },
+    {
       "slug": "social-wellness-rituals-group-practices",
       "title": "The Wellness Rituals That Work Better in Groups: Why Shared Practice Compounds Results",
       "category": "Wellness",
@@ -137,5 +146,5 @@
       "date": "2026-03-22"
     }
   ],
-  "total": 14
+  "total": 15
 }
