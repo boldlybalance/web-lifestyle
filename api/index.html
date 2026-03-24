@@ -1,57 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boldly Balance API Documentation</title>
-    <link rel="stylesheet" href="../styles.css">
-    <style>
-        body { max-width: 900px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif; }
-        h1 { color: var(--primary); }
-        h2 { margin-top: 2rem; color: var(--text); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
-        .endpoint { background: var(--bg-light); padding: 1rem; border-radius: 8px; margin: 1rem 0; }
-        .method { display: inline-block; padding: 0.25rem 0.5rem; border-radius: 4px; font-weight: bold; font-size: 0.85rem; }
-        .get { background: #10b981; color: white; }
-        code { background: var(--bg-light); padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
-        pre { background: var(--bg-light); padding: 1rem; border-radius: 8px; overflow-x: auto; }
-    </style>
-</head>
-<body>
-    <h1>📖 Boldly Balance API</h1>
-    <p>Public API for accessing Boldly Balance blog content.</p>
-    
-    <h2>Base URL</h2>
-    <p><code>https://blog.boldlybalance.life/api</code></p>
-    
-    <h2>Endpoints</h2>
-    
-    <div class="endpoint">
-        <span class="method get">GET</span>
-        <code>/posts</code>
-        <p>Returns all blog posts sorted by date (newest first).</p>
-        <h3>Response</h3>
-        <pre>{"posts": [{ "slug": "...", "title": "...", "category": "...", ... }]}</pre>
-    </div>
-    
-    <div class="endpoint">
-        <span class="method get">GET</span>
-        <code>/posts/{slug}</code>
-        <p>Returns a single post by its slug.</p>
-    </div>
-    
-    <div class="endpoint">
-        <span class="method get">GET</span>
-        <code>/info</code>
-        <p>Returns API information.</p>
-    </div>
-    
-    <h2>Example Usage</h2>
-    <pre>fetch('https://blog.boldlybalance.life/api/posts.json')
-  .then(res => res.json())
-  .then(data => console.log(data.posts));</pre>
-    
-    <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--text-muted);">
-        <p>Boldly Balance API v1.0</p>
-    </footer>
-</body>
-</html>
+<!DOCTYPE html><html><head><title>Boldly Balance API</title></head><body><h1>Boldly Balance Posts API</h1><p>Total: 28 posts</p><ul>        <li><a href="https://blog.boldlybalance.life/posts/glucose-spikes-steal-deep-sleep.html">The Hidden Reason You Cannot Sleep: Blood Sugar and the Sleep Architecture Connection</a> (Sleep)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/digital-sabbatical-complete-guide.html">Digital Sabbatical: The Complete Guide to Unplugging Without Derailing Your Career</a> (Lifestyle)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/exercise-snacks-the-science-of-micro-workouts.html">Exercise Snacks: The Science of Micro Workouts That Actually Work</a> (Fitness)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/wellness-travel-trap-why-recovery-vacations-backfire.html">The Wellness Travel Trap: Why Your Recovery Vacation Is Making You Tired</a> (Travel)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/sleep-tourism-the-honest-guide.html">Sleep Tourism: The Fastest-Growing Travel Trend Nobody Is Talking About Honestly</a> (Sleep)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/decision-fatigue-why-less-is-more.html">Decision Fatigue: Why Doing Less Actually Makes You More Effective</a> (Lifestyle)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/slow-travel-why-you-need-less-itinerary.html">Slow Travel: Why You Need Less Itinerary, Not More</a> (Travel)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/sleep-myths-science-march-2026.html">The Six Sleep Myths That Will Not Die: What the Science Actually Says in 2026</a> (Sleep)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/mindfulness-meditation-missing-piece.html">Mindfulness Meditation Is Not About Clearing Your Mind: What the Research Actually Says Works</a> (Mind)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/cold-exposure-recovery-tradeoff.html">The Cold Exposure Trade-Off: When Ice Baths Sabotage the Adaptation You Are Training For</a> (Recovery)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/protein-distribution-evidence-based.html">The Evidence on Protein Distribution: What the Research Actually Says About Daily Protein Needs</a> (Food)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/strength-training-6-month-journey.html">6 Months of Strength Training: What Actually Changes in the First Half-Year</a> (Case Study)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/circadian-rhythm-home-environment.html">Your Home Is Running Your Biology: How Light, Temperature, and Sound Shape Your Health</a> (Home Decor)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/progressive-overload-not-what-you-think.html">The Progressive Overload Principle: Why Doing More Is Not the Same as Getting Stronger</a> (Fitness)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/recovery-science-why-less-is-more.html">The Recovery Myth: Why Doing Less Is the Actual Performance Strategy</a> (Recovery)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/app-ecosystem-wellness-communities.html">The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins</a> (Wellness)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html">Thriving Decades: Why Aging Well Is the Ultimate Performance Goal</a> (Mindset)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html">The Real Reason You Cannot Focus: What Attention Residue Is Costing You</a> (Mind)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html">Why Your Morning Coffee Might Be Sabotaging Your Sleep</a> (Sleep)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html">The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack</a> (Finance)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html">Why You're Not Getting Fitter Despite Training Harder</a> (Fitness)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/food-protein-distribution.html">The 30-Gram Protein Myth: Why Distribution Matters More Than Total Intake</a> (Food)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html">Digital Boundaries: How to Use Technology Without Letting It Use You</a> (Technology)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html">The Real Reason You're Stuck: What Adversity Actually Does to You</a> (Mindset)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/morning-routine-high-performance.html">The 5 AM Advantage: How to Build a Morning Routine for Peak Performance</a> (Lifestyle)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html">The Science of Optimal Workout Timing: When to Exercise for Maximum Results</a> (Routine)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html">Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick</a> (Wellness)</li>
+        <li><a href="https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html">The Case for Tourist Traps (Why You Should Visit Them Anyway)</a> (Travel)</li>
+</ul></body></html>
