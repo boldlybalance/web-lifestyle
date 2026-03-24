@@ -191,4 +191,12 @@
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
   </url>
+
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/slow-travel-why-you-need-less-itinerary.html</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
