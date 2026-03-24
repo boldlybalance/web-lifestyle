@@ -211,4 +211,10 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/wellness-travel-trap-why-recovery-vacations-backfire.html</loc>
+        <lastmod>2026-03-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
