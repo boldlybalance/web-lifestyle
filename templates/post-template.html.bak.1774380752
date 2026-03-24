@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:image" content="https://images.unsplash.com/PHOTO_ID?w=1200&h=630&fit=crop">
+    <link rel="canonical" href="CANONICAL_URL">
+    <link rel="alternate" hreflang="en" href="CANONICAL_URL">
+    <link rel="alternate" hreflang="x-default" href="https://boldlybalance.life/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITLE | Boldly Balance</title>
+    <meta name="description" content="META_DESCRIPTION">
+    <meta property="og:title" content="TITLE">
+    <meta property="og:description" content="META_DESCRIPTION">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://blog.boldlybalance.life/posts/SLUG.html">
+    <meta property="og:site_name" content="Boldly Balance">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <!-- Article Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "TITLE",
+        "description": "META_DESCRIPTION",
+        "author": {
+            "@type": "Person",
+            "name": "Boldly Balance"
+        },
+        "datePublished": "DATE_PUBLISHED",
+        "dateModified": "DATE_PUBLISHED",
+        "image": "https://images.unsplash.com/PHOTO_ID",
+        "url": "CANONICAL_URL",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Boldly Balance",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "CANONICAL_URL"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../" class="logo">Boldly Balance</a>
+        </nav>
+    </header>
+
+    <main class="post-content">
+        <article>
+            <span class="tag">CATEGORY</span>
+            <h1>TITLE</h1>
+            <span class="reading-time"><span class="reading-icon">⏱️</span><span>READING_TIME min read</span></span>
+            
+            <p class="excerpt">META_DESCRIPTION</p>
+            <!-- TL;DR - Zero-click optimization for AI citation -->
+            <div style="background:var(--bg-light);padding:1.5rem;border-radius:12px;margin-bottom:2rem;">
+                <h3 style="margin:0 0 0.5rem;font-size:0.85rem;text-transform:uppercase;color:var(--primary);font-weight:600;">TL;DR</h3>
+                <p style="margin:0;font-weight:500;color:var(--text);">TLDR_CONTENT</p>
+            </div>
+
+            <img src="https://images.unsplash.com/PHOTO_ID?w=1200&h=630&fit=crop" alt="ARTICLE_IMAGE_ALT" style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;margin:2rem 0;">
+            
+            CONTENT_GOES_HERE
+        </article>
+    </main>
+
+    <!-- Keep Reading Section -->
+    <section class="keep-reading">
+        <div class="container">
+            <h2>Keep Reading</h2>
+            <div class="post-grid" style="gap: 1.5rem;">
+                <a href="RELATED_LINK_1" class="post-card">
+                    <div class="post-card-image">
+                        <img src="RELATED_IMG_1" alt="RELATED_TITLE_1" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">RELATED_CAT_1</span>
+                        <h3>RELATED_TITLE_1</h3>
+                        <p>RELATED_DESC_1</p>
+                    </div>
+                </a>
+                <a href="RELATED_LINK_2" class="post-card">
+                    <div class="post-card-image">
+                        <img src="RELATED_IMG_2" alt="RELATED_TITLE_2" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">RELATED_CAT_2</span>
+                        <h3>RELATED_TITLE_2</h3>
+                        <p>RELATED_DESC_2</p>
+                    </div>
+                </a>
+                <a href="RELATED_LINK_3" class="post-card">
+                    <div class="post-card-image">
+                        <img src="RELATED_IMG_3" alt="RELATED_TITLE_3" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">RELATED_CAT_3</span>
+                        <h3>RELATED_TITLE_3</h3>
+                        <p>RELATED_DESC_3</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Sharing Section -->
+    <section class="social-sharing">
+        <div class="container">
+            <h2>Share This Article</h2>
+            <div class="social-links">
+                <a href="SHARE_X" target="_blank" rel="noopener" class="social-link twitter">
+                    <span>Twitter</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                    </svg>
+                </a>
+                <a href="SHARE_FB" target="_blank" rel="noopener" class="social-link facebook">
+                    <span>Facebook</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="SHARE_LI" target="_blank" rel="noopener" class="social-link linkedin">
+                    <span>LinkedIn</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Boldly Balance.</p>
+    </footer>
+    <script src="../reading-time.js"></script>
+</body>
+</html>
