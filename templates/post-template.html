@@ -29,6 +29,7 @@
         },
         "datePublished": "DATE_PUBLISHED",
         "dateModified": "DATE_PUBLISHED",
+        "articleSection": "CATEGORY",
         "image": "https://images.unsplash.com/PHOTO_ID",
         "url": "CANONICAL_URL",
         "publisher": {
@@ -45,6 +46,18 @@
         }
     }
     </script>
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://blog.boldlybalance.life/"},
+        {"@type": "ListItem", "position": 2, "name": "CATEGORY", "item": "https://blog.boldlybalance.life/category/CATEGORY_SLUG.html"},
+        {"@type": "ListItem", "position": 3, "name": "PTITLE"}
+    ]
+}
+</script>
 </head>
 <body>
     <header>
