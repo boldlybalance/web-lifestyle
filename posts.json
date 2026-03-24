@@ -4,7 +4,11 @@
     "title": "The Hidden Reason You Cannot Sleep: Blood Sugar and the Sleep Architecture Connection",
     "category": "Sleep",
     "date": "2026-03-24",
-    "url": "https://blog.boldlybalance.life/posts/glucose-spikes-steal-deep-sleep.html"
+    "url": "https://blog.boldlybalance.life/posts/glucose-spikes-steal-deep-sleep.html",
+    "excerpt": "You have tried blackout curtains, magnesium, and a strict sleep schedule. But the reason you are waking up at 3 AM might have nothing to do with stress \u2014 it is what you ate. Glucose instability is one of the most underrecognised disruptors of sleep architecture.",
+    "tags": [
+      "Sleep"
+    ]
   },
   {
     "slug": "digital-sabbatical-complete-guide",
@@ -12,7 +16,11 @@
     "category": "Lifestyle",
     "image": "photo-1502920917128-1aa500764cbd",
     "excerpt": "What happens when you go fully offline for two weeks \u2014 and how to survive it without losing your job, your mind, or your clients. A practical guide to the emerging art of the digital sabbatical.",
-    "date": "2026-03-24"
+    "date": "2026-03-24",
+    "tags": [
+      "Lifestyle"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/digital-sabbatical-complete-guide.html"
   },
   {
     "slug": "exercise-snacks-the-science-of-micro-workouts",
@@ -20,7 +28,11 @@
     "category": "Fitness",
     "image": "photo-1518611012118-696072aa579a",
     "excerpt": "You do not need a gym. You do not need an hour. The science of exercise snacks \u2014 brief, intense bursts of movement that deliver measurable health benefits in under 5 minutes a day.",
-    "date": "2026-03-24"
+    "date": "2026-03-24",
+    "tags": [
+      "Fitness"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/exercise-snacks-the-science-of-micro-workouts.html"
   },
   {
     "slug": "wellness-travel-trap-why-recovery-vacations-backfire",
@@ -28,7 +40,11 @@
     "category": "Travel",
     "image": "photo-1509356843151-3e8d90493a8e",
     "excerpt": "You booked the spa retreat to reset. Three days in, you are more exhausted than when you left. The wellness industry has a dirty secret: most recovery vacations add stress, not reduce it.",
-    "date": "2026-03-24"
+    "date": "2026-03-24",
+    "tags": [
+      "Travel"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/wellness-travel-trap-why-recovery-vacations-backfire.html"
   },
   {
     "slug": "sleep-tourism-the-honest-guide",
@@ -36,7 +52,11 @@
     "category": "Sleep",
     "image": "photo-1540518614846-7eded433c457",
     "excerpt": "Hotels are charging $800 a night for sleep suites with blackout curtains and sound machines. Is sleep tourism actually worth it? The honest answer: partially. Here is what the data shows.",
-    "date": "2026-03-24"
+    "date": "2026-03-24",
+    "tags": [
+      "Sleep"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/sleep-tourism-the-honest-guide.html"
   },
   {
     "slug": "decision-fatigue-why-less-is-more",
@@ -44,7 +64,11 @@
     "category": "Lifestyle",
     "image": "photo-1506784983877-45594efa4cbe",
     "excerpt": "You make approximately 35,000 decisions each day. Most of them are worthless \u2014 what to wear, what to eat, what to watch. Here is how to stop wasting your decision energy on the trivial and save it for what actually matters.",
-    "date": "2026-03-24"
+    "date": "2026-03-24",
+    "tags": [
+      "Lifestyle"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/decision-fatigue-why-less-is-more.html"
   },
   {
     "slug": "slow-travel-why-you-need-less-itinerary",
@@ -52,15 +76,23 @@
     "category": "Travel",
     "image": "photo-1507525428034-b723cf961d3e",
     "excerpt": "You spent 14 hours on a train to see three cities in five days. Here's why the 'maximize every moment' approach to travel is actually destroying your ability to experience anything.",
-    "date": "2026-03-24"
+    "date": "2026-03-24",
+    "tags": [
+      "Travel"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/slow-travel-why-you-need-less-itinerary.html"
   },
   {
     "slug": "app-ecosystem-wellness-communities",
     "title": "The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins",
     "category": "Wellness",
     "image": "photo-1522202176988-66273c2fd55f",
-    "excerpt": "Headspace, Calm, Strava, WHOOP, Aura, Finch. The wellness app ecosystem in 2026 has converged around one insight: people who use these apps with other people get better results than people who use them alone.",
-    "date": "2026-03-23"
+    "excerpt": "Headspace, Calm, Strava, WHOOP, Aura, Finch. The wellness app ecosystem has converged around one insight: people who use these apps with other people get better results.",
+    "date": "2026-03-23",
+    "tags": [
+      "Wellness"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/app-ecosystem-wellness-communities.html"
   },
   {
     "slug": "attention-residue-cost-context-switching",
@@ -68,23 +100,35 @@
     "category": "Mind",
     "image": "photo-1432821596592-e2c18b78144f",
     "excerpt": "Every time you switch tasks, part of your attention stays behind. The cost shows up in slower problem-solving, more errors, and worse decisions.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Mind"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html"
   },
   {
     "slug": "caffeine-sleep-sabotage",
     "title": "Why Your Morning Coffee Might Be Sabotaging Your Sleep",
     "category": "Sleep",
     "image": "photo-1495474472287-4d71bcdd2085",
-    "excerpt": "You finish your last cup at 2 PM. So why are you still wired at 11 PM? Caffeine's half-life is 5-6 hours. Learn how timing your coffee can transform your sleep.",
-    "date": "2026-03-22"
+    "excerpt": "You finish your last cup at 2 PM. So why are you still wired at 11 PM? Caffeine's half-life is 5-6 hours. Learn how timing your coffee can transform\u2026",
+    "date": "2026-03-22",
+    "tags": [
+      "Sleep"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html"
   },
   {
     "slug": "circadian-rhythm-home-environment",
     "title": "Your Home Is Running Your Biology: How Light, Temperature, and Sound Shape Your Health",
     "category": "Home Decor",
     "image": "photo-1718221621618-e477ce33485a",
-    "excerpt": "The average person spends 90% of their time indoors. Your home is not just where you live \u2014 it is the environment that regulates your circadian rhythm, cortisol patterns, sleep quality, and recovery.",
-    "date": "2026-03-23"
+    "excerpt": "The average person spends 90% of their time indoors. Your home is not just where you live \u2014 it is the environment that regulates your circadian rhythm, cortisol patterns, sleep quality, and recovery. Here is what the evidence says about designing a home that works with your biology.",
+    "date": "2026-03-23",
+    "tags": [
+      "Home Decor"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/circadian-rhythm-home-environment.html"
   },
   {
     "slug": "cold-exposure-recovery-tradeoff",
@@ -92,23 +136,35 @@
     "category": "Recovery",
     "image": "photo-1712161321522-c24f686e4ace",
     "excerpt": "Cold water immersion reduces inflammation and soreness \u2014 but it also blunts the muscle protein synthesis and insulin sensitivity adaptations that resistance training produces. Here is what the evidence says about the trade-off.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Recovery"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/cold-exposure-recovery-tradeoff.html"
   },
   {
     "slug": "finance-pay-yourself-first",
     "title": "The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack",
     "category": "Finance",
     "image": "photo-1579621970563-ebec7560ff3e",
-    "excerpt": "Most people save what's left after spending. The wealthy save first and spend what's left. That single reversal changes everything about your financial future.",
-    "date": "2026-03-23"
+    "excerpt": "Most people save what's left after spending. The wealthy save first and spend what's left. That single reversal changes everything about your\u2026",
+    "date": "2026-03-23",
+    "tags": [
+      "Finance"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html"
   },
   {
     "slug": "fitness-recovery-paradox",
     "title": "Why You're Not Getting Fitter Despite Training Harder",
     "category": "Fitness",
     "image": "photo-1517836357463-d25dfeac3438",
-    "excerpt": "You hit the gym five days a week but feel worse, not better. Your body doesn't build muscle during exercise\u2014it builds muscle during recovery. More training without recovery is just accumulated stress.",
-    "date": "2026-03-22"
+    "excerpt": "You hit the gym five days a week but feel worse, not better. Your body doesn't build muscle during exercise\u2014it builds muscle during recovery. More\u2026",
+    "date": "2026-03-22",
+    "tags": [
+      "Fitness"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html"
   },
   {
     "slug": "food-protein-distribution",
@@ -116,7 +172,11 @@
     "category": "Food",
     "image": "photo-1546069901-ba9599a7e63c",
     "excerpt": "You've been told to eat 120 grams of protein a day. But when you eat it matters just as much as how much. Here's the science of protein distribution.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Food"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/food-protein-distribution.html"
   },
   {
     "slug": "mindful-technology-boundaries",
@@ -124,7 +184,11 @@
     "category": "Technology",
     "image": "photo-1555421689-491a97ff2040",
     "excerpt": "Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim control over your digital life.",
-    "date": "2026-03-22"
+    "date": "2026-03-22",
+    "tags": [
+      "Technology"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html"
   },
   {
     "slug": "mindfulness-meditation-missing-piece",
@@ -132,7 +196,11 @@
     "category": "Mind",
     "image": "photo-1506126613408-eca07ce68773",
     "excerpt": "The most common meditation advice \u2014 'just focus on your breath and clear your mind' \u2014 is not only ineffective, it is the opposite of what mindfulness research actually shows. Here is what does work.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Mind"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/mindfulness-meditation-missing-piece.html"
   },
   {
     "slug": "mindset-reframe-adversity",
@@ -140,23 +208,35 @@
     "category": "Mindset",
     "image": "photo-1507003211169-0a1dd7228f2d",
     "excerpt": "Adversity doesn't build character. It reveals it. Here's the neuroscience behind why some people bounce back and others break.",
-    "date": "2026-03-22"
+    "date": "2026-03-22",
+    "tags": [
+      "Mindset"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html"
   },
   {
     "slug": "morning-routine-high-performance",
     "title": "The 5 AM Advantage: How to Build a Morning Routine for Peak Performance",
     "category": "Lifestyle",
     "image": "photo-1517841905240-472988babdf9",
-    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high achievers who want sustainable success.",
-    "date": "2026-03-22"
+    "excerpt": "Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Practical steps for high\u2026",
+    "date": "2026-03-22",
+    "tags": [
+      "Lifestyle"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/morning-routine-high-performance.html"
   },
   {
     "slug": "progressive-overload-not-what-you-think",
     "title": "The Progressive Overload Principle: Why Doing More Is Not the Same as Getting Stronger",
     "category": "Fitness",
     "image": "photo-1571019613454-1cb2f99b2d8b",
-    "excerpt": "Progressive overload is the most misunderstood principle in strength training. Adding weight is one method. Adding reps, adding sets, slowing tempo \u2014 those are progressive overload too.",
-    "date": "2026-03-23"
+    "excerpt": "Progressive overload is the most misunderstood principle in strength training. Adding weight is one method. Adding reps, adding sets, slowing tempo \u2014 those are progressive overload too. Here is how to actually apply it.",
+    "date": "2026-03-23",
+    "tags": [
+      "Fitness"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/progressive-overload-not-what-you-think.html"
   },
   {
     "slug": "protein-distribution-evidence-based",
@@ -164,23 +244,35 @@
     "category": "Food",
     "image": "photo-1490645935967-10de6ba17061",
     "excerpt": "The 120g protein question: is it better to spread protein across 4 meals or concentrate it in 2? The research is more nuanced than the supplement industry claims \u2014 and most people are overthinking it.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Food"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/protein-distribution-evidence-based.html"
   },
   {
     "slug": "recovery-science-why-less-is-more",
     "title": "The Recovery Myth: Why Doing Less Is the Actual Performance Strategy",
     "category": "Recovery",
     "image": "photo-1602677416440-51e91ddeef89",
-    "excerpt": "The performance paradox of fitness: the work happens during recovery, not during training. Sleep quality, muscle protein synthesis window, autonomic nervous system regulation. The people who get stronger, faster, and more durable are the ones who have learned to recover as deliberately as they train.",
-    "date": "2026-03-23"
+    "excerpt": "The performance paradox: the work happens during recovery, not training. Sleep, muscle protein synthesis, autonomic regulation. Getting stronger requires doing less.",
+    "date": "2026-03-23",
+    "tags": [
+      "Recovery"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/recovery-science-why-less-is-more.html"
   },
   {
     "slug": "routine-optimal-workout-timing",
     "title": "The Science of Optimal Workout Timing: When to Exercise for Maximum Results",
     "category": "Routine",
     "image": "photo-1571019614242-c5c5dee9f50b",
-    "excerpt": "You're working out consistently, but are you working out at the right time? Science says timing matters more than you think\u2014and it affects sleep, recovery, and performance.",
-    "date": "2026-03-23"
+    "excerpt": "You're working out consistently, but are you working out at the right time? Science says timing matters more than you think\u2014and it affects sleep\u2026",
+    "date": "2026-03-23",
+    "tags": [
+      "Routine"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html"
   },
   {
     "slug": "sleep-myths-science-march-2026",
@@ -188,23 +280,35 @@
     "category": "Sleep",
     "image": "photo-1531353826977-0941b4779a1c",
     "excerpt": "Eight hours is not universal. Weekend sleep debt is not real. Smart beds are mostly marketing. Sleep scientists have been saying this for years \u2014 yet the myths persist. A 2026 evidence review.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Sleep"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/sleep-myths-science-march-2026.html"
   },
   {
     "slug": "strength-training-6-month-journey",
     "title": "6 Months of Strength Training: What Actually Changes in the First Half-Year",
     "category": "Fitness",
     "image": "photo-1534438327276-14e5300c3a48",
-    "excerpt": "Strength training produces some of the most predictable, measurable changes of any wellness intervention. Here is what the research says changes in the first 6 months, and what a realistic timeline looks like.",
-    "date": "2026-03-23"
+    "excerpt": "Strength training produces some of the most predictable, measurable changes of any wellness intervention. Here is what the research says changes in the first 6 months, and what a realistic timeline for a complete beginner looks like.",
+    "date": "2026-03-23",
+    "tags": [
+      "Case Study"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/strength-training-6-month-journey.html"
   },
   {
     "slug": "sustainable-wellness-habits",
     "title": "Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick",
     "category": "Wellness",
     "image": "photo-1544367567-0f2fcb009e0b",
-    "excerpt": "Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can maintain for life.",
-    "date": "2026-03-22"
+    "excerpt": "Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a wellness routine you can\u2026",
+    "date": "2026-03-22",
+    "tags": [
+      "Wellness"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html"
   },
   {
     "slug": "thriving-decades-capability-aging",
@@ -212,7 +316,11 @@
     "category": "Mindset",
     "image": "photo-1559839734-2b71ea197ec2",
     "excerpt": "The longevity industry wants you to live longer. But the evidence-based fitness world says capability at 70, 75, and beyond is what actually matters.",
-    "date": "2026-03-23"
+    "date": "2026-03-23",
+    "tags": [
+      "Mindset"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html"
   },
   {
     "slug": "tourist-traps-worth-visiting",
@@ -220,6 +328,10 @@
     "category": "Travel",
     "image": "photo-1502602898657-3e91760cbb34",
     "excerpt": "You roll your eyes at the Eiffel Tower. But tourist traps aren't scams\u2014they're popular for a reason. Here's why you should visit them anyway.",
-    "date": "2026-03-22"
+    "date": "2026-03-22",
+    "tags": [
+      "Travel"
+    ],
+    "url": "https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html"
   }
 ]
