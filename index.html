@@ -551,6 +551,21 @@
         let currentSlide = 0;
         let posts = [];
 
+        // Carousel navigation
+        function moveCarousel(direction) {
+            const track = document.getElementById('carousel-track');
+            const cards = track.querySelectorAll('.carousel-card');
+            const cardWidth = cards[0].offsetWidth + 24;
+            const maxScroll = track.scrollWidth - track.clientWidth;
+            
+            currentSlide += direction;
+            if (currentSlide < 0) currentSlide = 0;
+            if (currentSlide > cards.length - 1) currentSlide = cards.length - 1;
+            
+            const scrollPos = currentSlide * cardWidth;
+            track.style.transform = `translateX(-${Math.min(scrollPos, maxScroll)}px)`;
+        }
+
         // Posts loaded statically at build time
     </script>
 </body>
