@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "neurowellness-nervous-system-frontier",
+      "title": "Neurowellness: The Nervous System Frontier That Wellness Culture Finally Got Right",
+      "category": "Wellness",
+      "excerpt": "Neurowellness is regulating your nervous system before breakdown, not after.",
+      "image": "https://images.unsplash.com/photo-1559757175-7cb057fba93c",
+      "url": "https://blog.boldlybalance.life/posts/neurowellness-nervous-system-frontier.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/neurowellness-nervous-system-frontier.json",
+      "date": "2026-03-25"
+    },
+    {
       "slug": "paradox-of-choice-fewer-options",
       "title": "The Paradox of Choice: Why Having Fewer Options Makes You Smarter",
       "category": "Mindset",
