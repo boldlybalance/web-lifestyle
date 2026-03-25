@@ -569,6 +569,14 @@
                 document.getElementById('carousel-track').style.transform = 'translateX(0)';
             }, 100);
         });
+
+        // Show More Articles - hides button since all content is already visible
+        function showMoreArticles() {
+            const btn = document.getElementById('show-more-btn');
+            if (btn) {
+                btn.style.display = 'none';
+            }
+        }
     </script>
 </body>
 </html>
