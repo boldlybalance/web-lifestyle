@@ -312,4 +312,39 @@
   </url>
 
     <url><loc>https://blog.boldlybalance.life/posts/digital-detox-problem.html</loc><lastmod>2026-03-26</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/why-you-feel-terrible-after-waking.html</loc>
+        <lastmod>2026-03-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/wearable-accuracy-lies.html</loc>
+        <lastmod>2026-03-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/paradox-of-choice-fewer-options.html</loc>
+        <lastmod>2026-03-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/why-start-small-worst-advice-habits.html</loc>
+        <lastmod>2026-03-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/cold-exposure-recovery-tradeoff.html</loc>
+        <lastmod>2026-03-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
