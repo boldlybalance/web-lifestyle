@@ -240,4 +240,11 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     <url><loc>https://blog.boldlybalance.life/posts/neurowellness-nervous-system-frontier.html</loc><lastmod>2026-03-25</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url></url>
+
+    <url>
+        <loc>https://blog.boldlybalance.life/posts/spending-psychology-why-you-buy.html</loc>
+        <lastmod>2026-03-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
