@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "hormone-myth-cycle-syncing-overpromising",
+      "title": "The Hormone Myth: Why Cycle Syncing Might Be Overpromising",
+      "category": "Wellness",
+      "excerpt": "Cycle syncing \u2014 aligning diet, exercise, and work to your menstrual phase \u2014 has gone viral. The evidence underneath is weaker than the influencers suggest.",
+      "image": "https://images.unsplash.com/1544367567-0f2fcb009e0b",
+      "url": "https://blog.boldlybalance.life/posts/hormone-myth-cycle-syncing-overpromising.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/hormone-myth-cycle-syncing-overpromising.json",
+      "date": "2026-03-26"
+    },
+    {
       "slug": "5-minute-pause-transforms-day",
       "title": "The 5-Minute Pause That Transforms Your Entire Day",
       "category": "Mindset",
