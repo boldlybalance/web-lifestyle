@@ -1,6 +1,20 @@
 {
   "posts": [
     {
+      "slug": "vagus-nerve-stimulation-recovery",
+      "title": "Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool",
+      "category": "Recovery",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      "date": "2026-03-26"
+    },
+    {
+      "slug": "protein-timing-anabolic-window",
+      "title": "Protein Timing: The Anabolic Window Is a Myth",
+      "category": "Fitness",
+      "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "date": "2026-03-26"
+    },
+    {
       "slug": "stop-optimizing-why-doing-less-wellness",
       "title": "Stop Optimizing: Why Doing Less Is the New Wellness",
       "category": "Wellness",
@@ -332,5 +346,5 @@
       "url": "https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html"
     }
   ],
-  "total": 28
+  "total": 38
 }
