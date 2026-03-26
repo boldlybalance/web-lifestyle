@@ -1,6 +1,15 @@
 {
   "posts": [
     {
+      "slug": "financial-avoidance-psychology-money",
+      "title": "Why You Keep Avoiding Your Finances",
+      "category": "Finance",
+      "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600&q=80",
+      "excerpt": "Article excerpt",
+      "date": "2026-03-26",
+      "url": "https://blog.boldlybalance.life/posts/financial-avoidance-psychology-money.html"
+    },
+    {
       "slug": "hormone-myth-cycle-syncing-overpromising",
       "title": "The Hormone Myth: Why Cycle Syncing Might Be Overpromising",
       "category": "Wellness",
@@ -376,5 +385,5 @@
       "url": "https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html"
     }
   ],
-  "total": 38
+  "total": 42
 }
