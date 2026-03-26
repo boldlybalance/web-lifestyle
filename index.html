@@ -225,7 +225,7 @@
                     <div class="post-card-content">
                         <span class="tag">Recovery</span>
                         <h3>Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)</h3>
-                        <p>...</p>
+                        <p>Your vagus nerve is the master regulator of your parasympathetic nervous system. Breathwork, cold, humming, and somatic ...</p>
                         <span class="read-more">Read article</span>
                     </div>
                 </a>
@@ -236,7 +236,7 @@
                     <div class="post-card-content">
                         <span class="tag">Fitness</span>
                         <h3>Protein Timing: The Anabolic Window Is a Myth (Here's What Works)</h3>
-                        <p>...</p>
+                        <p>The anabolic window is a myth. Here's what the science actually says about protein timing for muscle building and recove...</p>
                         <span class="read-more">Read article</span>
                     </div>
                 </a>
@@ -310,7 +310,7 @@
                     <div class="post-card-content">
                         <span class="tag">Recovery</span>
                         <h3>Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)</h3>
-                        <p>...</p>
+                        <p>Your vagus nerve is the master regulator of your parasympathetic nervous system. Breathwork, cold, humming, and somatic ...</p>
                         <span class="read-more">Read article</span>
                     </div>
                 </a>
@@ -321,7 +321,7 @@
                     <div class="post-card-content">
                         <span class="tag">Fitness</span>
                         <h3>Protein Timing: The Anabolic Window Is a Myth (Here's What Works)</h3>
-                        <p>...</p>
+                        <p>The anabolic window is a myth. Here's what the science actually says about protein timing for muscle building and recove...</p>
                         <span class="read-more">Read article</span>
                     </div>
                 </a>
@@ -818,95 +818,7 @@
             }
         }
 
-        // Dynamic post loader from posts.json
-        (function() {
-            var POSTS_URL = 'posts.json';
-            var LATEST_COUNT = 8;
-
-            function buildPostCard(post) {
-                var slug = post.slug || (post.url ? post.url.split('/').pop().replace('.html','') : '') || '';
-                var href = 'posts/' + slug + '.html';
-                var img = post.image || '';
-                // Fix broken paths: photo-XXX -> full Unsplash URL
-                if (img.indexOf('photo-') === 0) {
-                    img = 'https://images.unsplash.com/' + img + '?w=600&q=80';
-                }
-                var title = post.title || '';
-                var excerpt = post.excerpt || '';
-                var tag = post.category || '';
-                var shortExcerpt = excerpt.length > 120 ? excerpt.substring(0, 120) + '...' : excerpt;
-                
-                return '<a href="' + href + '" class="post-card">' +
-                    '<div class="post-card-image">' +
-                        '<img src="' + img + '" alt="' + title + '" loading="lazy">' +
-                    '</div>' +
-                    '<div class="post-card-content">' +
-                        '<span class="tag">' + tag + '</span>' +
-                        '<h3>' + title + '</h3>' +
-                        '<p>' + shortExcerpt + '</p>' +
-                        '<span class="read-more">Read article</span>' +
-                    '</div>' +
-                '</a>';
-            }
-
-            function buildCarouselCard(post) {
-                var slug = post.slug || (post.url ? post.url.split('/').pop().replace('.html','') : '') || '';
-                var href = 'posts/' + slug + '.html';
-                var img = post.image || '';
-                if (img.indexOf('photo-') === 0) {
-                    img = 'https://images.unsplash.com/' + img + '?w=800&q=80';
-                } else if (img.indexOf('https://') === 0) {
-                    img = img.split('?')[0] + '?w=800&q=80';
-                }
-                var title = post.title || '';
-                var tag = post.category || '';
-                
-                return '<a href="' + href + '" class="carousel-card">' +
-                    '<img src="' + img + '" alt="' + title + '" loading="lazy">' +
-                    '<div class="carousel-overlay">' +
-                        '<span class="tag">' + tag + '</span>' +
-                        '<h3>' + title + '</h3>' +
-                    '</div>' +
-                '</a>';
-            }
-
-            function loadPosts() {
-                fetch(POSTS_URL)
-                    .then(function(r) { return r.json(); })
-                    .then(function(posts) {
-                        var latest = document.getElementById('latest-posts');
-                        var all = document.getElementById('all-articles');
-                        var carousel = document.getElementById('carousel-track');
-                        if (!latest || !all) return;
-
-                        // Sort by date descending
-                        posts.sort(function(a, b) {
-                            return new Date(b.date || 0) - new Date(a.date || 0);
-                        });
-
-                        // Latest: first 8 posts
-                        latest.innerHTML = posts.slice(0, LATEST_COUNT).map(buildPostCard).join('');
-
-                        // All: all posts
-                        all.innerHTML = posts.map(buildPostCard).join('');
-
-                        // Carousel: first 5 posts
-                        if (carousel) {
-                            carousel.innerHTML = posts.slice(0, 5).map(buildCarouselCard).join('');
-                            // Reset carousel position after loading
-                            currentSlide = 0;
-                            carousel.style.transform = 'translateX(0)';
-                        }
-                    })
-                    .catch(function(e) { console.error('Failed to load posts:', e); });
-            }
-
-            if (document.readyState === 'loading') {
-                
-            } else {
-                loadPosts();
-            }
-        })();
+        
     </script>
 </body>
 </html>
