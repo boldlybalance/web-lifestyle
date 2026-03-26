@@ -220,7 +220,7 @@
             <!-- DYNAMIC: all articles loaded via JS -->
             <div id="all-articles-placeholder">Loading articles...</div>
         </div>
-        <div class="show-more-container" id="show-more-container" style="display: none;">
+        <div class="show-more-container" id="show-more-container" >
             <button class="show-more-btn" id="show-more-btn" onclick="showMoreArticles()">
                 <span>Show More Articles</span>
                 <span class="show-more-count" id="show-more-count"></span>
@@ -337,6 +337,11 @@
             var showMoreContainer = document.getElementById('show-more-container');
             var showMoreCount = document.getElementById('show-more-count');
             
+            console.log('showMoreArticles called');
+            console.log('allPostsData:', window.allPostsData ? window.allPostsData.length : 'undefined');
+            console.log('container:', container);
+            console.log('showMoreContainer:', showMoreContainer);
+            
             if (!window.allPostsData || !container) return;
             
             var nextCount = window.visiblePostCount + window.postsPerPage;
@@ -450,10 +455,13 @@
                     window.visiblePostCount = 6;
                     
                     // Show button if there are more posts
+                    console.log('Posts loaded:', allPosts.length);
+                    console.log('showMoreContainer element:', showMoreContainer);
                     if (allPosts.length > 6) {
                         showMoreContainer.style.display = 'block';
                         var remaining = allPosts.length - 6;
                         showMoreCount.textContent = '(' + remaining + ' more)';
+                        console.log('Button should now be visible. Remaining:', remaining);
                     }
                 }
 
