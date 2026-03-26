@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boldly Balance empowers you to upgrade daily living with practical tips on fitness, mindfulness, productivity, and sustainable lifestyle choices for a calmer, more focused life.">
+    <meta name="keywords" content="lifestyle, wellness, productivity, mindfulness, fitness, habits, intentional living">
+    <meta name="author" content="Boldly Balance">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0f0f11">
+    <meta name="color-scheme" content="dark">
+    
+    <title>Boldly Balance | Modern Lifestyle Blog</title>
+    
+    <!-- Canonical & Hreflang -->
+    <link rel="canonical" href="https://blog.boldlybalance.life/">
+    <link rel="alternate" hreflang="en" href="https://blog.boldlybalance.life/">
+    <link rel="alternate" hreflang="x-default" href="https://blog.boldlybalance.life/">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blog.boldlybalance.life/">
+    <meta property="og:title" content="Boldly Balance | Modern Lifestyle Blog">
+    <meta property="og:description" content="Boldly Balance empowers you to upgrade daily living with practical tips on fitness, mindfulness, productivity, and sustainable lifestyle choices for a calmer, more focused life.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
+    <meta property="og:site_name" content="Boldly Balance">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Boldly Balance | Modern Lifestyle Blog">
+    <meta name="twitter:description" content="Boldly Balance empowers you to upgrade daily living with practical tips on fitness, mindfulness, productivity, and sustainable lifestyle choices for a calmer, more focused life.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg"
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Boldly Balance",
+        "url": "https://blog.boldlybalance.life/",
+        "logo": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop",
+        "sameAs": [
+            "https://twitter.com/boldlybalance",
+            "https://instagram.com/boldlybalance"
+        ],
+        "description": "Boldly Balance empowers you to upgrade daily living with practical tips on fitness, mindfulness, productivity, and sustainable lifestyle choices."
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How can I balance a full-time job and a side hustle?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Start with realistic time blocks—early mornings or evenings work best. Prioritize tasks that move the needle on your side project and automate or outsource where possible. The key is consistency over intensity: even 30 minutes daily adds up to 15 hours/month."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the best habits for preventing burnout?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Set firm boundaries around work hours, take regular breaks throughout the day, and protect your sleep. Movement matters—even a 10-minute walk resets your nervous system. Connect with people who energize you, and learn to say no without guilt."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I start working out again after years of inactivity?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Begin with walking—10 minutes a day is enough to build the habit. Add bodyweight movements (squats, pushups) when you feel ready. The goal is consistency, not intensity. Rest is part of the process."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can I improve my sleep quality naturally?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Get morning sunlight within an hour of waking, avoid screens 2 hours before bed, keep your bedroom cool (65-68°F), and maintain a consistent sleep schedule—even on weekends."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What's the easiest way to start meditating?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Start with 2-3 minutes—just sit and focus on your breath. When your mind wanders, gently bring it back. There's no perfect way to meditate. The practice is noticing your thoughts without judgment and returning to the present."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <script>
+    function normalizeImageUrl(img) {
+        if (!img) return '';
+        if (img.startsWith('http')) return img;
+        if (img.startsWith('photo-')) return 'https://images.unsplash.com/' + img;
+        return img;
+    }
+    
+    async function loadPosts() {
+        try {
+            const response = await fetch('posts.json');
+            const posts = await response.json();
+            
+            // Get latest 6 posts for #latest-posts
+            const latestGrid = document.getElementById('latest-posts');
+            if (latestGrid) {
+                latestGrid.innerHTML = posts.slice(0, 6).map(post => `
+                    <a href="${post.url || 'posts/' + post.slug + '.html'}" class="post-card">
+                        <div class="post-card-image">
+                            <img src="${normalizeImageUrl(post.image)}?w=400&q=80" alt="${post.title}" loading="lazy">
+                        </div>
+                        <div class="post-card-content">
+                            <span class="tag">${post.category}</span>
+                            <h3>${post.title}</h3>
+                            <p>${post.excerpt || ''}</p>
+                            <span class="read-more">Read article</span>
+                        </div>
+                    </a>
+                `).join('');
+            }
+            
+            // Get all posts for #all-articles
+            const allGrid = document.getElementById('all-articles');
+            if (allGrid) {
+                allGrid.innerHTML = posts.map(post => `
+                    <a href="${post.url || 'posts/' + post.slug + '.html'}" class="post-card">
+                        <div class="post-card-image">
+                            <img src="${normalizeImageUrl(post.image)}?w=400&q=80" alt="${post.title}" loading="lazy">
+                        </div>
+                        <div class="post-card-content">
+                            <span class="tag">${post.category}</span>
+                            <h3>${post.title}</h3>
+                            <p>${post.excerpt || ''}</p>
+                            <span class="read-more">Read article</span>
+                        </div>
+                    </a>
+                `).join('');
+            }
+        } catch (e) {
+            console.error('Failed to load posts:', e);
+        }
+    }
+    
+    // Load carousel posts
+    const carouselTrack = document.getElementById('carousel-track');
+    if (carouselTrack && posts.length > 0) {
+        // Take first 5 posts for carousel
+        const carouselPosts = posts.slice(0, 5);
+        carouselTrack.innerHTML = carouselPosts.map(post => `
+            <a href="${post.url || 'posts/' + post.slug + '.html'}" class="carousel-card">
+                <img src="${normalizeImageUrl(post.image)}?w=800&q=80" alt="${post.title}" loading="lazy">
+                <div class="carousel-overlay">
+                    <span class="tag">${post.category}</span>
+                    <h3>${post.title}</h3>
+                </div>
+            </a>
+        `).join('');
+        // Re-init carousel after loading
+        initCarousel();
+    }
+
+    document.addEventListener('DOMContentLoaded', loadPosts);
+    </script>
+
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="/" class="logo">Boldly Balance</a>
+            
+            <div class="nav-links">
+                <div class="dropdown">
+                    <a href="/" class="nav-link">Topics ▾</a>
+                    <div class="dropdown-content">
+                        <a href="category/fitness.html">Fitness</a>
+                        <a href="category/food.html">Food</a>
+                        <a href="category/sleep.html">Sleep</a>
+                        <a href="category/mind.html">Mind</a>
+                        <a href="category/wellness.html">Wellness</a>
+                        <a href="category/lifestyle.html">Lifestyle</a>
+                        <a href="category/technology.html">Technology</a>
+                        <a href="category/recovery.html">Recovery</a>
+                        <a href="category/finance.html">Finance</a>
+                        <a href="category/travel.html">Travel</a>
+                    </div>
+                </div>
+                
+                <div class="search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" class="search-input" placeholder="Search articles...">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Build Your <span class="text-gradient">Best Self</span></h1>
+            <p>Tips for intentional living on lifestyle, wellness, productivity, and the art of showing up as your best self every day.</p>
+        </div>
+    </section>
+
+    <!-- Featured Carousel -->
+    <section class="carousel-section">
+        <div class="carousel">
+            <div class="carousel-track" id="carousel-track">
+                <!-- Loaded dynamically from posts.json -->
+            </div>
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)" aria-label="Previous slide">‹</button>
+            <button class="carousel-btn next" onclick="moveCarousel(1)" aria-label="Next slide">›</button>
+        </div>
+    </section>
+
+    <!-- Topic Browse -->
+    <section class="topic-browse">
+        <h2>Browse by Topic</h2>
+        <div class="topic-grid">
+            <a href="category/fitness.html" class="topic-tag">Fitness</a>
+            <a href="category/food.html" class="topic-tag">Food</a>
+            <a href="category/sleep.html" class="topic-tag">Sleep</a>
+            <a href="category/mind.html" class="topic-tag">Mind</a>
+            <a href="category/wellness.html" class="topic-tag">Wellness</a>
+            <a href="category/lifestyle.html" class="topic-tag">Lifestyle</a>
+            <a href="category/technology.html" class="topic-tag">Technology</a>
+            <a href="category/recovery.html" class="topic-tag">Recovery</a>
+            <a href="category/finance.html" class="topic-tag">Finance</a>
+            <a href="category/travel.html" class="topic-tag">Travel</a>
+            <a href="category/home-decor.html" class="topic-tag">Home Decor</a>
+            <a href="category/mindset.html" class="topic-tag">Mindset</a>
+        </div>
+    </section>
+
+    <!-- Latest Posts -->
+    <section class="posts-section">
+        <h2>Latest This Week</h2>
+        <div class="post-grid" id="latest-posts"></div>
+        </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <h2>Get Weekly Lifestyle Tips</h2>
+            <p>Practical advice for a calmer, more focused life. No spam, just value.</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thanks for subscribing!')">
+                <input type="email" placeholder="your@email.com" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- All Articles -->
+    <section class="posts-section">
+        <h2>All Articles</h2>
+        <div class="post-grid" id="all-articles"></div>
+        </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        
+        <details class="faq-item">
+            <summary>How can I balance a full-time job and a side hustle?</summary>
+            <p>Start with realistic time blocks—early mornings or evenings work best. Prioritize tasks that move the needle on your side project and automate or outsource where possible. The key is consistency over intensity: even 30 minutes daily adds up to 15 hours/month.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What are the best habits for preventing burnout?</summary>
+            <p>Set firm boundaries around work hours, take regular breaks throughout the day, and protect your sleep. Movement matters—even a 10-minute walk resets your nervous system. Connect with people who energize you, and learn to say no without guilt.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>How do I start working out again after years of inactivity?</summary>
+            <p>Begin with walking—10 minutes a day is enough to build the habit. Add bodyweight movements (squats, pushups) when you feel ready. The goal is consistency, not intensity. Rest is part of the process.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>How can I improve my sleep quality naturally?</summary>
+            <p>Get morning sunlight within an hour of waking, avoid screens 2 hours before bed, keep your bedroom cool (65-68°F), and maintain a consistent sleep schedule—even on weekends.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>What's the easiest way to start meditating?</summary>
+            <p>Start with 2-3 minutes—just sit and focus on your breath. When your mind wanders, gently bring it back. There's no perfect way to meditate. The practice is noticing your thoughts without judgment and returning to the present.</p>
+        </details>
+
+        <details class="faq-item">
+            <summary>How can I build muscle without a gym membership?</summary>
+            <p>Your body is enough: pushups, squats, lunges, planks, and glute bridges build serious strength. Bodyweight training 3-4 times/week with proper rest builds muscle effectively. Consistency beats intensity—show up regularly.</p>
+        </details>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Boldly Balance. Designed for intentional living.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Carousel navigation (no dynamic rendering - using static HTML)
+        let currentSlide = 0;
+        function moveCarousel(direction) {
+            const track = document.getElementById('carousel-track');
+            const cards = document.querySelectorAll('.carousel-card');
+            if (cards.length === 0) return;
+            
+            const cardWidth = cards[0].offsetWidth + 24;
+            const maxSlide = Math.max(0, cards.length - Math.floor(window.innerWidth / cardWidth));
+            currentSlide = Math.max(0, Math.min(currentSlide + direction, maxSlide));
+            track.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
+        }
+
+        // Handle resize
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                currentSlide = 0;
+                document.getElementById('carousel-track').style.transform = 'translateX(0)';
+            }, 100);
+        });
+
+        // Show More Articles - hides button since all content is already visible
+        function showMoreArticles() {
+            const btn = document.getElementById('show-more-btn');
+            if (btn) {
+                btn.style.display = 'none';
+            }
+        }
+
+        // Dynamic post loader from posts.json
+        (function() {
+            var POSTS_URL = 'posts.json';
+            var LATEST_COUNT = 8;
+
+            function buildPostCard(post) {
+                var slug = post.slug || (post.url ? post.url.split('/').pop().replace('.html','') : '') || '';
+                var href = 'posts/' + slug + '.html';
+                var img = post.image || '';
+                // Fix broken paths: photo-XXX -> full Unsplash URL
+                if (img.indexOf('photo-') === 0) {
+                    img = 'https://images.unsplash.com/' + img + '?w=600&q=80';
+                }
+                var title = post.title || '';
+                var excerpt = post.excerpt || '';
+                var tag = post.category || '';
+                var shortExcerpt = excerpt.length > 120 ? excerpt.substring(0, 120) + '...' : excerpt;
+                
+                return '<a href="' + href + '" class="post-card">' +
+                    '<div class="post-card-image">' +
+                        '<img src="' + img + '" alt="' + title + '" loading="lazy">' +
+                    '</div>' +
+                    '<div class="post-card-content">' +
+                        '<span class="tag">' + tag + '</span>' +
+                        '<h3>' + title + '</h3>' +
+                        '<p>' + shortExcerpt + '</p>' +
+                        '<span class="read-more">Read article</span>' +
+                    '</div>' +
+                '</a>';
+            }
+
+            function loadPosts() {
+                fetch(POSTS_URL)
+                    .then(function(r) { return r.json(); })
+                    .then(function(posts) {
+                        var latest = document.getElementById('latest-posts');
+                        var all = document.getElementById('all-articles');
+                        if (!latest || !all) return;
+
+                        // Sort by date descending
+                        posts.sort(function(a, b) {
+                            return new Date(b.date || 0) - new Date(a.date || 0);
+                        });
+
+                        // Latest: first 8 posts
+                        latest.innerHTML = posts.slice(0, LATEST_COUNT).map(buildPostCard).join('');
+
+                        // All: all posts
+                        all.innerHTML = posts.map(buildPostCard).join('');
+                    })
+                    .catch(function(e) { console.error('Failed to load posts:', e); });
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', loadPosts);
+            } else {
+                loadPosts();
+            }
+        })();
+    </script>
+</body>
+</html>
