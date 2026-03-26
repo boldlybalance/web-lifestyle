@@ -51,7 +51,7 @@
                 const filtered = posts.filter(p => p.category.toLowerCase() === 'mind');
                 document.getElementById('category-posts').innerHTML = filtered.map(p => `
                     <a href="../posts/${p.slug}.html" class="post-card">
-                        <div class="post-card-image"><img src="https://images.unsplash.com/${p.image}?w=600&q=80" alt="" loading="lazy"></div>
+                        <div class="post-card-image"><img src="${p.image}?w=600&q=80" alt="" loading="lazy"></div>
                         <div class="post-card-content">
                             <span class="tag">${p.category}</span>
                             <h3>${p.title}</h3>

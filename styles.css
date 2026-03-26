@@ -178,7 +178,7 @@ h3 {
 }
 
 h4 {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
 }
 
 h5 {
@@ -281,7 +281,7 @@ nav {
 }
 
 .logo {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     font-weight: 800;
     letter-spacing: var(--tracking-tight);
     color: var(--color-text);
@@ -420,7 +420,7 @@ nav {
 }
 
 .hero p {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     color: var(--color-text-secondary);
     max-width: 600px;
     margin: 0 auto;
@@ -542,7 +542,7 @@ nav {
     border: 1px solid var(--color-border);
     border-radius: var(--radius-full);
     color: var(--color-text);
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -925,7 +925,7 @@ nav {
 
 .faq-item summary::after {
     content: '+';
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     color: var(--color-primary);
     transition: transform var(--transition-base);
 }
@@ -1035,7 +1035,7 @@ footer a:hover {
 }
 
 .post-content .excerpt {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     color: var(--color-text-secondary);
     line-height: var(--leading-relaxed);
     margin-bottom: var(--space-8);
@@ -1046,7 +1046,7 @@ footer a:hover {
 .post-content h2 {
     margin-top: var(--space-10);
     margin-bottom: var(--space-5);
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
 }
 
 .post-content h3 {
@@ -1109,6 +1109,11 @@ footer a:hover {
     font-weight: 600;
     cursor: pointer;
     transition: all var(--transition-base);
+}
+
+span.show-more-count {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
 }
 
 .show-more-btn:hover {
@@ -1410,7 +1415,7 @@ footer a:hover {
 }
 
 .social-sharing h2 {
-    font-size: var(--text-xl);
+    font-size: var(--text-lg);
     margin-bottom: var(--space-6);
 }
 

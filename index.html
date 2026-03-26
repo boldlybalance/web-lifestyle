@@ -220,6 +220,12 @@
             <!-- DYNAMIC: all articles loaded via JS -->
             <div id="all-articles-placeholder">Loading articles...</div>
         </div>
+        <div class="show-more-container" id="show-more-container" style="display: none;">
+            <button class="show-more-btn" id="show-more-btn" onclick="showMoreArticles()">
+                <span>Show More Articles</span>
+                <span class="show-more-count" id="show-more-count"></span>
+            </button>
+        </div>
     </section>
 
     <!-- FAQ Section -->
@@ -325,11 +331,34 @@
             }, 100);
         });
 
-        // Show More Articles - hides button since all content is already visible
+        // Show More Articles - paginated loading
         function showMoreArticles() {
-            const btn = document.getElementById('show-more-btn');
-            if (btn) {
-                btn.style.display = 'none';
+            var container = document.getElementById('all-articles');
+            var showMoreContainer = document.getElementById('show-more-container');
+            var showMoreCount = document.getElementById('show-more-count');
+            
+            if (!window.allPostsData || !container) return;
+            
+            var nextCount = window.visiblePostCount + window.postsPerPage;
+            var postsToShow = window.allPostsData.slice(window.visiblePostCount, nextCount);
+            
+            // Append next batch
+            var tempDiv = document.createElement('div');
+            postsToShow.forEach(function(html) {
+                tempDiv.innerHTML += html;
+            });
+            while (tempDiv.firstChild) {
+                container.appendChild(tempDiv.firstChild);
+            }
+            
+            window.visiblePostCount = nextCount;
+            
+            // Update or hide button
+            if (window.visiblePostCount >= window.allPostsData.length) {
+                showMoreContainer.style.display = 'none';
+            } else {
+                var remaining = window.allPostsData.length - window.visiblePostCount;
+                showMoreCount.textContent = '(' + remaining + ' more)';
             }
         }
 
@@ -404,11 +433,28 @@
                     latestPlaceholder.outerHTML = latestHTML;
                 }
 
-                // 3. Render All Articles
+                // 3. Render All Articles (paginated)
                 var allPlaceholder = document.getElementById('all-articles-placeholder');
+                var showMoreContainer = document.getElementById('show-more-container');
+                var showMoreCount = document.getElementById('show-more-count');
                 if (allPlaceholder && posts.length > 0) {
-                    var allHTML = posts.map(createPostCard).join('');
-                    allPlaceholder.outerHTML = allHTML;
+                    var allPosts = posts.map(createPostCard);
+                    // Store all posts for pagination
+                    window.allPostsData = allPosts;
+                    window.visiblePostCount = 0;
+                    window.postsPerPage = 6;
+                    
+                    // Show first 6 posts
+                    var initialPosts = allPosts.slice(0, 6);
+                    allPlaceholder.outerHTML = initialPosts.join('');
+                    window.visiblePostCount = 6;
+                    
+                    // Show button if there are more posts
+                    if (allPosts.length > 6) {
+                        showMoreContainer.style.display = 'block';
+                        var remaining = allPosts.length - 6;
+                        showMoreCount.textContent = '(' + remaining + ' more)';
+                    }
                 }
 
                 // Re-init carousel after dynamic content
