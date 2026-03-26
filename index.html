@@ -38,10 +38,11 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+    <script src="share-buttons.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="favicon.svg"
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -112,12 +113,22 @@
 
 </head>
 <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Header -->
     <header id="header">
         <nav>
             <a href="/" class="logo">Boldly Balance</a>
             
-            <div class="nav-links">
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <div class="nav-links" id="nav-links">
                 <div class="dropdown">
                     <a href="/" class="nav-link">Topics ▾</a>
                     <div class="dropdown-content">
@@ -142,8 +153,8 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- Main Content -->
+    <section class="hero" id="main-content">
         <div class="hero-content">
             <h1>Build Your <span class="text-gradient">Best Self</span></h1>
             <p>Tips for intentional living on lifestyle, wellness, productivity, and the art of showing up as your best self every day.</p>
@@ -153,8 +164,10 @@
     <!-- Featured Carousel -->
     <section class="carousel-section">
         <div class="carousel">
+            <button class="carousel-btn prev" onclick="moveCarousel(-1)" aria-label="Previous slide">‹</button>
             <div class="carousel-track" id="carousel-track">
 <!-- DYNAMIC: carousel cards loaded via JS --><div id="carousel-placeholder"></div>
+            </div>
             <button class="carousel-btn next" onclick="moveCarousel(1)" aria-label="Next slide">›</button>
         </div>
     </section>
@@ -182,7 +195,13 @@
     <section class="posts-section">
         <h2>Latest This Week</h2>
         <div class="post-grid" id="latest-posts">
-<!-- DYNAMIC: latest posts loaded via JS --><div id="latest-posts-placeholder">Loading latest posts...</div>
+            <!-- DYNAMIC: latest posts loaded via JS -->
+            <div id="latest-posts-placeholder">Loading latest posts...</div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
         <div class="newsletter-content">
             <h2>Get Weekly Lifestyle Tips</h2>
             <p>Practical advice for a calmer, more focused life. No spam, just value.</p>
@@ -196,7 +215,14 @@
     <!-- All Articles -->
     <section class="posts-section">
         <h2>All Articles</h2>
-        <div class="post-grid" id="all-articles"><!-- DYNAMIC: all articles loaded via JS --><div id="all-articles-placeholder">Loading articles...</div>
+        <div class="post-grid" id="all-articles">
+            <!-- DYNAMIC: all articles loaded via JS -->
+            <div id="all-articles-placeholder">Loading articles...</div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
         <h2>Frequently Asked Questions</h2>
         
         <details class="faq-item">
@@ -383,6 +409,27 @@
         } else {
             loadPosts();
         }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('nav-links');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            navLinks.classList.toggle('mobile-open');
+            menuBtn.classList.toggle('active');
+            const isOpen = navLinks.classList.contains('mobile-open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(e) {
+            const navLinks = document.getElementById('nav-links');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            if (!navLinks.contains(e.target) && !menuBtn.contains(e.target) && navLinks.classList.contains('mobile-open')) {
+                navLinks.classList.remove('mobile-open');
+                menuBtn.classList.remove('active');
+                menuBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
     </script>
 </body>
 </html>
