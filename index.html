@@ -170,6 +170,7 @@
             </div>
             <button class="carousel-btn next" onclick="moveCarousel(1)" aria-label="Next slide">›</button>
         </div>
+        <div class="carousel-dots" id="carousel-dots"></div>
     </section>
 
     <!-- Topic Browse -->
@@ -227,32 +228,32 @@
         
         <details class="faq-item">
             <summary>How can I balance a full-time job and a side hustle?</summary>
-            <p>Start with realistic time blocks—early mornings or evenings work best. Prioritize tasks that move the needle on your side project and automate or outsource where possible. The key is consistency over intensity: even 30 minutes daily adds up to 15 hours/month.</p>
+            <div><p>Start with realistic time blocks—early mornings or evenings work best. Prioritize tasks that move the needle on your side project and automate or outsource where possible. The key is consistency over intensity: even 30 minutes daily adds up to 15 hours/month.</p></div>
         </details>
 
         <details class="faq-item">
             <summary>What are the best habits for preventing burnout?</summary>
-            <p>Set firm boundaries around work hours, take regular breaks throughout the day, and protect your sleep. Movement matters—even a 10-minute walk resets your nervous system. Connect with people who energize you, and learn to say no without guilt.</p>
+            <div><p>Set firm boundaries around work hours, take regular breaks throughout the day, and protect your sleep. Movement matters—even a 10-minute walk resets your nervous system. Connect with people who energize you, and learn to say no without guilt.</p></div>
         </details>
 
         <details class="faq-item">
             <summary>How do I start working out again after years of inactivity?</summary>
-            <p>Begin with walking—10 minutes a day is enough to build the habit. Add bodyweight movements (squats, pushups) when you feel ready. The goal is consistency, not intensity. Rest is part of the process.</p>
+            <div><p>Begin with walking—10 minutes a day is enough to build the habit. Add bodyweight movements (squats, pushups) when you feel ready. The goal is consistency, not intensity. Rest is part of the process.</p></div>
         </details>
 
         <details class="faq-item">
             <summary>How can I improve my sleep quality naturally?</summary>
-            <p>Get morning sunlight within an hour of waking, avoid screens 2 hours before bed, keep your bedroom cool (65-68°F), and maintain a consistent sleep schedule—even on weekends.</p>
+            <div><p>Get morning sunlight within an hour of waking, avoid screens 2 hours before bed, keep your bedroom cool (65-68°F), and maintain a consistent sleep schedule—even on weekends.</p></div>
         </details>
 
         <details class="faq-item">
             <summary>What's the easiest way to start meditating?</summary>
-            <p>Start with 2-3 minutes—just sit and focus on your breath. When your mind wanders, gently bring it back. There's no perfect way to meditate. The practice is noticing your thoughts without judgment and returning to the present.</p>
+            <div><p>Start with 2-3 minutes—just sit and focus on your breath. When your mind wanders, gently bring it back. There's no perfect way to meditate. The practice is noticing your thoughts without judgment and returning to the present.</p></div>
         </details>
 
         <details class="faq-item">
             <summary>How can I build muscle without a gym membership?</summary>
-            <p>Your body is enough: pushups, squats, lunges, planks, and glute bridges build serious strength. Bodyweight training 3-4 times/week with proper rest builds muscle effectively. Consistency beats intensity—show up regularly.</p>
+            <div><p>Your body is enough: pushups, squats, lunges, planks, and glute bridges build serious strength. Bodyweight training 3-4 times/week with proper rest builds muscle effectively. Consistency beats intensity—show up regularly.</p></div>
         </details>
     </section>
 
@@ -284,6 +285,33 @@
             const maxSlide = Math.max(0, cards.length - Math.floor(window.innerWidth / cardWidth));
             currentSlide = Math.max(0, Math.min(currentSlide + direction, maxSlide));
             track.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
+            updateCarouselDots();
+        }
+        
+        function updateCarouselDots() {
+            const cards = document.querySelectorAll('.carousel-card');
+            const dotsContainer = document.getElementById('carousel-dots');
+            if (!dotsContainer || cards.length === 0) return;
+            
+            const cardWidth = cards[0].offsetWidth + 24;
+            const visibleCards = Math.floor(window.innerWidth / cardWidth);
+            const totalDots = Math.ceil(cards.length / visibleCards);
+            const currentGroup = Math.floor(currentSlide / visibleCards);
+            
+            let dotsHTML = '';
+            for (let i = 0; i < totalDots; i++) {
+                dotsHTML += `<span class="carousel-dot ${i === currentGroup ? 'active' : ''}" onclick="goToSlideGroup(${i})"></span>`;
+            }
+            dotsContainer.innerHTML = dotsHTML;
+        }
+        
+        function goToSlideGroup(groupIndex) {
+            const cards = document.querySelectorAll('.carousel-card');
+            const cardWidth = cards[0].offsetWidth + 24;
+            const visibleCards = Math.floor(window.innerWidth / cardWidth);
+            currentSlide = groupIndex * visibleCards;
+            document.getElementById('carousel-track').style.transform = `translateX(-${currentSlide * cardWidth}px)`;
+            updateCarouselDots();
         }
 
         // Handle resize
@@ -401,6 +429,7 @@
             var cards = document.querySelectorAll('.carousel-card');
             if (cards.length === 0) return;
             track.style.transform = 'translateX(0)';
+            updateCarouselDots();
         }
 
         // Load posts when DOM is ready

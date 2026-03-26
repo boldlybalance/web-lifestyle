@@ -565,6 +565,32 @@ nav {
     right: var(--space-4);
 }
 
+/* Carousel Dots */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-top: var(--space-4);
+}
+
+.carousel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: var(--radius-full);
+    background: var(--color-border);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.carousel-dot:hover {
+    background: var(--color-text-muted);
+}
+
+.carousel-dot.active {
+    background: var(--color-primary);
+    width: 24px;
+}
+
 @media (min-width: 768px) {
     .carousel-btn.prev {
         left: var(--space-8);
@@ -870,6 +896,17 @@ nav {
     border-color: var(--color-border);
 }
 
+/* FAQ smooth animation using grid trick */
+.faq-item {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease-out;
+}
+
+.faq-item[open] {
+    grid-template-rows: 1fr;
+}
+
 .faq-item summary {
     padding: var(--space-5) var(--space-6);
     font-weight: 600;
@@ -899,6 +936,10 @@ nav {
 
 .faq-item[open] summary {
     background: var(--color-bg-hover);
+}
+
+.faq-item > div {
+    overflow: hidden;
 }
 
 .faq-item p {
