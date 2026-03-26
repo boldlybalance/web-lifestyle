@@ -108,79 +108,7 @@
     }
     </script>
 
-    <script>
-    function normalizeImageUrl(img) {
-        if (!img) return '';
-        if (img.startsWith('http')) return img;
-        if (img.startsWith('photo-')) return 'https://images.unsplash.com/' + img;
-        return img;
-    }
     
-    async function loadPosts() {
-        try {
-            const response = await fetch('posts.json');
-            const posts = await response.json();
-            
-            // Get latest 6 posts for #latest-posts
-            const latestGrid = document.getElementById('latest-posts');
-            if (latestGrid) {
-                latestGrid.innerHTML = posts.slice(0, 6).map(post => `
-                    <a href="${post.url || 'posts/' + post.slug + '.html'}" class="post-card">
-                        <div class="post-card-image">
-                            <img src="${normalizeImageUrl(post.image)}?w=400&q=80" alt="${post.title}" loading="lazy">
-                        </div>
-                        <div class="post-card-content">
-                            <span class="tag">${post.category}</span>
-                            <h3>${post.title}</h3>
-                            <p>${post.excerpt || ''}</p>
-                            <span class="read-more">Read article</span>
-                        </div>
-                    </a>
-                `).join('');
-            }
-            
-            // Get all posts for #all-articles
-            const allGrid = document.getElementById('all-articles');
-            if (allGrid) {
-                allGrid.innerHTML = posts.map(post => `
-                    <a href="${post.url || 'posts/' + post.slug + '.html'}" class="post-card">
-                        <div class="post-card-image">
-                            <img src="${normalizeImageUrl(post.image)}?w=400&q=80" alt="${post.title}" loading="lazy">
-                        </div>
-                        <div class="post-card-content">
-                            <span class="tag">${post.category}</span>
-                            <h3>${post.title}</h3>
-                            <p>${post.excerpt || ''}</p>
-                            <span class="read-more">Read article</span>
-                        </div>
-                    </a>
-                `).join('');
-            }
-        } catch (e) {
-            console.error('Failed to load posts:', e);
-        }
-    }
-    
-    // Load carousel posts
-    const carouselTrack = document.getElementById('carousel-track');
-    if (carouselTrack && posts.length > 0) {
-        // Take first 5 posts for carousel
-        const carouselPosts = posts.slice(0, 5);
-        carouselTrack.innerHTML = carouselPosts.map(post => `
-            <a href="${post.url || 'posts/' + post.slug + '.html'}" class="carousel-card">
-                <img src="${normalizeImageUrl(post.image)}?w=800&q=80" alt="${post.title}" loading="lazy">
-                <div class="carousel-overlay">
-                    <span class="tag">${post.category}</span>
-                    <h3>${post.title}</h3>
-                </div>
-            </a>
-        `).join('');
-        // Re-init carousel after loading
-        initCarousel();
-    }
-
-    document.addEventListener('DOMContentLoaded', loadPosts);
-    </script>
 
 </head>
 <body>
@@ -226,8 +154,42 @@
     <section class="carousel-section">
         <div class="carousel">
             <div class="carousel-track" id="carousel-track">
-                <!-- Loaded dynamically from posts.json -->
-            </div>
+<a href="https://blog.boldlybalance.life/posts/vagus-nerve-stimulation-recovery.html" class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80" alt="Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)" loading="lazy">
+                    <div class="carousel-overlay">
+                        <span class="tag">Recovery</span>
+                        <h3>Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)</h3>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/protein-timing-anabolic-window.html" class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80" alt="Protein Timing: The Anabolic Window Is a Myth (Here's What Works)" loading="lazy">
+                    <div class="carousel-overlay">
+                        <span class="tag">Fitness</span>
+                        <h3>Protein Timing: The Anabolic Window Is a Myth (Here's What Works)</h3>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/stop-optimizing-why-doing-less-wellness.html" class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Stop Optimizing: Why Doing Less Is the New Wellness" loading="lazy">
+                    <div class="carousel-overlay">
+                        <span class="tag">Wellness</span>
+                        <h3>Stop Optimizing: Why Doing Less Is the New Wellness</h3>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/spending-psychology-why-you-buy.html" class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80" alt="Why You Keep Buying Things You Do Not Need (And How to Stop)" loading="lazy">
+                    <div class="carousel-overlay">
+                        <span class="tag">Finance</span>
+                        <h3>Why You Keep Buying Things You Do Not Need (And How to Stop)</h3>
+                    </div>
+                </a>
+<a href="posts/why-you-feel-terrible-after-waking.html" class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&q=80" alt="Why You Feel Terrible Right After Waking Up (And What Actually Helps)" loading="lazy">
+                    <div class="carousel-overlay">
+                        <span class="tag">Sleep</span>
+                        <h3>Why You Feel Terrible Right After Waking Up (And What Actually Helps)</h3>
+                    </div>
+                </a>
+</div>
             <button class="carousel-btn prev" onclick="moveCarousel(-1)" aria-label="Previous slide">‹</button>
             <button class="carousel-btn next" onclick="moveCarousel(1)" aria-label="Next slide">›</button>
         </div>
@@ -255,7 +217,74 @@
     <!-- Latest Posts -->
     <section class="posts-section">
         <h2>Latest This Week</h2>
-        <div class="post-grid" id="latest-posts"></div>
+        <div class="post-grid" id="latest-posts">
+<a href="https://blog.boldlybalance.life/posts/vagus-nerve-stimulation-recovery.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" alt="Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Recovery</span>
+                        <h3>Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)</h3>
+                        <p>...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/protein-timing-anabolic-window.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" alt="Protein Timing: The Anabolic Window Is a Myth (Here's What Works)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Protein Timing: The Anabolic Window Is a Myth (Here's What Works)</h3>
+                        <p>...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/stop-optimizing-why-doing-less-wellness.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Stop Optimizing: Why Doing Less Is the New Wellness" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Stop Optimizing: Why Doing Less Is the New Wellness</h3>
+                        <p>The wellness industry convinced you that every breath, bite, and hour of sleep needed to be optimized. Now the science i...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/spending-psychology-why-you-buy.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&q=80" alt="Why You Keep Buying Things You Do Not Need (And How to Stop)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Finance</span>
+                        <h3>Why You Keep Buying Things You Do Not Need (And How to Stop)</h3>
+                        <p>You are not weak-willed. You are a predictable biological machine running outdated software....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/why-you-feel-terrible-after-waking.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&q=80" alt="Why You Feel Terrible Right After Waking Up (And What Actually Helps)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>Why You Feel Terrible Right After Waking Up (And What Actually Helps)</h3>
+                        <p>Sleep inertia peaks 15-30 minutes after waking....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/wearable-accuracy-lies.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&q=80" alt="Why Your Wearable Is Lying to You (And What to Do About It)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Technology</span>
+                        <h3>Why Your Wearable Is Lying to You (And What to Do About It)</h3>
+                        <p>Your fitness tracker is not a medical device....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+</div>
         </section>
 
     <!-- Newsletter -->
@@ -273,7 +302,437 @@
     <!-- All Articles -->
     <section class="posts-section">
         <h2>All Articles</h2>
-        <div class="post-grid" id="all-articles"></div>
+        <div class="post-grid" id="all-articles">
+<a href="https://blog.boldlybalance.life/posts/vagus-nerve-stimulation-recovery.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" alt="Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Recovery</span>
+                        <h3>Why Vagus Nerve Stimulation Is the Most Overlooked Recovery Tool (And How to Actually Do It)</h3>
+                        <p>...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/protein-timing-anabolic-window.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" alt="Protein Timing: The Anabolic Window Is a Myth (Here's What Works)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Protein Timing: The Anabolic Window Is a Myth (Here's What Works)</h3>
+                        <p>...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/stop-optimizing-why-doing-less-wellness.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80" alt="Stop Optimizing: Why Doing Less Is the New Wellness" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Stop Optimizing: Why Doing Less Is the New Wellness</h3>
+                        <p>The wellness industry convinced you that every breath, bite, and hour of sleep needed to be optimized. Now the science i...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/spending-psychology-why-you-buy.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&q=80" alt="Why You Keep Buying Things You Do Not Need (And How to Stop)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Finance</span>
+                        <h3>Why You Keep Buying Things You Do Not Need (And How to Stop)</h3>
+                        <p>You are not weak-willed. You are a predictable biological machine running outdated software....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/why-you-feel-terrible-after-waking.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&q=80" alt="Why You Feel Terrible Right After Waking Up (And What Actually Helps)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>Why You Feel Terrible Right After Waking Up (And What Actually Helps)</h3>
+                        <p>Sleep inertia peaks 15-30 minutes after waking....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/wearable-accuracy-lies.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&q=80" alt="Why Your Wearable Is Lying to You (And What to Do About It)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Technology</span>
+                        <h3>Why Your Wearable Is Lying to You (And What to Do About It)</h3>
+                        <p>Your fitness tracker is not a medical device....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/neurowellness-nervous-system-frontier.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" alt="Neurowellness: The Nervous System Frontier That Wellness Culture Finally Got Right" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Neurowellness: The Nervous System Frontier That Wellness Culture Finally Got Right</h3>
+                        <p>You've tried meditation. Still exhausted. The problem isn't mindset — it's your nervous system. Here's what the science ...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/paradox-of-choice-fewer-options.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" alt="The Paradox of Choice: Why Having Fewer Options Makes You Smarter" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mindset</span>
+                        <h3>The Paradox of Choice: Why Having Fewer Options Makes You Smarter</h3>
+                        <p>Every decision depletes the same mental resource....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="posts/why-start-small-worst-advice-habits.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Why Starting Small Is the Worst Advice for Building Habits" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Why Starting Small Is the Worst Advice for Building Habits</h3>
+                        <p>Just starting small is not enough. Tiny habits fail without identity change....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/slow-fashion-revolution-building-wardrobe-lasts.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="The Slow Fashion Revolution: How to Build a Wardrobe That Lasts" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>The Slow Fashion Revolution: How to Build a Wardrobe That Lasts</h3>
+                        <p>Walk into any fast fashion store and you will find garments made to fall apart. The slow fashion movement is pushing bac...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/nature-therapy-science-green-prescription.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=400&q=80" alt="Nature Therapy: The Science of What Trees Actually Do to Your Brain" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Nature Therapy: The Science of What Trees Actually Do to Your Brain</h3>
+                        <p>120 minutes a week in nature cuts your risk of cardiovascular disease by 20%. Most people get 20. Here is what that gap ...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/glucose-spikes-steal-deep-sleep.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400&q=80" alt="The Hidden Reason You Cannot Sleep: Blood Sugar and the Sleep Architecture Connection" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>The Hidden Reason You Cannot Sleep: Blood Sugar and the Sleep Architecture Connection</h3>
+                        <p>You have tried blackout curtains, magnesium, and a strict sleep schedule. But the reason you are waking up at 3 AM might...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/digital-sabbatical-complete-guide.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400&q=80" alt="Digital Sabbatical: The Complete Guide to Unplugging Without Derailing Your Career" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Digital Sabbatical: The Complete Guide to Unplugging Without Derailing Your Career</h3>
+                        <p>What happens when you go fully offline for two weeks — and how to survive it without losing your job, your mind, or your...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/exercise-snacks-the-science-of-micro-workouts.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80" alt="Exercise Snacks: The Science of Micro Workouts That Actually Work" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Exercise Snacks: The Science of Micro Workouts That Actually Work</h3>
+                        <p>You do not need a gym. You do not need an hour. The science of exercise snacks — brief, intense bursts of movement that ...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/wellness-travel-trap-why-recovery-vacations-backfire.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1509356843151-3e8d90493a8e?w=400&q=80" alt="The Wellness Travel Trap: Why Your Recovery Vacation Is Making You Tired" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Travel</span>
+                        <h3>The Wellness Travel Trap: Why Your Recovery Vacation Is Making You Tired</h3>
+                        <p>You booked the spa retreat to reset. Three days in, you are more exhausted than when you left. The wellness industry has...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/sleep-tourism-the-honest-guide.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=400&q=80" alt="Sleep Tourism: The Fastest-Growing Travel Trend Nobody Is Talking About Honestly" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>Sleep Tourism: The Fastest-Growing Travel Trend Nobody Is Talking About Honestly</h3>
+                        <p>Hotels are charging $800 a night for sleep suites with blackout curtains and sound machines. Is sleep tourism actually w...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/decision-fatigue-why-less-is-more.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=400&q=80" alt="Decision Fatigue: Why Doing Less Actually Makes You More Effective" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>Decision Fatigue: Why Doing Less Actually Makes You More Effective</h3>
+                        <p>You make approximately 35,000 decisions each day. Most of them are worthless — what to wear, what to eat, what to watch....</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/slow-travel-why-you-need-less-itinerary.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&q=80" alt="Slow Travel: Why You Need Less Itinerary, Not More" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Travel</span>
+                        <h3>Slow Travel: Why You Need Less Itinerary, Not More</h3>
+                        <p>You spent 14 hours on a train to see three cities in five days. Here's why the 'maximize every moment' approach to trave...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/app-ecosystem-wellness-communities.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&q=80" alt="The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>The Wellness App Stack That Actually Works: Why Community Over Individual Practice Wins</h3>
+                        <p>Headspace, Calm, Strava, WHOOP, Aura, Finch. The wellness app ecosystem has converged around one insight: people who use...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/attention-residue-cost-context-switching.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=400&q=80" alt="The Real Reason You Cannot Focus: What Attention Residue Is Costing You" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mind</span>
+                        <h3>The Real Reason You Cannot Focus: What Attention Residue Is Costing You</h3>
+                        <p>Every time you switch tasks, part of your attention stays behind. The cost shows up in slower problem-solving, more erro...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/circadian-rhythm-home-environment.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1718221621618-e477ce33485a?w=400&q=80" alt="Your Home Is Running Your Biology: How Light, Temperature, and Sound Shape Your Health" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Home Decor</span>
+                        <h3>Your Home Is Running Your Biology: How Light, Temperature, and Sound Shape Your Health</h3>
+                        <p>The average person spends 90% of their time indoors. Your home is not just where you live — it is the environment that r...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/cold-exposure-recovery-tradeoff.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1712161321522-c24f686e4ace?w=400&q=80" alt="The Cold Exposure Trade-Off: When Ice Baths Sabotage the Adaptation You Are Training For" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Recovery</span>
+                        <h3>The Cold Exposure Trade-Off: When Ice Baths Sabotage the Adaptation You Are Training For</h3>
+                        <p>Cold water immersion reduces inflammation and soreness — but it also blunts the muscle protein synthesis and insulin sen...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/finance-pay-yourself-first.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400&q=80" alt="The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Finance</span>
+                        <h3>The Pay-Yourself-First Method: Why Saving Before Spending Is the Ultimate Wealth Hack</h3>
+                        <p>Most people save what's left after spending. The wealthy save first and spend what's left. That single reversal changes ...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/food-protein-distribution.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&q=80" alt="The 30-Gram Protein Myth: Why Distribution Matters More Than Total Intake" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Food</span>
+                        <h3>The 30-Gram Protein Myth: Why Distribution Matters More Than Total Intake</h3>
+                        <p>You've been told to eat 120 grams of protein a day. But when you eat it matters just as much as how much. Here's the sci...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/mindfulness-meditation-missing-piece.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&q=80" alt="Mindfulness Meditation Is Not About Clearing Your Mind: What the Research Actually Says Works" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mind</span>
+                        <h3>Mindfulness Meditation Is Not About Clearing Your Mind: What the Research Actually Says Works</h3>
+                        <p>The most common meditation advice — 'just focus on your breath and clear your mind' — is not only ineffective, it is the...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/progressive-overload-not-what-you-think.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80" alt="The Progressive Overload Principle: Why Doing More Is Not the Same as Getting Stronger" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>The Progressive Overload Principle: Why Doing More Is Not the Same as Getting Stronger</h3>
+                        <p>Progressive overload is the most misunderstood principle in strength training. Adding weight is one method. Adding reps,...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/protein-distribution-evidence-based.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&q=80" alt="The Evidence on Protein Distribution: What the Research Actually Says About Daily Protein Needs" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Food</span>
+                        <h3>The Evidence on Protein Distribution: What the Research Actually Says About Daily Protein Needs</h3>
+                        <p>The 120g protein question: is it better to spread protein across 4 meals or concentrate it in 2? The research is more nu...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/recovery-science-why-less-is-more.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1602677416440-51e91ddeef89?w=400&q=80" alt="The Recovery Myth: Why Doing Less Is the Actual Performance Strategy" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Recovery</span>
+                        <h3>The Recovery Myth: Why Doing Less Is the Actual Performance Strategy</h3>
+                        <p>The performance paradox: the work happens during recovery, not training. Sleep, muscle protein synthesis, autonomic regu...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/routine-optimal-workout-timing.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80" alt="The Science of Optimal Workout Timing: When to Exercise for Maximum Results" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Routine</span>
+                        <h3>The Science of Optimal Workout Timing: When to Exercise for Maximum Results</h3>
+                        <p>You're working out consistently, but are you working out at the right time? Science says timing matters more than you th...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/sleep-myths-science-march-2026.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1531353826977-0941b4779a1c?w=400&q=80" alt="The Six Sleep Myths That Will Not Die: What the Science Actually Says in 2026" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>The Six Sleep Myths That Will Not Die: What the Science Actually Says in 2026</h3>
+                        <p>Eight hours is not universal. Weekend sleep debt is not real. Smart beds are mostly marketing. Sleep scientists have bee...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/strength-training-6-month-journey.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&q=80" alt="6 Months of Strength Training: What Actually Changes in the First Half-Year" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>6 Months of Strength Training: What Actually Changes in the First Half-Year</h3>
+                        <p>Strength training produces some of the most predictable, measurable changes of any wellness intervention. Here is what t...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/thriving-decades-capability-aging.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Thriving Decades: Why Aging Well Is the Ultimate Performance Goal" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mindset</span>
+                        <h3>Thriving Decades: Why Aging Well Is the Ultimate Performance Goal</h3>
+                        <p>The longevity industry wants you to live longer. But the evidence-based fitness world says capability at 70, 75, and bey...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/caffeine-sleep-sabotage.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="Why Your Morning Coffee Might Be Sabotaging Your Sleep" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Sleep</span>
+                        <h3>Why Your Morning Coffee Might Be Sabotaging Your Sleep</h3>
+                        <p>You finish your last cup at 2 PM. So why are you still wired at 11 PM? Caffeine's half-life is 5-6 hours. Learn how timi...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/fitness-recovery-paradox.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&q=80" alt="Why You're Not Getting Fitter Despite Training Harder" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Fitness</span>
+                        <h3>Why You're Not Getting Fitter Despite Training Harder</h3>
+                        <p>You hit the gym five days a week but feel worse, not better. Your body doesn't build muscle during exercise—it builds mu...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/mindful-technology-boundaries.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=400&q=80" alt="Digital Boundaries: How to Use Technology Without Letting It Use You" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Technology</span>
+                        <h3>Digital Boundaries: How to Use Technology Without Letting It Use You</h3>
+                        <p>Learn how to create mindful technology boundaries that protect your attention, reduce anxiety, and help you reclaim cont...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/mindset-reframe-adversity.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="The Real Reason You're Stuck: What Adversity Actually Does to You" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Mindset</span>
+                        <h3>The Real Reason You're Stuck: What Adversity Actually Does to You</h3>
+                        <p>Adversity doesn't build character. It reveals it. Here's the neuroscience behind why some people bounce back and others ...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/morning-routine-high-performance.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&q=80" alt="The 5 AM Advantage: How to Build a Morning Routine for Peak Performance" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Lifestyle</span>
+                        <h3>The 5 AM Advantage: How to Build a Morning Routine for Peak Performance</h3>
+                        <p>Discover how to create a science-backed morning routine that boosts energy, focus, and productivity without burnout. Pra...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/sustainable-wellness-habits.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80" alt="Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Wellness</span>
+                        <h3>Beyond the Hype: Building Sustainable Wellness Habits That Actually Stick</h3>
+                        <p>Stop chasing wellness trends and build habits that last. Learn the science of sustainable behavior change and create a w...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+<a href="https://blog.boldlybalance.life/posts/tourist-traps-worth-visiting.html" class="post-card">
+                    <div class="post-card-image">
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400&q=80" alt="The Case for Tourist Traps (Why You Should Visit Them Anyway)" loading="lazy">
+                    </div>
+                    <div class="post-card-content">
+                        <span class="tag">Travel</span>
+                        <h3>The Case for Tourist Traps (Why You Should Visit Them Anyway)</h3>
+                        <p>You roll your eyes at the Eiffel Tower. But tourist traps aren't scams—they're popular for a reason. Here's why you shou...</p>
+                        <span class="read-more">Read article</span>
+                    </div>
+                </a>
+</div>
         </section>
 
     <!-- FAQ Section -->
@@ -390,12 +849,34 @@
                 '</a>';
             }
 
+            function buildCarouselCard(post) {
+                var slug = post.slug || (post.url ? post.url.split('/').pop().replace('.html','') : '') || '';
+                var href = 'posts/' + slug + '.html';
+                var img = post.image || '';
+                if (img.indexOf('photo-') === 0) {
+                    img = 'https://images.unsplash.com/' + img + '?w=800&q=80';
+                } else if (img.indexOf('https://') === 0) {
+                    img = img.split('?')[0] + '?w=800&q=80';
+                }
+                var title = post.title || '';
+                var tag = post.category || '';
+                
+                return '<a href="' + href + '" class="carousel-card">' +
+                    '<img src="' + img + '" alt="' + title + '" loading="lazy">' +
+                    '<div class="carousel-overlay">' +
+                        '<span class="tag">' + tag + '</span>' +
+                        '<h3>' + title + '</h3>' +
+                    '</div>' +
+                '</a>';
+            }
+
             function loadPosts() {
                 fetch(POSTS_URL)
                     .then(function(r) { return r.json(); })
                     .then(function(posts) {
                         var latest = document.getElementById('latest-posts');
                         var all = document.getElementById('all-articles');
+                        var carousel = document.getElementById('carousel-track');
                         if (!latest || !all) return;
 
                         // Sort by date descending
@@ -408,12 +889,20 @@
 
                         // All: all posts
                         all.innerHTML = posts.map(buildPostCard).join('');
+
+                        // Carousel: first 5 posts
+                        if (carousel) {
+                            carousel.innerHTML = posts.slice(0, 5).map(buildCarouselCard).join('');
+                            // Reset carousel position after loading
+                            currentSlide = 0;
+                            carousel.style.transform = 'translateX(0)';
+                        }
                     })
                     .catch(function(e) { console.error('Failed to load posts:', e); });
             }
 
             if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', loadPosts);
+                
             } else {
                 loadPosts();
             }
