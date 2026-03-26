@@ -961,6 +961,17 @@ footer {
 footer p {
     color: var(--color-text-muted);
     font-size: var(--text-sm);
+    margin: 0.25rem 0;
+}
+
+footer a {
+    color: #1185FE;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* ==========================================================================
