@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "slug": "wearable-accuracy-lies",
+      "title": "Why Your Wearable Is Lying to You (And What to Do About It)",
+      "category": "Technology",
+      "excerpt": "Your fitness tracker is not a medical device.",
+      "image": "https://images.unsplash.com/photo-1510017247088-9ecb8e16b2d2",
+      "url": "https://blog.boldlybalance.life/posts/wearable-accuracy-lies.html",
+      "apiUrl": "https://blog.boldlybalance.life/api/posts/wearable-accuracy-lies.json",
+      "date": "2026-03-26"
+    },
+    {
       "slug": "neurowellness-nervous-system-frontier",
       "title": "Neurowellness: The Nervous System Frontier That Wellness Culture Finally Got Right",
       "category": "Wellness",
