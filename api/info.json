@@ -1,31 +1,5 @@
 {
-  "name": "Boldly Balance API",
   "version": "1.0",
-  "description": "Public API for Boldly Balance blog",
-  "baseUrl": "https://blog.boldlybalance.life/api",
-  "endpoints": [
-    {
-      "path": "/posts",
-      "method": "GET",
-      "description": "Get all posts"
-    },
-    {
-      "path": "/posts/{slug}",
-      "method": "GET",
-      "description": "Get a single post by slug"
-    },
-    {
-      "path": "/categories",
-      "method": "GET",
-      "description": "Get all categories"
-    },
-    {
-      "path": "/search?q={query}",
-      "method": "GET",
-      "description": "Search posts"
-    }
-  ],
-  "documentation": "/api/index.html",
-  "totalPosts": 28,
-  "lastUpdated": "2026-03-24"
+  "description": "Boldly Balance Posts API",
+  "post_count": 1
 }

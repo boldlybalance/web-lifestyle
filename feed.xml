@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>Boldly Balance</title>
-<link>https://blog.boldlybalance.life</link>
-<description>Counter-narrative wellness for curious minds</description>
-<atom:link href="https://blog.boldlybalance.life/feed.xml" rel="self" type="application/rss+xml"/>
-</channel>
+  <channel>
+    <title>Boldly Balance</title>
+    <link>https://blog.boldlybalance.life</link>
+    <description>Wellness articles that cut through the noise.</description>
+    <language>en</language>
+    <lastBuildDate>2026-03-27T10:49:49.488361</lastBuildDate>
+    <item>
+      <title>Why Your Step Count Is Lying to You: The Dark Side of Wellness Metrics</title>
+      <link>https://blog.boldlybalance.life/posts/why-step-counts-lie-digital-wellness-metrics.html</link>
+      <guid>https://blog.boldlybalance.life/posts/why-step-counts-lie-digital-wellness-metrics.html</guid>
+      <pubDate>2026-03-27</pubDate>
+      <description>Step counts, sleep scores, heart rate monitors — your fitness tracker is probably stressing you out more than it's helping. Here's what the data actually says about digital wellness metrics.</description>
+    </item>
+  </channel>
 </rss>
