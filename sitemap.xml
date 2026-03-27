@@ -1,28 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://blog.boldlybalance.life</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-exercise-isnt-making-you-thin.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-emergency-funds-are-overrated.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-your-social-media-feed-is-making-you-miserable.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-sugar-is-not-the-enemy.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-you-cant-catch-up-on-lost-sleep.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-you-should-sleep-in-a-cold-room.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-you-dont-need-a-smart-home.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-rest-days-are-not-optional.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-budget-travel-is-ruining-your-vacation.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-sleep-tracking-is-making-you-sleep-worse.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-your-productivity-system-is-making-you-less-productive.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-budgeting-is-keeping-you-broke.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-your-diet-culture-detox-is-also-a-diet.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://blog.boldlybalance.life/posts/why-step-counts-lie-digital-wellness-metrics.html</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://blog.boldlybalance.life/posts/the-morning-routine-myth-why-perfect-am-rituals-backfire.html</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <url><loc>https://blog.boldlybalance.life/posts/why-sleeping-more-isnt-lazy-its-smart.html</loc><lastmod>2026-03-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <url><loc>https://blog.boldlybalance.life/posts/the-gut-brain-axis-what-science-actually-says.html</loc><lastmod>2026-03-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <url><loc>https://blog.boldlybalance.life/posts/the-social-media-mental-health-myth-what-the-data-says.html</loc><lastmod>2026-03-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <url><loc>https://blog.boldlybalance.life/posts/why-your-workout-isnt-the-weight-loss-answer.html</loc><lastmod>2026-03-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <url><loc>https://blog.boldlybalance.life/posts/why-fast-travel-is-the-real-way-to-see-the-world.html</loc><lastmod>2026-03-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-
-  <url><loc>https://blog.boldlybalance.life/posts/why-your-clean-home-is-making-you-anxious.html</loc><lastmod>2026-03-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-sleeping-more-isnt-lazy-its-smart.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/the-gut-brain-axis-what-science-actually-says.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/the-social-media-mental-health-myth-what-the-data-says.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-your-workout-isnt-the-weight-loss-answer.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-fast-travel-is-the-real-way-to-see-the-world.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://blog.boldlybalance.life/posts/why-your-clean-home-is-making-you-anxious.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
