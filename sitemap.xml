@@ -222,4 +222,9 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
+    <url>
+      <loc>https://blog.boldlybalance.life/posts/the-case-for-rest-why-doing-nothing-is-a-skill.html</loc>
+      <lastmod>2026-03-29</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
 </urlset>

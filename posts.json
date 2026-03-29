@@ -465,5 +465,19 @@
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-you-dont-need-vacation",
     "related_3": "why-your-dream-city-is-a-bad-financial-decision"
+  },
+  {
+    "slug": "the-case-for-rest-why-doing-nothing-is-a-skill",
+    "title": "The Case for Rest: Why Doing Nothing Is a Skill",
+    "category": "Lifestyle",
+    "excerpt": "We've built a culture around productivity and hustle. But what if the most powerful thing you could do today is absolutely nothing?",
+    "date": "2026-03-29",
+    "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&h=630&fit=crop",
+    "tags": [
+      "lifestyle",
+      "wellness",
+      "habits"
+    ],
+    "hero_image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1200&h=630&fit=crop"
   }
 ]
