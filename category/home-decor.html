@@ -17,15 +17,29 @@
     <header id="header">
         <nav>
             <a href="/" class="logo">Boldly Balance</a>
-            <div class="nav-links">
-                <div class="dropdown">
-                    <a href="/" class="nav-link">Topics ▾</a>
-                    <div class="dropdown-content">
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <div class="nav-links" id="nav-links">
+                <a href="/" class="nav-link mobile-only">Home</a>
+                
+                <div class="dropdown mobile-dropdown active">
+                    <a href="/" class="nav-link" onclick="toggleTopicsDropdown(event)">Topics ▾</a>
+                    <div class="dropdown-content mobile-dropdown-content">
                         <a href="fitness.html">Fitness</a><a href="food.html">Food</a><a href="sleep.html">Sleep</a>
                         <a href="mind.html">Mind</a><a href="wellness.html">Wellness</a><a href="lifestyle.html">Lifestyle</a>
                         <a href="technology.html">Technology</a><a href="recovery.html">Recovery</a><a href="finance.html">Finance</a>
                         <a href="travel.html">Travel</a><a href="home-decor.html">Home Decor</a><a href="mindset.html">Mindset</a>
                     </div>
+                </div>
+                
+                <a href="/search.html" class="nav-link mobile-only">Search</a>
+                <div class="search-container desktop-search">
+                    <span class="search-icon">🔍</span>
+                    <input type="search" class="search-input" placeholder="Search articles...">
                 </div>
             </div>
         </nav>
