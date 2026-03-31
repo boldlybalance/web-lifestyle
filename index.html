@@ -131,9 +131,11 @@
             </button>
             
             <div class="nav-links" id="nav-links">
-                <div class="dropdown">
-                    <a href="/" class="nav-link">Topics ▾</a>
-                    <div class="dropdown-content">
+                <a href="/" class="nav-link mobile-only">Home</a>
+                
+                <div class="dropdown mobile-dropdown">
+                    <a href="/" class="nav-link" onclick="toggleTopicsDropdown(event)">Topics ▾</a>
+                    <div class="dropdown-content mobile-dropdown-content">
                         <a href="category/fitness.html">Fitness</a>
                         <a href="category/food.html">Food</a>
                         <a href="category/sleep.html">Sleep</a>
@@ -147,7 +149,8 @@
                     </div>
                 </div>
                 
-                <div class="search-container">
+                <a href="/search.html" class="nav-link mobile-only">Search</a>
+                <div class="search-container desktop-search">
                     <span class="search-icon">🔍</span>
                     <input type="search" class="search-input" placeholder="Search articles...">
                 </div>
@@ -541,6 +544,12 @@
             menuBtn.setAttribute('aria-expanded', isOpen);
         }
 
+        function toggleTopicsDropdown(event) {
+            event.preventDefault();
+            const dropdown = event.currentTarget.closest('.mobile-dropdown');
+            dropdown.classList.toggle('active');
+        }
+
         // Close mobile menu when clicking outside
         document.addEventListener('click', function(e) {
             const navLinks = document.getElementById('nav-links');
@@ -549,6 +558,10 @@
                 navLinks.classList.remove('mobile-open');
                 menuBtn.classList.remove('active');
                 menuBtn.setAttribute('aria-expanded', 'false');
+            }
+            // Close dropdown when clicking outside
+            if (!e.target.closest('.mobile-dropdown')) {
+                document.querySelectorAll('.mobile-dropdown.active').forEach(d => d.classList.remove('active'));
             }
         });
     </script>
