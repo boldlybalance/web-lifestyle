@@ -1,5 +1,34 @@
 [
   {
+    "title": "Why You Keep Avoiding Your Finances",
+    "slug": "financial-avoidance-psychology-money",
+    "category": "Finance",
+    "excerpt": "Financial avoidance isn't laziness\u2014it's a psychological protection mechanism. Here's how to break the cycle.",
+    "date": "2026-03-28",
+    "url": "https://blog.boldlybalance.life/posts/financial-avoidance-psychology-money.html",
+    "image": "https://images.unsplash.com/photo-1554224155-ebec7560ff3e?w=1200&h=630&fit=crop",
+    "tags": [
+      "money",
+      "budgeting",
+      "finance"
+    ]
+  },
+  {
+    "title": "Overtraining Is Stealing Your Progress",
+    "slug": "overtraining-is-stealing-your-progress",
+    "category": "Fitness",
+    "excerpt": "You push harder, sleep less, and hit the gym six days a week. But your performance is plateauing, your energy is tanking, and you can't figure out why. The answer isn't in your training plan \u2014 it's in what happens between sessions.",
+    "date": "2026-03-30",
+    "url": "https://blog.boldlybalance.life/posts/overtraining-is-stealing-your-progress.html",
+    "image": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=1200&h=630&fit=crop",
+    "tags": [
+      "exercise",
+      "fitness",
+      "health",
+      "recovery"
+    ]
+  },
+  {
     "title": "Swiping Right on a Robot: What Dating in the Age of AI Actually Looks Like",
     "slug": "swiping-right-on-a-robot",
     "category": "Technology",
@@ -108,7 +137,7 @@
     "slug": "why-exercise-isnt-making-you-thin",
     "title": "Why Exercise Isn't Making You Thin (And What Will)",
     "category": "Fitness",
-    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200&h=630&fit=crop",
+    "image": "https://images.unsplash.com/photo-1541781774459-b43d0467b798?w=1200&h=630&fit=crop",
     "excerpt": "You've been running five miles a day and still can't lose weight. Personal trainers have been telling you the wrong thing for decades. Here's what actually determines whether exercise leads to fat loss.",
     "date": "2026-03-27",
     "url": "https://blog.boldlybalance.life/posts/why-exercise-isnt-making-you-thin.html"
@@ -189,7 +218,7 @@
     "slug": "why-sleep-tracking-is-making-you-sleep-worse",
     "title": "Why Sleep Tracking Is Making You Sleep Worse",
     "category": "Sleep",
-    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&h=630&fit=crop",
+    "image": "https://images.unsplash.com/photo-1506126613408-bb2af2f05b55?w=1200&h=630&fit=crop",
     "excerpt": "Your Oura ring, Whoop band, and sleep apps are probably hurting your sleep more than helping. The irony of the sleep tracking industry is that the more you measure sleep, the worse it gets.",
     "date": "2026-03-27",
     "url": "https://blog.boldlybalance.life/posts/why-sleep-tracking-is-making-you-sleep-worse.html"
@@ -216,7 +245,7 @@
     "slug": "why-your-diet-culture-detox-is-also-a-diet",
     "title": "Why Your Diet Culture Detox Is Also a Diet",
     "category": "Wellness",
-    "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&h=630&fit=crop",
+    "image": "https://images.unsplash.com/photo-1544367567-ebec7560ff3e?w=1200&h=630&fit=crop",
     "excerpt": "The anti-diet movement has its own orthodoxy. Cutting out 'toxic' foods, 'cleansing' your system, eliminating entire food groups \u2014 these sound like health moves but they're just dieting in disguise.",
     "date": "2026-03-27",
     "url": "https://blog.boldlybalance.life/posts/why-your-diet-culture-detox-is-also-a-diet.html"
@@ -235,7 +264,7 @@
     "title": "The Morning Routine Myth: Why Perfect AM Rituals Backfire",
     "category": "Wellness",
     "excerpt": "You don't need a two-hour morning routine to be productive. The obsession with perfect mornings is costing you sleep, adding stress, and delivering almost nothing in return.",
-    "image": "https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+    "image": "https://images.unsplash.com/photo-1541480601022-f713e6145474?w=1200&h=630&fit=crop",
     "date": "2026-03-27",
     "url": "https://blog.boldlybalance.life/posts/the-morning-routine-myth-why-perfect-am-rituals-backfire.html"
   },
@@ -244,7 +273,7 @@
     "title": "Why Sleeping More Isn't Lazy \u2014 It's the Smartest Thing You Can Do",
     "category": "Sleep",
     "excerpt": "Eight hours isn't a luxury. Seven isn't a badge of honor. The science of sleep is clear: most adults are walking around chronically sleep-deprived and performing worse because of it.",
-    "image": "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop",
+    "image": "https://images.unsplash.com/photo-1541480601022-2308c0f02487?w=1200&h=630&fit=crop",
     "date": "2026-03-27",
     "url": "https://blog.boldlybalance.life/posts/why-sleeping-more-isnt-lazy-its-smart.html"
   },
