@@ -16,7 +16,8 @@
     ],
     "related_1": "why-you-dont-need-a-vacation",
     "related_2": "why-budget-travel-is-ruining-your-vacation",
-    "read_time": 6
+    "read_time": 6,
+    "status": "published"
   },
   {
     "title": "The Mental Fitness Revolution: Why Your Brain Needs Training, Not Just Thinking",
@@ -35,7 +36,8 @@
     ],
     "related_1": "why-willpower-isnt-your-problem",
     "related_2": "why-stress-isnt-your-enemy",
-    "read_time": 6
+    "read_time": 6,
+    "status": "published"
   },
   {
     "title": "Why You Need 4 Consecutive Nights of Good Sleep to Recover From One Week of Poor Sleep",
@@ -54,7 +56,8 @@
     ],
     "related_1": "why-you-cant-catch-up-on-lost-sleep",
     "related_2": "why-sleep-tracking-is-making-you-sleep-worse",
-    "read_time": 6
+    "read_time": 6,
+    "status": "published"
   },
   {
     "title": "Why Pushing Through Makes It Worse: The Quiet Burnout Trap",
