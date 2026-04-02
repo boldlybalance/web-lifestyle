@@ -26,10 +26,12 @@
       "vacation",
       "rest"
     ],
-    "related_1": "why-you-dont-need-a-vacation",
+    "related_1": "why-you-dont-need-vacation",
     "related_2": "why-budget-travel-is-ruining-your-vacation",
     "read_time": 6,
-    "status": "published"
+    "status": "published",
+    "reading_time": 7,
+    "related_3": ""
   },
   {
     "title": "The Mental Fitness Revolution: Why Your Brain Needs Training, Not Just Thinking",
@@ -46,10 +48,12 @@
       "mindset",
       "wellness"
     ],
-    "related_1": "why-willpower-isnt-your-problem",
-    "related_2": "why-stress-isnt-your-enemy",
+    "related_1": "why-pushing-through-burnout-makes-it-worse",
+    "related_2": "nervous-system-revolution",
     "read_time": 6,
-    "status": "published"
+    "status": "published",
+    "reading_time": 7,
+    "related_3": "why-gen-z-is-happier-off-social-media"
   },
   {
     "title": "Why You Need 4 Consecutive Nights of Good Sleep to Recover From One Week of Poor Sleep",
@@ -67,9 +71,11 @@
       "wellness"
     ],
     "related_1": "why-you-cant-catch-up-on-lost-sleep",
-    "related_2": "why-sleep-tracking-is-making-you-sleep-worse",
+    "related_2": "why-you-should-sleep-in-a-cold-room",
     "read_time": 6,
-    "status": "published"
+    "status": "published",
+    "reading_time": 6,
+    "related_3": "why-sleep-tracking-is-making-you-sleep-worse"
   },
   {
     "title": "Why Pushing Through Makes It Worse: The Quiet Burnout Trap",
@@ -85,9 +91,11 @@
       "mental health",
       "work wellness"
     ],
-    "related_1": "why-working-less-is-career-strategy",
-    "related_2": "why-willpower-isnt-your-problem",
-    "read_time": 6
+    "related_1": "mental-fitness-revolution-why-strength-is-in-your-head",
+    "related_2": "nervous-system-revolution",
+    "read_time": 6,
+    "reading_time": 6,
+    "related_3": "why-gen-z-is-happier-off-social-media"
   },
   {
     "title": "Overtraining Is Stealing Your Progress",
@@ -672,6 +680,7 @@
     "related_2": "quietcations-the-case-for-doing-nothing-on-vacation",
     "related_3": "nervous-system-revolution",
     "read_time": 7,
-    "status": "published"
+    "status": "published",
+    "reading_time": 11
   }
 ]
