@@ -157,8 +157,7 @@
                     </div>
                 </div>
                 
-                <a href="/search.html" class="nav-link mobile-only">Search</a>
-                <div class="search-container desktop-search">
+        <div class="search-container desktop-search">
                     <span class="search-icon">🔍</span>
                     <input type="search" class="search-input" placeholder="Search articles...">
                 </div>
@@ -337,7 +336,9 @@
             if (cards.length === 0) return;
             
             const cardWidth = cards[0].offsetWidth + 24;
-            const maxSlide = Math.max(0, cards.length - Math.floor(window.innerWidth / cardWidth));
+            const carouselWidth = track.parentElement.offsetWidth;
+            const visibleCards = Math.floor(carouselWidth / cardWidth);
+            const maxSlide = Math.max(0, cards.length - visibleCards);
             currentSlide = Math.max(0, Math.min(currentSlide + direction, maxSlide));
             track.style.transform = `translateX(-${currentSlide * cardWidth}px)`;
             updateCarouselDots();
