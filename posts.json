@@ -1,5 +1,17 @@
 [
   {
+    "slug": "wellness-burnout",
+    "title": "Why Your Wellness Routine Is Making You Sick",
+    "category": "Wellness",
+    "image": "photo-1544367567-0f2fcb009e0b",
+    "excerpt": "You're doing everything right. Green juice, cold plunges, 5AM workouts, magnesium sleep supplements. But you're exhausted, anxious, and sick more often. Here's why.",
+    "date": "2026-04-03",
+    "reading_time": 8,
+    "related_1": "why-recovery-is-your-superpower",
+    "related_2": "why-sugar-is-not-the-enemy",
+    "related_3": "why-your-diet-culture-detox-is-also-a-diet"
+  },
+  {
     "slug": "slow-fitness",
     "title": "Slow Fitness: The Counter-Intuitive Approach to Getting Stronger",
     "category": "Fitness",
@@ -229,7 +241,7 @@
   {
     "slug": "why-your-dream-city-is-a-bad-financial-decision",
     "title": "Why Your Dream City Might Be a Financial Mistake",
-    "category": "Home",
+    "category": "Home Decor",
     "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e",
     "excerpt": "The conventional wisdom says to live where you love, career be damned. But housing costs in major metros consume 40-60% of take-home pay for most residents. The math of happiness says the same thing the math of finance does: the city you can't afford is not the city that will make you happy.",
     "date": "2026-03-27",
@@ -609,7 +621,7 @@
   {
     "slug": "why-your-clean-home-is-making-you-anxious",
     "title": "Why Your Clean Home Might Be Making You Anxious",
-    "category": "Home",
+    "category": "Home Decor",
     "excerpt": "The organized home aesthetic has become a form of cultural anxiety. The constant need to declutter, optimize, and Marie Kondo your life is not bringing you peace. It's creating a new kind of stress.",
     "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&h=630&fit=crop",
     "date": "2026-03-27",
