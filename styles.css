@@ -1204,6 +1204,12 @@ footer .container {
     color: var(--color-text-secondary);
 }
 
+.post-content .post-author {
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.01em;
+}
+
 .post-content .excerpt {
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
