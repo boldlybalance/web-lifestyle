@@ -1413,36 +1413,7 @@ span.show-more-count {
         display: flex;
     }
     
-    /* Mobile dropdown - hidden by default */
-    .mobile-dropdown .mobile-dropdown-content {
-        display: none;
-    }
-    
-    .mobile-dropdown.active .mobile-dropdown-content {
-        display: block;
-    }
-    
-    .mobile-dropdown.active > .nav-link::after {
-        content: ' ▲';
-        font-size: 10px;
-    }
-    
-    .mobile-dropdown .mobile-dropdown-content a {
-        display: block;
-        padding: var(--space-2) 0;
-        color: var(--color-text-secondary);
-    }
-    
-    .mobile-dropdown .mobile-dropdown-content a:hover {
-        color: var(--color-text);
-    }
-    
-    /* Mobile dropdown - hidden by default */
-    .mobile-dropdown .mobile-dropdown-content {
-        display: none;
-    }
-    
-    .mobile-dropdown.active .mobile-dropdown-content {
+    .nav-links.mobile-open .nav-link.mobile-only {
         display: block;
     }
     
