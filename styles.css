@@ -1672,7 +1672,7 @@ span.show-more-count {
 /* Hero */
 .hero {
     text-align: center;
-    padding: var(--space-16) var(--space-4);
+    padding: calc(60px + var(--space-12)) var(--space-4) var(--space-16);
     max-width: 720px;
     margin: 0 auto;
 }
