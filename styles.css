@@ -199,6 +199,7 @@ p:last-child {
 }
 
 .text-gradient {
+    display: inline;
     background: var(--gradient-accent);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
