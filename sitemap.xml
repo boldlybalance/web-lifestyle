@@ -293,4 +293,10 @@
     <lastmod>2026-04-01</lastmod>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://lifestyle.boldlybalance.life/about.html</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
