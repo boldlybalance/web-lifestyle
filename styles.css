@@ -1190,6 +1190,20 @@ footer .container {
     margin-bottom: var(--space-8);
 }
 
+.post-content .post-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    margin-bottom: var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+}
+
+.post-content .publish-date {
+    font-weight: 500;
+    color: var(--color-text-secondary);
+}
+
 .post-content .excerpt {
     font-size: var(--text-lg);
     color: var(--color-text-secondary);
