@@ -1412,18 +1412,27 @@ span.show-more-count {
         display: flex;
     }
     
-    .mobile-categories {
-        display: flex;
-        flex-direction: column;
-        gap: var(--space-2);
+    /* Mobile dropdown - hidden by default */
+    .mobile-dropdown .mobile-dropdown-content {
+        display: none;
     }
     
-    .mobile-categories .nav-link {
+    .mobile-dropdown.active .mobile-dropdown-content {
+        display: block;
+    }
+    
+    .mobile-dropdown.active > .nav-link::after {
+        content: ' ▲';
+        font-size: 10px;
+    }
+    
+    .mobile-dropdown .mobile-dropdown-content a {
+        display: block;
         padding: var(--space-2) 0;
         color: var(--color-text-secondary);
     }
     
-    .mobile-categories .nav-link:hover {
+    .mobile-dropdown .mobile-dropdown-content a:hover {
         color: var(--color-text);
     }
     
