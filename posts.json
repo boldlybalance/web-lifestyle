@@ -1,5 +1,38 @@
 [
   {
+    "slug": "greens-powder-worth-it",
+    "title": "Greens Powder: Worth the Money? An Evidence-Based Review",
+    "category": "Wellness",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    "excerpt": "Greens powders promise to fill your dietary gaps in one scoop. But are they worth the cost? Here is what the science says.",
+    "date": "2026-04-03",
+    "reading_time": 7
+  },
+  {
+    "slug": "best-air-purifiers-for-better-sleep",
+    "title": "Best Air Purifiers for Better Sleep: A Science-Based Guide",
+    "category": "Wellness",
+    "image": "https://images.unsplash.com/photo-1585771724684-38282d661c2b?w=600&q=80",
+    "excerpt": "Clean air helps you sleep better. Here are the best air purifiers for bedrooms, based on HEPA filtration, noise level, and coverage.",
+    "date": "2026-04-03",
+    "reading_time": 8,
+    "related_1": "why-recovery-is-your-superpower",
+    "related_2": "why-sugar-is-not-the-enemy",
+    "related_3": "the-morning-routine-myth-why-perfect-am-rituals-backfire"
+  },
+  {
+    "slug": "magnesium-vs-zinc-sleep",
+    "title": "Magnesium vs Zinc for Sleep: Which Should You Take?",
+    "category": "Wellness",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80",
+    "excerpt": "Magnesium and zinc both support sleep via different pathways. Here is what the science says about which one to take \u2014 and why you might need both.",
+    "date": "2026-04-03",
+    "reading_time": 7,
+    "related_1": "why-recovery-is-your-superpower",
+    "related_2": "why-sugar-is-not-the-enemy",
+    "related_3": "the-morning-routine-myth-why-perfect-am-rituals-backfire"
+  },
+  {
     "slug": "wellness-burnout",
     "title": "Why Your Wellness Routine Is Making You Sick",
     "category": "Wellness",
