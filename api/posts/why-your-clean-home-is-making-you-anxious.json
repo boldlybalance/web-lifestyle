@@ -1,10 +1,19 @@
 {
   "slug": "why-your-clean-home-is-making-you-anxious",
-  "title": "Why Your Clean Home Is Making You Anxious",
-  "category": "Home",
+  "title": "Why Your Clean Home Might Be Making You Anxious",
+  "category": "Home Decor",
   "excerpt": "The organized home aesthetic has become a form of cultural anxiety. The constant need to declutter, optimize, and Marie Kondo your life is not bringing you peace. It's creating a new kind of stress.",
   "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&h=630&fit=crop",
   "date": "2026-03-27",
   "url": "https://lifestyle.boldlybalance.life/posts/why-your-clean-home-is-making-you-anxious.html",
-  "content": ""
+  "tags": [
+    "home",
+    "lifestyle",
+    "finance"
+  ],
+  "hero_image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&h=630&fit=crop",
+  "reading_time": 7,
+  "related_1": "financial-avoidance-psychology-money",
+  "related_2": "why-you-dont-need-vacation",
+  "related_3": "why-your-dream-city-is-a-bad-financial-decision"
 }

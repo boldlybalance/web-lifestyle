@@ -1,10 +1,19 @@
 {
   "slug": "why-stress-is-not-your-enemy",
-  "title": "Why Stress Is Not Your Enemy",
+  "title": "Why Stress Isn't Your Enemy",
   "category": "Mind",
-  "image": "https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?w=1200&h=630&fit=crop",
+  "image": "https://images.unsplash.com/photo-1493723843671-1d655e66ac1c",
   "excerpt": "The wellness industry has spent decades teaching us to eliminate stress. But stress isn't the problem \u2014 our relationship to it is. New research on the stress-as-information paradigm shows that reframing how you think about stress can dramatically change its impact on your health and performance.",
   "date": "2026-03-27",
   "url": "https://lifestyle.boldlybalance.life/posts/why-stress-is-not-your-enemy.html",
-  "generatedAt": "2026-03-27T00:00:00Z"
+  "tags": [
+    "psychology",
+    "mindfulness",
+    "stress"
+  ],
+  "hero_image": "https://images.unsplash.com/photo-1493723843671-1d655e66ac1c",
+  "reading_time": 8,
+  "related_1": "nervous-system-revolution",
+  "related_2": "why-gen-z-is-happier-off-social-media",
+  "related_3": "why-willpower-is-not-your-problem"
 }

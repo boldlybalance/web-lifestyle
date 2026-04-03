@@ -2,9 +2,11 @@
   "slug": "why-recovery-is-your-superpower",
   "title": "Why Recovery Is Your Superpower: The Science of Strategic Rest",
   "category": "Wellness",
+  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=630&fit=crop",
   "excerpt": "We celebrate hustle. We glorify the grind. But the most elite performers in any field share one counterintuitive habit: they recover harder than they work.",
-  "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
-  "url": "https://lifestyle.boldlybalance.life/posts/why-recovery-is-your-superpower.html",
-  "apiUrl": "https://lifestyle.boldlybalance.life/api/posts/why-recovery-is-your-superpower.json",
-  "date": "2026-03-28"
+  "date": "2026-03-28",
+  "reading_time": 7,
+  "related_1": "why-sugar-is-not-the-enemy",
+  "related_2": "why-your-diet-culture-detox-is-also-a-diet",
+  "related_3": "the-morning-routine-myth-why-perfect-am-rituals-backfire"
 }

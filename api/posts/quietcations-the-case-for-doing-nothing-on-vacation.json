@@ -5,7 +5,7 @@
   "category": "Travel",
   "excerpt": "The opposite of checking boxes. Quietcations \u2014 extended stays in quiet destinations with no itinerary \u2014 is the travel trend that actually restores you. Here's why busy travel is making a comeback.",
   "url": "https://lifestyle.boldlybalance.life/posts/quietcations-the-case-for-doing-nothing-on-vacation.html",
-  "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&h=630&fit=crop",
+  "image": "https://images.unsplash.com/photo-1550399504-8953e1a6ac87?w=1200&h=630&fit=crop",
   "tags": [
     "slow travel",
     "quietcations",
@@ -13,8 +13,10 @@
     "vacation",
     "rest"
   ],
-  "related": [
-    "why-you-dont-need-a-vacation",
-    "why-budget-travel-is-ruining-your-vacation"
-  ]
+  "related_1": "why-you-dont-need-vacation",
+  "related_2": "why-budget-travel-is-ruining-your-vacation",
+  "read_time": 6,
+  "status": "published",
+  "reading_time": 7,
+  "related_3": ""
 }

@@ -1,10 +1,19 @@
 {
   "slug": "why-willpower-is-not-your-problem",
-  "title": "Why Willpower Is Not Your Problem",
+  "title": "Why Willpower Isn't Your Problem",
   "category": "Mind",
-  "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=1200&h=630&fit=crop",
+  "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
   "excerpt": "Every habit guide tells you to build willpower. But willpower isn't a skill you develop \u2014 it's a resource that depletes. The real reason you keep failing at your habits has nothing to do with discipline. It's about environment design, identity, and the cues that trigger behavior before you ever consciously decide.",
   "date": "2026-03-27",
   "url": "https://lifestyle.boldlybalance.life/posts/why-willpower-is-not-your-problem.html",
-  "generatedAt": "2026-03-27T00:00:00Z"
+  "tags": [
+    "psychology",
+    "mindfulness",
+    "mental-health"
+  ],
+  "hero_image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e",
+  "reading_time": 9,
+  "related_1": "nervous-system-revolution",
+  "related_2": "why-gen-z-is-happier-off-social-media",
+  "related_3": "why-stress-is-not-your-enemy"
 }

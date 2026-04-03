@@ -5,7 +5,7 @@
   "category": "Sleep",
   "excerpt": "The average American feels well-rested only 3 days per week. Here's the science behind why one good night of sleep doesn't fix five bad ones \u2014 and what actually works.",
   "url": "https://lifestyle.boldlybalance.life/posts/why-you-need-4-nights-of-good-sleep.html",
-  "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&h=630&fit=crop",
+  "image": "https://images.unsplash.com/photo-1709716048621-6abc7809530b?w=1200&h=630&fit=crop",
   "tags": [
     "sleep",
     "recovery",
@@ -13,8 +13,11 @@
     "rest",
     "wellness"
   ],
-  "related": [
-    "why-you-cant-catch-up-on-lost-sleep",
-    "why-sleep-tracking-is-making-you-sleep-worse"
-  ]
+  "related_1": "why-you-cant-catch-up-on-lost-sleep",
+  "related_2": "why-you-should-sleep-in-a-cold-room",
+  "read_time": 6,
+  "status": "published",
+  "reading_time": 6,
+  "related_3": "why-sleep-tracking-is-making-you-sleep-worse",
+  "hero_image": "https://images.unsplash.com/photo-1709716048621-6abc7809530b?w=1200&h=630&fit=crop"
 }
