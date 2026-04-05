@@ -19,9 +19,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 </head>
 <body>
-    <header>
+        <header id="header">
         <nav>
             <a href="/" class="logo">Boldly Balance</a>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="/" class="nav-link mobile-only">Home</a>
+                <a href="category/fitness.html" class="nav-link mobile-only">Fitness</a>
+                <a href="category/food.html" class="nav-link mobile-only">Food</a>
+                <a href="category/sleep.html" class="nav-link mobile-only">Sleep</a>
+                <a href="category/mind.html" class="nav-link mobile-only">Mind</a>
+                <a href="category/wellness.html" class="nav-link mobile-only">Wellness</a>
+                <a href="category/lifestyle.html" class="nav-link mobile-only">Lifestyle</a>
+                <a href="category/technology.html" class="nav-link mobile-only">Technology</a>
+                <a href="category/recovery.html" class="nav-link mobile-only">Recovery</a>
+                <a href="category/finance.html" class="nav-link mobile-only">Finance</a>
+                <a href="category/travel.html" class="nav-link mobile-only">Travel</a>
+                <a href="/search.html" class="nav-link">Search</a>
+            </div>
         </nav>
     </header>
 
@@ -140,8 +159,8 @@
                 <div class="footer-links">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="/terms.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
                         <li><a href="/disclaimer.html">Disclaimer</a></li>
                     </ul>
                 </div>
@@ -149,9 +168,9 @@
             <div class="footer-bottom">
                 <p>© 2026 Boldly Balance. All rights reserved.</p>
                 <div class="footer-bottom-links">
-                    <a href="/privacy-policy.html">Privacy</a>
+                    <a href="privacy-policy.html">Privacy</a>
                     <a href="/about.html">About</a>
-                    <a href="/terms.html">Terms</a>
+                    <a href="terms.html">Terms</a>
                     <a href="/disclaimer.html">Disclaimer</a>
                 </div>
             </div>

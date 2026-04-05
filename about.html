@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+        <link rel="alternate" hreflang="en" href="https://lifestyle.boldlybalance.life/about.html">
+    <link rel="alternate" hreflang="x-default" href="https://lifestyle.boldlybalance.life/about.html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Boldly Balance | Intentional Lifestyle Blog</title>
     <meta name="description" content="Boldly Balance is a lifestyle blog that challenges conventional advice on sleep, fitness, productivity, and money — and replaces it with practical, research-backed ideas for intentional living.">
@@ -11,13 +13,34 @@
     <meta property="og:title" content="About Boldly Balance | Intentional Lifestyle Blog">
     <meta property="og:description" content="Boldly Balance is a lifestyle blog that challenges conventional advice on sleep, fitness, productivity, and money.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
     <script defer data-domain="lifestyle.boldlybalance.life" src="https://plausible.io/js/plausible.js"></script>
 </head>
 <body>
-    <header>
+        <header id="header">
         <nav>
             <a href="/" class="logo">Boldly Balance</a>
-            <a href="/" class="nav-link">← Back to Blog</a>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="/" class="nav-link mobile-only">Home</a>
+                <a href="category/fitness.html" class="nav-link mobile-only">Fitness</a>
+                <a href="category/food.html" class="nav-link mobile-only">Food</a>
+                <a href="category/sleep.html" class="nav-link mobile-only">Sleep</a>
+                <a href="category/mind.html" class="nav-link mobile-only">Mind</a>
+                <a href="category/wellness.html" class="nav-link mobile-only">Wellness</a>
+                <a href="category/lifestyle.html" class="nav-link mobile-only">Lifestyle</a>
+                <a href="category/technology.html" class="nav-link mobile-only">Technology</a>
+                <a href="category/recovery.html" class="nav-link mobile-only">Recovery</a>
+                <a href="category/finance.html" class="nav-link mobile-only">Finance</a>
+                <a href="category/travel.html" class="nav-link mobile-only">Travel</a>
+                <a href="/search.html" class="nav-link">Search</a>
+            </div>
         </nav>
     </header>
 
