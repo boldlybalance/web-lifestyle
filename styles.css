@@ -1591,7 +1591,7 @@ span.show-more-count {
     }
     
     .nav-links.mobile-open .mobile-dropdown.mobile-only {
-        display: block;
+        display: block !important;
     }
     
     .post-grid {
