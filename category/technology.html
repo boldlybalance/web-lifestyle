@@ -56,9 +56,14 @@
                     </div>
                 </div>
                 
-                <div class="dropdown mobile-dropdown">
-                    <button class="nav-link mobile-only" onclick="toggleTopicsDropdown(event)" aria-expanded="false">Topics ▾</button>
-                    <div class="dropdown-content">
+                <div class="mobile-dropdown mobile-only">
+                    <button class="dropdown-trigger" onclick="toggleTopicsDropdown(event)" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="mobile-dropdown-content">
                         <a href="fitness.html">Fitness</a>
                         <a href="food.html">Food</a>
                         <a href="sleep.html">Sleep</a>

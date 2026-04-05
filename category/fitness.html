@@ -33,6 +33,7 @@
                 
                                 
                 
+                <!-- Desktop Topics Dropdown -->
                 <div class="desktop-dropdown desktop-only">
                     <button class="dropdown-trigger" aria-expanded="false">
                         Topics
@@ -56,21 +57,27 @@
                     </div>
                 </div>
                 
-                <div class="dropdown mobile-dropdown">
-                    <button class="nav-link mobile-only" onclick="toggleTopicsDropdown(event)" aria-expanded="false">Topics ▾</button>
-                    <div class="dropdown-content">
-                        <a href="fitness.html">Fitness</a>
-                        <a href="food.html">Food</a>
-                        <a href="sleep.html">Sleep</a>
-                        <a href="mind.html">Mind</a>
-                        <a href="wellness.html">Wellness</a>
-                        <a href="lifestyle.html">Lifestyle</a>
-                        <a href="technology.html">Technology</a>
-                        <a href="recovery.html">Recovery</a>
-                        <a href="finance.html">Finance</a>
-                        <a href="travel.html">Travel</a>
-                        <a href="home-decor.html">Home Decor</a>
-                        <a href="mindset.html">Mindset</a>
+                <!-- Mobile Topics Dropdown -->
+                <div class="mobile-dropdown mobile-only">
+                    <button class="dropdown-trigger" onclick="toggleTopicsDropdown(event)" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="mobile-dropdown-content">
+                        <a href="fitness.html" class="dropdown-item">Fitness</a>
+                        <a href="food.html" class="dropdown-item">Food</a>
+                        <a href="sleep.html" class="dropdown-item">Sleep</a>
+                        <a href="mind.html" class="dropdown-item">Mind</a>
+                        <a href="wellness.html" class="dropdown-item">Wellness</a>
+                        <a href="lifestyle.html" class="dropdown-item">Lifestyle</a>
+                        <a href="technology.html" class="dropdown-item">Technology</a>
+                        <a href="recovery.html" class="dropdown-item">Recovery</a>
+                        <a href="finance.html" class="dropdown-item">Finance</a>
+                        <a href="travel.html" class="dropdown-item">Travel</a>
+                        <a href="home-decor.html" class="dropdown-item">Home Decor</a>
+                        <a href="mindset.html" class="dropdown-item">Mindset</a>
                     </div>
                 </div>
                 
