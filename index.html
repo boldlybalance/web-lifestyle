@@ -182,17 +182,29 @@
                     </div>
                 </div>
                 
-                <!-- Mobile: Individual category links -->
-                <a href="category/fitness.html" class="nav-link mobile-only">Fitness</a>
-                <a href="category/food.html" class="nav-link mobile-only">Food</a>
-                <a href="category/sleep.html" class="nav-link mobile-only">Sleep</a>
-                <a href="category/mind.html" class="nav-link mobile-only">Mind</a>
-                <a href="category/wellness.html" class="nav-link mobile-only">Wellness</a>
-                <a href="category/lifestyle.html" class="nav-link mobile-only">Lifestyle</a>
-                <a href="category/technology.html" class="nav-link mobile-only">Technology</a>
-                <a href="category/recovery.html" class="nav-link mobile-only">Recovery</a>
-                <a href="category/finance.html" class="nav-link mobile-only">Finance</a>
-                <a href="category/travel.html" class="nav-link mobile-only">Travel</a>
+                <!-- Mobile Topics Dropdown -->
+                <div class="mobile-dropdown mobile-only">
+                    <button class="dropdown-trigger" onclick="toggleTopicsDropdown(event)" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="mobile-dropdown-content">
+                        <a href="category/fitness.html" class="dropdown-item">Fitness</a>
+                        <a href="category/food.html" class="dropdown-item">Food</a>
+                        <a href="category/sleep.html" class="dropdown-item">Sleep</a>
+                        <a href="category/mind.html" class="dropdown-item">Mind</a>
+                        <a href="category/wellness.html" class="dropdown-item">Wellness</a>
+                        <a href="category/lifestyle.html" class="dropdown-item">Lifestyle</a>
+                        <a href="category/technology.html" class="dropdown-item">Technology</a>
+                        <a href="category/recovery.html" class="dropdown-item">Recovery</a>
+                        <a href="category/finance.html" class="dropdown-item">Finance</a>
+                        <a href="category/travel.html" class="dropdown-item">Travel</a>
+                        <a href="category/home-decor.html" class="dropdown-item">Home Decor</a>
+                        <a href="category/mindset.html" class="dropdown-item">Mindset</a>
+                    </div>
+                </div>
                 <a href="/search.html" class="nav-link">Search</a>
             </div>
         </nav>
@@ -588,16 +600,18 @@
         }
 
         function toggleTopicsDropdown(event) {
-            event.preventDefault();
-            const dropdown = event.currentTarget.closest('.mobile-dropdown');
-            dropdown.classList.toggle('active');
-        }
-
-        // Desktop categories dropdown toggle
-        function toggleTopicsDropdown(event) {
             const trigger = event.currentTarget;
-            const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
-            trigger.setAttribute('aria-expanded', !isExpanded);
+            const dropdown = trigger.closest('.mobile-dropdown, .desktop-dropdown');
+            if (!dropdown) return;
+            
+            if (dropdown.classList.contains('mobile-dropdown')) {
+                // Mobile: toggle active class
+                dropdown.classList.toggle('active');
+            } else {
+                // Desktop: toggle aria-expanded
+                const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+                trigger.setAttribute('aria-expanded', !isExpanded);
+            }
         }
 
         // Add click listener to desktop dropdown trigger

@@ -1528,6 +1528,55 @@ span.show-more-count {
         padding: var(--space-2) 0;
     }
     
+    /* Mobile Topics Dropdown */
+    .mobile-dropdown {
+        width: 100%;
+    }
+    
+    .mobile-dropdown .dropdown-trigger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: var(--space-2) 0;
+        background: transparent;
+        border: none;
+        color: var(--color-text);
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: inherit;
+    }
+    
+    .mobile-dropdown .dropdown-trigger .dropdown-arrow {
+        transition: transform var(--transition-base);
+    }
+    
+    .mobile-dropdown.active .dropdown-trigger .dropdown-arrow {
+        transform: rotate(180deg);
+    }
+    
+    .mobile-dropdown-content {
+        display: none;
+        padding: var(--space-2) 0 var(--space-2) var(--space-4);
+    }
+    
+    .mobile-dropdown.active .mobile-dropdown-content {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2);
+    }
+    
+    .mobile-dropdown-content .dropdown-item {
+        padding: var(--space-2) 0;
+        color: var(--color-text-secondary);
+        font-size: 0.95rem;
+    }
+    
+    .mobile-dropdown-content .dropdown-item:hover {
+        color: var(--color-text);
+    }
+    
     /* Mobile-only / desktop-search - hidden by default, shown via mobile-* classes */
     .mobile-only {
         display: none !important;
@@ -1538,6 +1587,10 @@ span.show-more-count {
     }
     
     .nav-links.mobile-open .nav-link.mobile-only {
+        display: block;
+    }
+    
+    .nav-links.mobile-open .mobile-dropdown.mobile-only {
         display: block;
     }
     
