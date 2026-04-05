@@ -31,13 +31,46 @@
             <div class="nav-links" id="nav-links">
                 <a href="/" class="nav-link mobile-only">Home</a>
                 
-                <div class="dropdown mobile-dropdown active">
-                    <a href="/" class="nav-link" onclick="toggleTopicsDropdown(event)">Topics ▾</a>
-                    <div class="dropdown-content mobile-dropdown-content">
-                        <a href="fitness.html">Fitness</a><a href="food.html">Food</a><a href="sleep.html">Sleep</a>
-                        <a href="mind.html">Mind</a><a href="wellness.html">Wellness</a><a href="lifestyle.html">Lifestyle</a>
-                        <a href="technology.html">Technology</a><a href="recovery.html">Recovery</a><a href="finance.html">Finance</a>
-                        <a href="travel.html">Travel</a><a href="home-decor.html">Home Decor</a><a href="mindset.html">Mindset</a>
+                                
+                
+                <div class="desktop-dropdown desktop-only">
+                    <button class="dropdown-trigger" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="desktop-dropdown-content">
+                        <a href="fitness.html" class="dropdown-item">Fitness</a>
+                        <a href="food.html" class="dropdown-item">Food</a>
+                        <a href="sleep.html" class="dropdown-item">Sleep</a>
+                        <a href="mind.html" class="dropdown-item">Mind</a>
+                        <a href="wellness.html" class="dropdown-item">Wellness</a>
+                        <a href="lifestyle.html" class="dropdown-item">Lifestyle</a>
+                        <a href="technology.html" class="dropdown-item">Technology</a>
+                        <a href="recovery.html" class="dropdown-item">Recovery</a>
+                        <a href="finance.html" class="dropdown-item">Finance</a>
+                        <a href="travel.html" class="dropdown-item">Travel</a>
+                        <a href="home-decor.html" class="dropdown-item">Home Decor</a>
+                        <a href="mindset.html" class="dropdown-item">Mindset</a>
+                    </div>
+                </div>
+                
+                <div class="dropdown mobile-dropdown">
+                    <button class="nav-link mobile-only" onclick="toggleTopicsDropdown(event)" aria-expanded="false">Topics ▾</button>
+                    <div class="dropdown-content">
+                        <a href="fitness.html">Fitness</a>
+                        <a href="food.html">Food</a>
+                        <a href="sleep.html">Sleep</a>
+                        <a href="mind.html">Mind</a>
+                        <a href="wellness.html">Wellness</a>
+                        <a href="lifestyle.html">Lifestyle</a>
+                        <a href="technology.html">Technology</a>
+                        <a href="recovery.html">Recovery</a>
+                        <a href="finance.html">Finance</a>
+                        <a href="travel.html">Travel</a>
+                        <a href="home-decor.html">Home Decor</a>
+                        <a href="mindset.html">Mindset</a>
                     </div>
                 </div>
                 
@@ -93,7 +126,7 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/search.html">Search</a></li>
-                        <li><a href="/category">Categories</a></li>
+                        <li><a href="/category">Topics</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
@@ -119,6 +152,58 @@
     </footer>
 
     <script>
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('nav-links');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            navLinks.classList.toggle('mobile-open');
+            menuBtn.classList.toggle('active');
+            const isOpen = navLinks.classList.contains('mobile-open');
+            menuBtn.setAttribute('aria-expanded', isOpen);
+        }
+
+        function toggleTopicsDropdown(event) {
+            event.preventDefault();
+            const dropdown = event.currentTarget.closest('.mobile-dropdown');
+            dropdown.classList.toggle('active');
+        }
+
+        // Desktop categories dropdown toggle
+        function toggleTopicsDropdown(event) {
+            const trigger = event.currentTarget;
+            const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+            trigger.setAttribute('aria-expanded', !isExpanded);
+        }
+
+        // Add click listener to desktop dropdown trigger
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownTrigger = document.querySelector('.desktop-dropdown .dropdown-trigger');
+            if (dropdownTrigger) {
+                dropdownTrigger.addEventListener('click', toggleTopicsDropdown);
+            }
+        });
+
+        // Close menus when clicking outside
+        document.addEventListener('click', function(e) {
+            const navLinks = document.getElementById('nav-links');
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            if (!navLinks.contains(e.target) && !menuBtn.contains(e.target) && navLinks.classList.contains('mobile-open')) {
+                navLinks.classList.remove('mobile-open');
+                menuBtn.classList.remove('active');
+                menuBtn.setAttribute('aria-expanded', 'false');
+            }
+            if (!e.target.closest('.mobile-dropdown')) {
+                document.querySelectorAll('.mobile-dropdown.active').forEach(d => d.classList.remove('active'));
+            }
+            // Close desktop categories dropdown when clicking outside
+            if (!e.target.closest('.desktop-dropdown')) {
+                const dropdownTrigger = document.querySelector('.desktop-dropdown .dropdown-trigger');
+                if (dropdownTrigger) {
+                    dropdownTrigger.setAttribute('aria-expanded', 'false');
+                }
+            }
+        });
+
         document.getElementById('header') && window.addEventListener('scroll', () => {
             document.getElementById('header').classList.toggle('scrolled', window.scrollY > 50);
         });

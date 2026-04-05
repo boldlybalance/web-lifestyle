@@ -34,6 +34,32 @@
             </button>
             <div class="nav-links" id="nav-links">
                 <a href="/" class="nav-link mobile-only">Home</a>
+
+                <!-- Desktop Topics Dropdown -->
+                <div class="desktop-dropdown desktop-only">
+                    <button class="dropdown-trigger" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="desktop-dropdown-content">
+                        <a href="category/fitness.html" class="dropdown-item">Fitness</a>
+                        <a href="category/food.html" class="dropdown-item">Food</a>
+                        <a href="category/sleep.html" class="dropdown-item">Sleep</a>
+                        <a href="category/mind.html" class="dropdown-item">Mind</a>
+                        <a href="category/wellness.html" class="dropdown-item">Wellness</a>
+                        <a href="category/lifestyle.html" class="dropdown-item">Lifestyle</a>
+                        <a href="category/technology.html" class="dropdown-item">Technology</a>
+                        <a href="category/recovery.html" class="dropdown-item">Recovery</a>
+                        <a href="category/finance.html" class="dropdown-item">Finance</a>
+                        <a href="category/travel.html" class="dropdown-item">Travel</a>
+                        <a href="category/home-decor.html" class="dropdown-item">Home Decor</a>
+                        <a href="category/mindset.html" class="dropdown-item">Mindset</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile: Individual category links -->
                 <a href="category/fitness.html" class="nav-link mobile-only">Fitness</a>
                 <a href="category/food.html" class="nav-link mobile-only">Food</a>
                 <a href="category/sleep.html" class="nav-link mobile-only">Sleep</a>
@@ -164,7 +190,7 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/search.html">Search</a></li>
-                        <li><a href="/category">Categories</a></li>
+                        <li><a href="/category">Topics</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
@@ -215,6 +241,28 @@
             }
             if (!e.target.closest('.mobile-dropdown')) {
                 document.querySelectorAll('.mobile-dropdown.active').forEach(d => d.classList.remove('active'));
+            }
+            // Close desktop categories dropdown when clicking outside
+            if (!e.target.closest('.desktop-dropdown')) {
+                const dropdownTrigger = document.querySelector('.desktop-dropdown .dropdown-trigger');
+                if (dropdownTrigger) {
+                    dropdownTrigger.setAttribute('aria-expanded', 'false');
+                }
+            }
+        });
+        
+        // Desktop categories dropdown toggle
+        function toggleTopicsDropdown(event) {
+            const trigger = event.currentTarget;
+            const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+            trigger.setAttribute('aria-expanded', !isExpanded);
+        }
+
+        // Add click listener to desktop dropdown trigger
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownTrigger = document.querySelector('.desktop-dropdown .dropdown-trigger');
+            if (dropdownTrigger) {
+                dropdownTrigger.addEventListener('click', toggleTopicsDropdown);
             }
         });
         </script>

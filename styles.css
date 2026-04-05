@@ -380,6 +380,104 @@ nav {
     color: var(--color-text);
 }
 
+/* Desktop Categories Dropdown */
+.desktop-dropdown {
+    position: relative;
+    display: none;
+}
+
+.desktop-dropdown .dropdown-trigger {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-3);
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: color var(--transition-fast);
+}
+
+.desktop-dropdown .dropdown-trigger:hover {
+    color: var(--color-text);
+}
+
+.desktop-dropdown .dropdown-arrow {
+    transition: transform var(--transition-fast);
+}
+
+.desktop-dropdown:hover .dropdown-arrow,
+.desktop-dropdown .dropdown-trigger[aria-expanded="true"] .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+.desktop-dropdown-content {
+    position: absolute;
+    top: calc(100% + var(--space-2));
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-2);
+    padding: var(--space-4);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    min-width: 420px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-10px);
+    transition: opacity var(--transition-base), transform var(--transition-base), visibility var(--transition-base);
+    box-shadow: var(--shadow-xl);
+    z-index: 100;
+}
+
+.desktop-dropdown:hover .desktop-dropdown-content,
+.desktop-dropdown .dropdown-trigger[aria-expanded="true"] + .desktop-dropdown-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.desktop-dropdown-content .dropdown-item {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    text-align: center;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.desktop-dropdown-content .dropdown-item:hover {
+    background: var(--color-bg-hover);
+    color: var(--color-text);
+}
+
+/* Show desktop dropdown on larger screens */
+@media (min-width: 769px) {
+    .desktop-only {
+        display: block;
+    }
+    
+    .desktop-dropdown {
+        display: block;
+    }
+    
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop-dropdown {
+        display: none;
+    }
+}
+
 /* ==========================================================================
    Hero Section
    ========================================================================== */
@@ -1193,10 +1291,16 @@ footer .container {
 .post-content .post-meta {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
     gap: var(--space-4);
     margin-bottom: var(--space-4);
     font-size: var(--text-sm);
     color: var(--color-text-muted);
+}
+
+.post-content .post-meta > * {
+    flex-shrink: 0;
 }
 
 .post-content .publish-date {

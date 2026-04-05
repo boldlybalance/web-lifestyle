@@ -472,6 +472,21 @@
                 document.querySelectorAll('.mobile-dropdown.active').forEach(d => d.classList.remove('active'));
             }
         });
+        // Desktop categories dropdown toggle
+        function toggleCategoriesDropdown(event) {
+            const trigger = event.currentTarget;
+            const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+            trigger.setAttribute('aria-expanded', !isExpanded);
+        }
+
+        // Add click listener to desktop dropdown trigger
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownTrigger = document.querySelector('.desktop-dropdown .dropdown-trigger');
+            if (dropdownTrigger) {
+                dropdownTrigger.addEventListener('click', toggleCategoriesDropdown);
+            }
+        });
+        
         </script>
 </body>
 </html>
