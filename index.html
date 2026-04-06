@@ -29,14 +29,14 @@
     <meta property="og:url" content="https://lifestyle.boldlybalance.life/">
     <meta property="og:title" content="Boldly Balance | Intentional Lifestyle Blog">
     <meta property="og:description" content="Boldly Balance delivers science-backed lifestyle insights that challenge what you think you know about sleep, fitness, productivity, and money. Practical tips backed by research, not trends.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop&q=80&auto=format&fm=webp">
     <meta property="og:site_name" content="Boldly Balance">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Boldly Balance | Intentional Lifestyle Blog">
     <meta name="twitter:description" content="Boldly Balance delivers science-backed lifestyle insights that challenge what you think you know about sleep, fitness, productivity, and money. Practical tips backed by research, not trends.">
-    <meta name="twitter:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop&q=80&auto=format&fm=webp">
     
     <!-- Plausible Analytics -->
     <script defer data-domain="lifestyle.boldlybalance.life" src="https://plausible.io/js/plausible.js"></script>
@@ -44,6 +44,13 @@
     <link rel="stylesheet" href="styles.css">
     <script src="share-buttons.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').catch(console.error);
+        }
+    </script>
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -55,7 +62,7 @@
         "@type": "Organization",
         "name": "Boldly Balance",
         "url": "https://lifestyle.boldlybalance.life/",
-        "logo": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop",
+        "logo": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop&q=80&auto=format&fm=webp",
         "sameAs": [
             "https://twitter.com/boldlybalance",
             "https://instagram.com/boldlybalance"
@@ -254,7 +261,7 @@
         <div class="post-grid" id="latest-posts">
             <article class="post-card">
                 <a href="posts/why-wellness-clubs-are-replacing-your-gym.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200&h=630&fit=crop" alt="Why Wellness Clubs Are Replacing Your Gym Membership" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Why Wellness Clubs Are Replacing Your Gym Membership" width="800" height="450" fetchpriority="high">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Fitness</span>
@@ -267,7 +274,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/digital-declutter-30-day-challenge.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=630&fit=crop" alt="The 30-Day Digital Declutter Challenge" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="The 30-Day Digital Declutter Challenge" width="800" height="450" fetchpriority="high">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Technology</span>
@@ -280,7 +287,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/the-slow-productivity-manifesto.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28e38f5a?w=1200&h=630&fit=crop" alt="The Slow Productivity Manifesto" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28e38f5a?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="The Slow Productivity Manifesto" width="800" height="450" fetchpriority="high">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Productivity</span>
@@ -293,7 +300,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/why-pushing-through-burnout-makes-it-worse.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1482939968273-b388a71b768f?w=1200&h=630&fit=crop" alt="Why Pushing Through Makes It Worse: The Quiet Burnout Trap" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1482939968273-b388a71b768f?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Why Pushing Through Makes It Worse: The Quiet Burnout Trap" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Mind</span>
@@ -306,7 +313,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/slow-fitness.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1571388208497-71bedc66e932?w=1200&h=630&fit=crop" alt="Slow Fitness: The Counter-Intuitive Approach to Getting Stronger" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1571388208497-71bedc66e932?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Slow Fitness: The Counter-Intuitive Approach to Getting Stronger" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Fitness</span>
@@ -319,7 +326,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/quietcations-the-case-for-doing-nothing-on-vacation.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1550399504-8953e1a6ac87?w=1200&h=630&fit=crop" alt="Quietcations: Why the Best Travel Trend Is Doing Absolutely Nothing" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1550399504-8953e1a6ac87?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Quietcations: Why the Best Travel Trend Is Doing Absolutely Nothing" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Travel</span>
@@ -351,7 +358,7 @@
         <div class="post-grid" id="all-articles">
             <article class="post-card">
                 <a href="posts/why-wellness-clubs-are-replacing-your-gym.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200&h=630&fit=crop" alt="Why Wellness Clubs Are Replacing Your Gym Membership" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Why Wellness Clubs Are Replacing Your Gym Membership" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Fitness</span>
@@ -364,7 +371,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/digital-declutter-30-day-challenge.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=630&fit=crop" alt="The 30-Day Digital Declutter Challenge" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="The 30-Day Digital Declutter Challenge" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Technology</span>
@@ -377,7 +384,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/the-slow-productivity-manifesto.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28e38f5a?w=1200&h=630&fit=crop" alt="The Slow Productivity Manifesto" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28e38f5a?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="The Slow Productivity Manifesto" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Productivity</span>
@@ -390,7 +397,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/why-pushing-through-burnout-makes-it-worse.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1482939968273-b388a71b768f?w=1200&h=630&fit=crop" alt="Why Pushing Through Makes It Worse: The Quiet Burnout Trap" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1482939968273-b388a71b768f?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Why Pushing Through Makes It Worse: The Quiet Burnout Trap" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Mind</span>
@@ -403,7 +410,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/slow-fitness.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1571388208497-71bedc66e932?w=1200&h=630&fit=crop" alt="Slow Fitness: The Counter-Intuitive Approach to Getting Stronger" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1571388208497-71bedc66e932?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Slow Fitness: The Counter-Intuitive Approach to Getting Stronger" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Fitness</span>
@@ -416,7 +423,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/quietcations-the-case-for-doing-nothing-on-vacation.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1550399504-8953e1a6ac87?w=1200&h=630&fit=crop" alt="Quietcations: Why the Best Travel Trend Is Doing Absolutely Nothing" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1550399504-8953e1a6ac87?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="Quietcations: Why the Best Travel Trend Is Doing Absolutely Nothing" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Travel</span>
@@ -429,7 +436,7 @@
             </article>
             <article class="post-card">
                 <a href="posts/mental-fitness-revolution-why-strength-is-in-your-head.html" class="post-card-image">
-                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=630&fit=crop" alt="The Mental Fitness Revolution: Why Your Brain Needs Training, Not Just Thinking" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=450&fit=crop&q=80&auto=format&fm=webp" alt="The Mental Fitness Revolution: Why Your Brain Needs Training, Not Just Thinking" width="800" height="450" loading="lazy">
                 </a>
                 <div class="post-card-content">
                     <span class="post-category">Mind</span>
@@ -641,14 +648,40 @@
             return text.substring(0, maxLen).trim() + '...';
         }
 
-        function createCarouselCard(post) {
+        // Optimized image URL builder with WebP support and proper sizing
+        function getOptimizedImage(url, width, height) {
+            if (!url) return 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=' + width + '&q=80&auto=format&fm=webp';
+            
+            // If it's already an Unsplash URL, optimize it
+            if (url.includes('images.unsplash.com')) {
+                var params = [];
+                if (width) params.push('w=' + width);
+                if (height) params.push('h=' + height);
+                params.push('fit=crop');
+                params.push('q=80');
+                params.push('auto=format');
+                params.push('fm=webp');
+                
+                // Remove existing params and add optimized ones
+                var baseUrl = url.split('?')[0];
+                return baseUrl + '?' + params.join('&');
+            }
+            return url;
+        }
+
+        function createCarouselCard(post, index) {
             var url = getPostUrl(post);
-            var image = post.image || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80';
+            var image = getOptimizedImage(post.image, 800, 450);
             var category = post.category || 'Lifestyle';
             var title = post.title || 'Untitled';
             
+            // First carousel image gets fetchpriority high, rest get lazy
+            var imgAttrs = index === 0 
+                ? 'fetchpriority="high" width="800" height="450"'
+                : 'loading="lazy" width="800" height="450"';
+            
             return '<a href="' + url + '" class="carousel-card">' +
-                '<img src="' + image + '?w=800&q=80" alt="' + title + '" loading="lazy">' +
+                '<img src="' + image + '" alt="' + title + '" ' + imgAttrs + '>' +
                 '<div class="carousel-overlay">' +
                     '<span class="tag">' + category + '</span>' +
                     '<h3>' + title + '</h3>' +
@@ -658,14 +691,14 @@
 
         function createPostCard(post) {
             var url = getPostUrl(post);
-            var image = post.image || 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80';
+            var image = getOptimizedImage(post.image, 400, 300);
             var category = post.category || 'Lifestyle';
             var title = post.title || 'Untitled';
             var excerpt = truncateExcerpt(post.excerpt);
             
             return '<a href="' + url + '" class="post-card">' +
                 '<div class="post-card-image">' +
-                    '<img src="' + image + '?w=400&q=80" alt="' + title + '" loading="lazy">' +
+                    '<img src="' + image + '" alt="' + title + '" loading="lazy" width="400" height="300">' +
                 '</div>' +
                 '<div class="post-card-content">' +
                     '<span class="tag">' + category + '</span>' +
@@ -686,7 +719,9 @@
                 // 1. Render Carousel (first 5 posts)
                 var carouselPlaceholder = document.getElementById('carousel-placeholder');
                 if (carouselPlaceholder && posts.length > 0) {
-                    var carouselHTML = posts.slice(0, 5).map(createCarouselCard).join('');
+                    var carouselHTML = posts.slice(0, 5).map(function(post, index) {
+                        return createCarouselCard(post, index);
+                    }).join('');
                     carouselPlaceholder.outerHTML = carouselHTML;
                 }
 
