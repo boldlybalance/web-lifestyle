@@ -166,17 +166,19 @@
             menuBtn.setAttribute('aria-expanded', isOpen);
         }
 
+        // Unified toggle for both mobile and desktop dropdowns
         function toggleTopicsDropdown(event) {
             event.preventDefault();
-            const dropdown = event.currentTarget.closest('.mobile-dropdown');
-            dropdown.classList.toggle('active');
-        }
-
-        // Desktop categories dropdown toggle
-        function toggleTopicsDropdown(event) {
             const trigger = event.currentTarget;
-            const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
-            trigger.setAttribute('aria-expanded', !isExpanded);
+            const dropdown = trigger.closest('.mobile-dropdown, .desktop-dropdown');
+            if (!dropdown) return;
+            
+            if (dropdown.classList.contains('mobile-dropdown')) {
+                dropdown.classList.toggle('active');
+            } else {
+                const isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+                trigger.setAttribute('aria-expanded', !isExpanded);
+            }
         }
 
         // Add click listener to desktop dropdown trigger
