@@ -1280,12 +1280,14 @@ footer .container {
 }
 
 .post-content .reading-time {
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
+    display: inline;
     font-size: var(--text-sm);
     color: var(--color-text-muted);
-    margin-bottom: var(--space-8);
+}
+
+.post-content .post-meta .reading-time {
+    display: inline;
+    margin-bottom: 0;
 }
 
 .post-content .post-meta {
