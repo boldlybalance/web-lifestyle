@@ -16,7 +16,11 @@
     ],
     "read_time": 8,
     "status": "published",
-    "published_date": "2026-04-06"
+    "published_date": "2026-04-06",
+    "reading_time": 12,
+    "related_1": "why-recovery-is-your-superpower",
+    "related_2": "why-sugar-is-not-the-enemy",
+    "related_3": "why-your-diet-culture-detox-is-also-a-diet"
   },
   {
     "title": "Digital Declutter: A 7-Day Reset for Your Phone",
@@ -35,7 +39,11 @@
     ],
     "read_time": 8,
     "status": "published",
-    "published_date": "2026-04-06"
+    "published_date": "2026-04-06",
+    "reading_time": 11,
+    "related_1": "why-pushing-through-burnout-makes-it-worse",
+    "related_2": "mental-fitness-revolution-why-strength-is-in-your-head",
+    "related_3": "nervous-system-revolution"
   },
   {
     "title": "Why Pushing Through Makes It Worse: The Quiet Burnout Trap",

@@ -709,12 +709,48 @@
             '</a>';
         }
 
+        // Seeded random shuffle for consistent daily randomness
+        function seededRandom(seed) {
+            var x = Math.sin(seed) * 10000;
+            return x - Math.floor(x);
+        }
+        
+        function shuffleArrayWithSeed(array, seed) {
+            var arr = array.slice();
+            for (var i = arr.length - 1; i > 0; i--) {
+                var j = Math.floor(seededRandom(seed + i) * (i + 1));
+                var temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+            return arr;
+        }
+        
+        // Get daily seed based on current date (YYYY-MM-DD)
+        function getDailySeed() {
+            var now = new Date();
+            var dateStr = now.getFullYear() + '-' + 
+                         String(now.getMonth() + 1).padStart(2, '0') + '-' + 
+                         String(now.getDate()).padStart(2, '0');
+            var hash = 0;
+            for (var i = 0; i < dateStr.length; i++) {
+                var char = dateStr.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash;
+            }
+            return hash;
+        }
+
         async function loadPosts() {
             try {
                 var response = await fetch('posts.json');
                 if (!response.ok) throw new Error('HTTP ' + response.status);
                 
                 var posts = await response.json();
+                
+                // Create a shuffled copy for All Articles (daily random order)
+                var dailySeed = getDailySeed();
+                var shuffledPosts = shuffleArrayWithSeed(posts, dailySeed);
                 
                 // 1. Render Carousel (first 5 posts)
                 var carouselPlaceholder = document.getElementById('carousel-placeholder');
@@ -732,12 +768,12 @@
                     latestPlaceholder.outerHTML = latestHTML;
                 }
 
-                // 3. Render All Articles (paginated)
+                // 3. Render All Articles (paginated) - using shuffled order
                 var allPlaceholder = document.getElementById('all-articles-placeholder');
                 var showMoreContainer = document.getElementById('show-more-container');
                 var showMoreCount = document.getElementById('show-more-count');
-                if (allPlaceholder && posts.length > 0) {
-                    var allPosts = posts.map(createPostCard);
+                if (allPlaceholder && shuffledPosts.length > 0) {
+                    var allPosts = shuffledPosts.map(createPostCard);
                     // Store all posts for pagination
                     window.allPostsData = allPosts;
                     window.visiblePostCount = 0;
