@@ -1285,9 +1285,10 @@ footer .container {
     color: var(--color-text-muted);
 }
 
-.post-content .post-meta .reading-time {
-    display: inline;
-    margin-bottom: 0;
+.post-content .reading-time-line {
+    font-size: var(--text-sm);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-4);
 }
 
 .post-content .post-meta {
