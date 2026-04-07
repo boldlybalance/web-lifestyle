@@ -53,7 +53,70 @@
     </script>
 </head>
 <body>
-    <header><nav><a href="../" class="logo">Boldly Balance</a></nav></header>
+        <header id="header">
+        <nav>
+            <a href="/" class="logo">Boldly Balance</a>
+            
+            <!-- Mobile menu button -->
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            
+            <div class="nav-links" id="nav-links">
+                <a href="/" class="nav-link mobile-only">Home</a>
+                
+                <!-- Desktop Topics Dropdown -->
+                <div class="desktop-dropdown desktop-only">
+                    <button class="dropdown-trigger" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="desktop-dropdown-content">
+                        <a href="category/fitness.html" class="dropdown-item">Fitness</a>
+                        <a href="category/food.html" class="dropdown-item">Food</a>
+                        <a href="category/sleep.html" class="dropdown-item">Sleep</a>
+                        <a href="category/mind.html" class="dropdown-item">Mind</a>
+                        <a href="category/wellness.html" class="dropdown-item">Wellness</a>
+                        <a href="category/lifestyle.html" class="dropdown-item">Lifestyle</a>
+                        <a href="category/technology.html" class="dropdown-item">Technology</a>
+                        <a href="category/recovery.html" class="dropdown-item">Recovery</a>
+                        <a href="category/finance.html" class="dropdown-item">Finance</a>
+                        <a href="category/travel.html" class="dropdown-item">Travel</a>
+                        <a href="category/home-decor.html" class="dropdown-item">Home Decor</a>
+                        <a href="category/mindset.html" class="dropdown-item">Mindset</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile Topics Dropdown -->
+                <div class="mobile-dropdown mobile-only">
+                    <button class="dropdown-trigger" onclick="toggleTopicsDropdown(event)" aria-expanded="false">
+                        Topics
+                        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="mobile-dropdown-content">
+                        <a href="category/fitness.html" class="dropdown-item">Fitness</a>
+                        <a href="category/food.html" class="dropdown-item">Food</a>
+                        <a href="category/sleep.html" class="dropdown-item">Sleep</a>
+                        <a href="category/mind.html" class="dropdown-item">Mind</a>
+                        <a href="category/wellness.html" class="dropdown-item">Wellness</a>
+                        <a href="category/lifestyle.html" class="dropdown-item">Lifestyle</a>
+                        <a href="category/technology.html" class="dropdown-item">Technology</a>
+                        <a href="category/recovery.html" class="dropdown-item">Recovery</a>
+                        <a href="category/finance.html" class="dropdown-item">Finance</a>
+                        <a href="category/travel.html" class="dropdown-item">Travel</a>
+                        <a href="category/home-decor.html" class="dropdown-item">Home Decor</a>
+                        <a href="category/mindset.html" class="dropdown-item">Mindset</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main class="post-content">
         
             <span class="tag">Home</span>
