@@ -418,7 +418,9 @@
     "reading_time": 9,
     "related_1": "nervous-system-revolution",
     "related_2": "why-willpower-is-not-your-problem",
-    "related_3": "why-stress-is-not-your-enemy"
+    "related_3": "why-stress-is-not-your-enemy",
+    "status": "published",
+    "date_modified": "2026-04-07"
   },
   {
     "slug": "why-willpower-is-not-your-problem",
@@ -437,7 +439,9 @@
     "reading_time": 9,
     "related_1": "nervous-system-revolution",
     "related_2": "why-gen-z-is-happier-off-social-media",
-    "related_3": "why-stress-is-not-your-enemy"
+    "related_3": "why-stress-is-not-your-enemy",
+    "status": "published",
+    "date_modified": "2026-04-07"
   },
   {
     "slug": "why-stress-is-not-your-enemy",
@@ -456,7 +460,9 @@
     "reading_time": 8,
     "related_1": "nervous-system-revolution",
     "related_2": "why-gen-z-is-happier-off-social-media",
-    "related_3": "why-willpower-is-not-your-problem"
+    "related_3": "why-willpower-is-not-your-problem",
+    "status": "published",
+    "date_modified": "2026-04-07"
   },
   {
     "slug": "why-exercise-isnt-making-you-thin",
@@ -475,7 +481,9 @@
     "reading_time": 7,
     "related_1": "why-sugar-is-not-the-enemy",
     "related_2": "why-you-cant-catch-up-on-lost-sleep",
-    "related_3": "why-you-should-sleep-in-a-cold-room"
+    "related_3": "why-you-should-sleep-in-a-cold-room",
+    "status": "published",
+    "date_modified": "2026-04-07"
   },
   {
     "slug": "why-emergency-funds-are-overrated",
@@ -494,7 +502,9 @@
     "reading_time": 7,
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-your-dream-city-is-a-bad-financial-decision",
-    "related_3": "why-budget-travel-is-ruining-your-vacation"
+    "related_3": "why-budget-travel-is-ruining-your-vacation",
+    "status": "published",
+    "date_modified": "2026-04-07"
   },
   {
     "slug": "why-your-social-media-feed-is-making-you-miserable",
