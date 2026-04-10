@@ -1,0 +1,268 @@
+{
+  "generated_at": "2026-04-10T17:30:00Z",
+  "generator": "seed-keyword-extractor.py",
+  "total_clusters": 9,
+  "clusters": {
+    "Fitness_cluster": {
+      "cluster_id": "Fitness_cluster",
+      "category": "Fitness",
+      "intent": "informational",
+      "seed_keywords": [
+        "exercise",
+        "Practice That",
+        "Exercise Isn",
+        "Restorative Yoga",
+        "recovery",
+        "evidence",
+        "energy",
+        "sleep",
+        "fitness",
+        "Emotional",
+        "plateau",
+        "yoga",
+        "Science",
+        "protocol",
+        "nervous system",
+        "Yoga Nidra",
+        "Anti",
+        "progress",
+        "Sleep",
+        "Rest Days Are Not Optional",
+        "Counter",
+        "evidence-based",
+        "backed"
+      ],
+      "related_posts": [
+        "anti-intimidation-yoga-starter",
+        "restorative-yoga-for-emotional-exhaustion",
+        "yoga-nidra-for-sleep",
+        "desk-yoga-9-to-5-burnout",
+        "slow-fitness",
+        "overtraining-is-stealing-your-progress",
+        "why-exercise-isnt-making-you-thin",
+        "why-rest-days-are-not-optional"
+      ],
+      "content_pillars": [
+        "Desk Yoga for the 9-to-5 Burnout: 5-Minute Moves That Actually Work",
+        "Slow Fitness: The Counter-Intuitive Approach to Getting Stronger",
+        "Why Rest Days Are Not Optional: The Science of Recovery",
+        "Overtraining Is Stealing Your Progress",
+        "Yoga Nidra for Sleep: The Practice That's Better Than Melatonin",
+        "Why Exercise Isn't Making You Thin (And What Will)",
+        "The Anti-Intimidation Yoga Starter: For People Who Think Yoga Isn't for Them",
+        "Restorative Yoga for Emotional Exhaustion: Recovery When You're Not Just Tired"
+      ]
+    },
+    "Wellness_cluster": {
+      "cluster_id": "Wellness_cluster",
+      "category": "Wellness",
+      "intent": "informational",
+      "seed_keywords": [
+        "sleep",
+        "science",
+        "fitness",
+        "Your Diet Culture Detox Is Still",
+        "wellness",
+        "Wellness Clubs Are Replacing Your Gym",
+        "Perfect",
+        "Science",
+        "Recovery Is Your Superpower",
+        "Sugar Isn",
+        "Morning Routine Myth"
+      ],
+      "related_posts": [
+        "why-wellness-clubs-are-replacing-your-gym",
+        "why-recovery-is-your-superpower",
+        "why-sugar-is-not-the-enemy",
+        "why-your-diet-culture-detox-is-also-a-diet",
+        "the-morning-routine-myth-why-perfect-am-rituals-backfire"
+      ],
+      "content_pillars": [
+        "Why Your Diet Culture Detox Is Still a Diet",
+        "Why Sugar Isn't the Enemy",
+        "Why Recovery Is Your Superpower: The Science of Strategic Rest",
+        "The Morning Routine Myth: Why Perfect AM Rituals Backfire",
+        "Why Wellness Clubs Are Replacing Your Gym"
+      ]
+    },
+    "Mind_cluster": {
+      "cluster_id": "Mind_cluster",
+      "category": "Mind",
+      "intent": "informational",
+      "seed_keywords": [
+        "Stress Isn",
+        "science",
+        "data",
+        "Your Brain Needs Training",
+        "mental",
+        "Regulating Your Vagus Nerve Became",
+        "evidence",
+        "routines",
+        "sleep",
+        "Your Productivity System Is Making You Less Productive",
+        "fitness",
+        "Quiet Burnout Trap",
+        "productivity",
+        "Nervous System Revolution",
+        "Day Reset",
+        "habits",
+        "Willpower Isn",
+        "Mental Fitness Revolution",
+        "Gen",
+        "Pushing Through Makes It Worse",
+        "Your",
+        "wellness"
+      ],
+      "related_posts": [
+        "digital-declutter-7-day-reset",
+        "why-pushing-through-burnout-makes-it-worse",
+        "mental-fitness-revolution-why-strength-is-in-your-head",
+        "nervous-system-revolution",
+        "why-gen-z-is-happier-off-social-media",
+        "why-willpower-is-not-your-problem",
+        "why-stress-is-not-your-enemy",
+        "why-your-productivity-system-is-making-you-less-productive"
+      ],
+      "content_pillars": [
+        "The Nervous System Revolution: How Regulating Your Vagus Nerve Became the Future of Wellness",
+        "Digital Declutter: A 7-Day Reset for Your Phone",
+        "Why Stress Isn't Your Enemy",
+        "Why Willpower Isn't Your Problem",
+        "Why Gen Z Is Happier Without Social Media",
+        "Why Pushing Through Makes It Worse: The Quiet Burnout Trap",
+        "The Mental Fitness Revolution: Why Your Brain Needs Training, Not Just Thinking",
+        "Why Your Productivity System Is Making You Less Productive"
+      ]
+    },
+    "Travel_cluster": {
+      "cluster_id": "Travel_cluster",
+      "category": "Travel",
+      "intent": "informational",
+      "seed_keywords": [
+        "You Don",
+        "sleep",
+        "Budget Travel Is Ruining Your Vacation"
+      ],
+      "related_posts": [
+        "quietcations-the-case-for-doing-nothing-on-vacation",
+        "why-you-dont-need-vacation",
+        "why-budget-travel-is-ruining-your-vacation"
+      ],
+      "content_pillars": [
+        "Quietcations: Why the Best Travel Trend Is Doing Absolutely Nothing",
+        "Why You Don't Need a Vacation",
+        "Why Budget Travel Is Ruining Your Vacation"
+      ]
+    },
+    "Sleep_cluster": {
+      "cluster_id": "Sleep_cluster",
+      "category": "Sleep",
+      "intent": "informational",
+      "seed_keywords": [
+        "sleep",
+        "science",
+        "You Can",
+        "Sleeping More Isn",
+        "Sleep Tracking Is Making You Sleep Worse",
+        "You Need",
+        "You Should Sleep"
+      ],
+      "related_posts": [
+        "why-you-need-4-nights-of-good-sleep",
+        "why-you-cant-catch-up-on-lost-sleep",
+        "why-you-should-sleep-in-a-cold-room",
+        "why-sleep-tracking-is-making-you-sleep-worse",
+        "why-sleeping-more-isnt-lazy-its-smart"
+      ],
+      "content_pillars": [
+        "Why You Need 4 Consecutive Nights of Good Sleep to Recover From One Week of Poor Sleep",
+        "Why You Can't Catch Up on Lost Sleep",
+        "Why Sleep Tracking Is Making You Sleep Worse",
+        "Why Sleeping More Isn't Lazy \u2014 It's the Smartest Thing You Can Do",
+        "Why You Should Sleep in a Cold Room"
+      ]
+    },
+    "Technology_cluster": {
+      "cluster_id": "Technology_cluster",
+      "category": "Technology",
+      "intent": "informational",
+      "seed_keywords": [
+        "You Don"
+      ],
+      "related_posts": [
+        "swiping-right-on-a-robot",
+        "why-you-dont-need-a-smart-home"
+      ],
+      "content_pillars": [
+        "Why You Don't Need a Smart Home",
+        "Swiping Right on a Robot: What Dating in the Age of AI Actually Looks Like"
+      ]
+    },
+    "Lifestyle_cluster": {
+      "cluster_id": "Lifestyle_cluster",
+      "category": "Lifestyle",
+      "intent": "informational",
+      "seed_keywords": [
+        "Decluttering Lie",
+        "Working Less Is Actually",
+        "science",
+        "Case",
+        "The Case",
+        "productivity",
+        "Getting Rid",
+        "Doing Nothing Is",
+        "Rest",
+        "Your Social Media Feed Is Making You Miserable"
+      ],
+      "related_posts": [
+        "the-decluttering-lie",
+        "why-working-less-is-career-strategy",
+        "why-your-social-media-feed-is-making-you-miserable",
+        "the-case-for-rest-why-doing-nothing-is-a-skill"
+      ],
+      "content_pillars": [
+        "Why Working Less Is Actually a Career Strategy",
+        "The Case for Rest: Why Doing Nothing Is a Skill",
+        "Why Your Social Media Feed Is Making You Miserable",
+        "The Decluttering Lie: Why Getting Rid of Everything Still Left You Empty"
+      ]
+    },
+    "Finance_cluster": {
+      "cluster_id": "Finance_cluster",
+      "category": "Finance",
+      "intent": "informational",
+      "seed_keywords": [
+        "Budgeting Might Be Keeping You Broke",
+        "Emergency Funds Are Overrated",
+        "You Keep Avoiding Your Finances"
+      ],
+      "related_posts": [
+        "financial-avoidance-psychology-money",
+        "why-emergency-funds-are-overrated",
+        "why-budgeting-is-keeping-you-broke"
+      ],
+      "content_pillars": [
+        "Why Emergency Funds Are Overrated",
+        "Why Budgeting Might Be Keeping You Broke",
+        "Why You Keep Avoiding Your Finances"
+      ]
+    },
+    "Home Decor_cluster": {
+      "cluster_id": "Home Decor_cluster",
+      "category": "Home Decor",
+      "intent": "informational",
+      "seed_keywords": [
+        "Your Dream City Might Be",
+        "Your Clean Home Might Be Making You Anxious"
+      ],
+      "related_posts": [
+        "why-your-dream-city-is-a-bad-financial-decision",
+        "why-your-clean-home-is-making-you-anxious"
+      ],
+      "content_pillars": [
+        "Why Your Clean Home Might Be Making You Anxious",
+        "Why Your Dream City Might Be a Financial Mistake"
+      ]
+    }
+  }
+}

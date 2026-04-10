@@ -9,7 +9,8 @@
     "reading_time": 8,
     "related_1": "overtraining-is-stealing-your-progress",
     "related_2": "why-exercise-isnt-making-you-thin",
-    "related_3": "why-rest-days-are-not-optional"
+    "related_3": "why-rest-days-are-not-optional",
+    "status": "published"
   },
   {
     "title": "Quietcations: Why the Best Travel Trend Is Doing Absolutely Nothing",
@@ -28,7 +29,6 @@
     ],
     "related_1": "why-you-dont-need-vacation",
     "related_2": "why-budget-travel-is-ruining-your-vacation",
-    "read_time": 6,
     "status": "published",
     "reading_time": 7,
     "related_3": ""
@@ -50,7 +50,6 @@
     ],
     "related_1": "why-pushing-through-burnout-makes-it-worse",
     "related_2": "nervous-system-revolution",
-    "read_time": 6,
     "status": "published",
     "reading_time": 7,
     "related_3": "why-gen-z-is-happier-off-social-media"
@@ -72,7 +71,6 @@
     ],
     "related_1": "why-you-cant-catch-up-on-lost-sleep",
     "related_2": "why-you-should-sleep-in-a-cold-room",
-    "read_time": 6,
     "status": "published",
     "reading_time": 6,
     "related_3": "why-sleep-tracking-is-making-you-sleep-worse",
@@ -94,9 +92,9 @@
     ],
     "related_1": "mental-fitness-revolution-why-strength-is-in-your-head",
     "related_2": "nervous-system-revolution",
-    "read_time": 6,
     "reading_time": 6,
-    "related_3": "why-gen-z-is-happier-off-social-media"
+    "related_3": "why-gen-z-is-happier-off-social-media",
+    "status": "published"
   },
   {
     "title": "Overtraining Is Stealing Your Progress",
@@ -115,7 +113,8 @@
     "reading_time": 8,
     "related_1": "why-rest-days-are-not-optional",
     "related_2": "why-exercise-isnt-making-you-thin",
-    "related_3": "why-recovery-is-your-superpower"
+    "related_3": "why-recovery-is-your-superpower",
+    "status": "published"
   },
   {
     "title": "Swiping Right on a Robot: What Dating in the Age of AI Actually Looks Like",
@@ -136,7 +135,8 @@
     "reading_time": 9,
     "related_1": "why-you-dont-need-a-smart-home",
     "related_2": "",
-    "related_3": ""
+    "related_3": "",
+    "status": "published"
   },
   {
     "title": "The Decluttering Lie: Why Getting Rid of Everything Still Left You Empty",
@@ -156,7 +156,8 @@
     "reading_time": 9,
     "related_1": "why-working-less-is-career-strategy",
     "related_2": "why-your-social-media-feed-is-making-you-miserable",
-    "related_3": "the-case-for-rest-why-doing-nothing-is-a-skill"
+    "related_3": "the-case-for-rest-why-doing-nothing-is-a-skill",
+    "status": "published"
   },
   {
     "slug": "why-recovery-is-your-superpower",
@@ -168,7 +169,8 @@
     "reading_time": 7,
     "related_1": "why-sugar-is-not-the-enemy",
     "related_2": "why-your-diet-culture-detox-is-also-a-diet",
-    "related_3": "the-morning-routine-myth-why-perfect-am-rituals-backfire"
+    "related_3": "the-morning-routine-myth-why-perfect-am-rituals-backfire",
+    "status": "published"
   },
   {
     "slug": "financial-avoidance-psychology-money",
@@ -186,7 +188,8 @@
     "reading_time": 10,
     "related_1": "why-your-dream-city-is-a-bad-financial-decision",
     "related_2": "why-emergency-funds-are-overrated",
-    "related_3": "why-budget-travel-is-ruining-your-vacation"
+    "related_3": "why-budget-travel-is-ruining-your-vacation",
+    "status": "published"
   },
   {
     "slug": "nervous-system-revolution",
@@ -205,7 +208,8 @@
     "reading_time": 10,
     "related_1": "why-gen-z-is-happier-off-social-media",
     "related_2": "why-willpower-is-not-your-problem",
-    "related_3": "why-stress-is-not-your-enemy"
+    "related_3": "why-stress-is-not-your-enemy",
+    "status": "published"
   },
   {
     "slug": "why-you-dont-need-vacation",
@@ -224,7 +228,8 @@
     "reading_time": 8,
     "related_1": "why-your-dream-city-is-a-bad-financial-decision",
     "related_2": "why-budget-travel-is-ruining-your-vacation",
-    "related_3": "why-your-clean-home-is-making-you-anxious"
+    "related_3": "why-your-clean-home-is-making-you-anxious",
+    "status": "published"
   },
   {
     "slug": "why-your-dream-city-is-a-bad-financial-decision",
@@ -243,7 +248,8 @@
     "reading_time": 10,
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-you-dont-need-vacation",
-    "related_3": "why-emergency-funds-are-overrated"
+    "related_3": "why-emergency-funds-are-overrated",
+    "status": "published"
   },
   {
     "slug": "why-working-less-is-career-strategy",
@@ -262,7 +268,8 @@
     "reading_time": 9,
     "related_1": "why-your-social-media-feed-is-making-you-miserable",
     "related_2": "why-sugar-is-not-the-enemy",
-    "related_3": "why-your-productivity-system-is-making-you-less-productive"
+    "related_3": "why-your-productivity-system-is-making-you-less-productive",
+    "status": "published"
   },
   {
     "slug": "why-gen-z-is-happier-off-social-media",
@@ -281,7 +288,8 @@
     "reading_time": 9,
     "related_1": "nervous-system-revolution",
     "related_2": "why-willpower-is-not-your-problem",
-    "related_3": "why-stress-is-not-your-enemy"
+    "related_3": "why-stress-is-not-your-enemy",
+    "status": "published"
   },
   {
     "slug": "why-willpower-is-not-your-problem",
@@ -300,7 +308,8 @@
     "reading_time": 9,
     "related_1": "nervous-system-revolution",
     "related_2": "why-gen-z-is-happier-off-social-media",
-    "related_3": "why-stress-is-not-your-enemy"
+    "related_3": "why-stress-is-not-your-enemy",
+    "status": "published"
   },
   {
     "slug": "why-stress-is-not-your-enemy",
@@ -319,7 +328,8 @@
     "reading_time": 8,
     "related_1": "nervous-system-revolution",
     "related_2": "why-gen-z-is-happier-off-social-media",
-    "related_3": "why-willpower-is-not-your-problem"
+    "related_3": "why-willpower-is-not-your-problem",
+    "status": "published"
   },
   {
     "slug": "why-exercise-isnt-making-you-thin",
@@ -338,7 +348,8 @@
     "reading_time": 7,
     "related_1": "why-sugar-is-not-the-enemy",
     "related_2": "why-you-cant-catch-up-on-lost-sleep",
-    "related_3": "why-you-should-sleep-in-a-cold-room"
+    "related_3": "why-you-should-sleep-in-a-cold-room",
+    "status": "published"
   },
   {
     "slug": "why-emergency-funds-are-overrated",
@@ -357,7 +368,8 @@
     "reading_time": 7,
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-your-dream-city-is-a-bad-financial-decision",
-    "related_3": "why-budget-travel-is-ruining-your-vacation"
+    "related_3": "why-budget-travel-is-ruining-your-vacation",
+    "status": "published"
   },
   {
     "slug": "why-your-social-media-feed-is-making-you-miserable",
@@ -376,7 +388,8 @@
     "reading_time": 7,
     "related_1": "why-working-less-is-career-strategy",
     "related_2": "why-gen-z-is-happier-off-social-media",
-    "related_3": "why-sugar-is-not-the-enemy"
+    "related_3": "why-sugar-is-not-the-enemy",
+    "status": "published"
   },
   {
     "slug": "why-sugar-is-not-the-enemy",
@@ -395,7 +408,8 @@
     "reading_time": 7,
     "related_1": "why-recovery-is-your-superpower",
     "related_2": "why-working-less-is-career-strategy",
-    "related_3": "why-exercise-isnt-making-you-thin"
+    "related_3": "why-exercise-isnt-making-you-thin",
+    "status": "published"
   },
   {
     "slug": "why-you-cant-catch-up-on-lost-sleep",
@@ -414,7 +428,8 @@
     "reading_time": 6,
     "related_1": "why-exercise-isnt-making-you-thin",
     "related_2": "why-sugar-is-not-the-enemy",
-    "related_3": "why-you-should-sleep-in-a-cold-room"
+    "related_3": "why-you-should-sleep-in-a-cold-room",
+    "status": "published"
   },
   {
     "slug": "why-you-should-sleep-in-a-cold-room",
@@ -433,7 +448,8 @@
     "reading_time": 6,
     "related_1": "why-exercise-isnt-making-you-thin",
     "related_2": "why-sugar-is-not-the-enemy",
-    "related_3": "why-you-cant-catch-up-on-lost-sleep"
+    "related_3": "why-you-cant-catch-up-on-lost-sleep",
+    "status": "published"
   },
   {
     "slug": "why-you-dont-need-a-smart-home",
@@ -452,7 +468,8 @@
     "reading_time": 6,
     "related_1": "why-recovery-is-your-superpower",
     "related_2": "financial-avoidance-psychology-money",
-    "related_3": "nervous-system-revolution"
+    "related_3": "nervous-system-revolution",
+    "status": "published"
   },
   {
     "slug": "why-rest-days-are-not-optional",
@@ -471,7 +488,8 @@
     "reading_time": 6,
     "related_1": "why-exercise-isnt-making-you-thin",
     "related_2": "why-sugar-is-not-the-enemy",
-    "related_3": "why-you-cant-catch-up-on-lost-sleep"
+    "related_3": "why-you-cant-catch-up-on-lost-sleep",
+    "status": "published"
   },
   {
     "slug": "why-budget-travel-is-ruining-your-vacation",
@@ -490,7 +508,8 @@
     "reading_time": 6,
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-you-dont-need-vacation",
-    "related_3": "why-your-dream-city-is-a-bad-financial-decision"
+    "related_3": "why-your-dream-city-is-a-bad-financial-decision",
+    "status": "published"
   },
   {
     "slug": "why-sleep-tracking-is-making-you-sleep-worse",
@@ -509,7 +528,8 @@
     "reading_time": 9,
     "related_1": "why-exercise-isnt-making-you-thin",
     "related_2": "why-sugar-is-not-the-enemy",
-    "related_3": "why-you-cant-catch-up-on-lost-sleep"
+    "related_3": "why-you-cant-catch-up-on-lost-sleep",
+    "status": "published"
   },
   {
     "slug": "why-your-productivity-system-is-making-you-less-productive",
@@ -528,7 +548,8 @@
     "reading_time": 6,
     "related_1": "nervous-system-revolution",
     "related_2": "why-working-less-is-career-strategy",
-    "related_3": "why-gen-z-is-happier-off-social-media"
+    "related_3": "why-gen-z-is-happier-off-social-media",
+    "status": "published"
   },
   {
     "slug": "why-budgeting-is-keeping-you-broke",
@@ -547,7 +568,8 @@
     "reading_time": 6,
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-your-dream-city-is-a-bad-financial-decision",
-    "related_3": "why-emergency-funds-are-overrated"
+    "related_3": "why-emergency-funds-are-overrated",
+    "status": "published"
   },
   {
     "slug": "why-your-diet-culture-detox-is-also-a-diet",
@@ -566,7 +588,8 @@
     "reading_time": 6,
     "related_1": "why-recovery-is-your-superpower",
     "related_2": "why-working-less-is-career-strategy",
-    "related_3": "why-exercise-isnt-making-you-thin"
+    "related_3": "why-exercise-isnt-making-you-thin",
+    "status": "published"
   },
   {
     "slug": "the-morning-routine-myth-why-perfect-am-rituals-backfire",
@@ -585,7 +608,8 @@
     "reading_time": 5,
     "related_1": "why-recovery-is-your-superpower",
     "related_2": "why-working-less-is-career-strategy",
-    "related_3": "why-exercise-isnt-making-you-thin"
+    "related_3": "why-exercise-isnt-making-you-thin",
+    "status": "published"
   },
   {
     "slug": "why-sleeping-more-isnt-lazy-its-smart",
@@ -604,7 +628,8 @@
     "reading_time": 7,
     "related_1": "why-exercise-isnt-making-you-thin",
     "related_2": "why-sugar-is-not-the-enemy",
-    "related_3": "why-you-cant-catch-up-on-lost-sleep"
+    "related_3": "why-you-cant-catch-up-on-lost-sleep",
+    "status": "published"
   },
   {
     "slug": "why-your-clean-home-is-making-you-anxious",
@@ -623,7 +648,8 @@
     "reading_time": 7,
     "related_1": "financial-avoidance-psychology-money",
     "related_2": "why-you-dont-need-vacation",
-    "related_3": "why-your-dream-city-is-a-bad-financial-decision"
+    "related_3": "why-your-dream-city-is-a-bad-financial-decision",
+    "status": "published"
   },
   {
     "slug": "the-case-for-rest-why-doing-nothing-is-a-skill",
@@ -641,6 +667,7 @@
     "reading_time": 5,
     "related_1": "the-decluttering-lie",
     "related_2": "why-working-less-is-career-strategy",
-    "related_3": "why-your-social-media-feed-is-making-you-miserable"
+    "related_3": "why-your-social-media-feed-is-making-you-miserable",
+    "status": "published"
   }
 ]
