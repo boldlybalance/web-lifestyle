@@ -9,7 +9,18 @@ seo_jsonld*
 automation.yaml
 .git-credentials
 .env
+.env.*
 env/
 shared/
 docs/
+*.pem
+*.key
+*.p8
+*.crt
+*.cer
+credentials*
+secrets*
+secrets/
+*.netrc
+.netrc
 
