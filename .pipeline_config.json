@@ -1,7 +1,8 @@
 {
-  "llm_provider": "mock",
+  "llm_provider": "ollama",
+  "llm_model": "qwen3-coder-next:cloud",
+  "ollama_url": "http://localhost:11434",
   "articles_per_week": 5,
   "batch_size": 2,
-  "timeout_seconds": 60,
-  "ollama_url": "http://localhost:11434"
+  "timeout_seconds": 600
 }

@@ -23,4 +23,4 @@ secrets*
 secrets/
 *.netrc
 .netrc
-
+*.py

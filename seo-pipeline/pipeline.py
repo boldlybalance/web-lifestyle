@@ -24,7 +24,7 @@ KEYWORDS_DIR = PROJECT_ROOT / "seo-pipeline/keywords"
 OUTLINES_DIR = PROJECT_ROOT / "seo-pipeline/outlines"
 ARTICLES_DIR = PROJECT_ROOT / "seo-pipeline/articles"
 REVIEW_DIR = PROJECT_ROOT / "review"
-POSTS_DIR = PROJECT_ROOT.parent / "posts"
+POSTS_DIR = PROJECT_ROOT / "posts"
 TEMPLATES_DIR = PROJECT_ROOT / "templates"
 CONFIG_FILE = PROJECT_ROOT / ".pipeline_config.json"
 
@@ -299,6 +299,9 @@ Category: {category} | Status: Placeholder (AI generation needs config)
         # Mark article as in review
         article_file.write_text(content.replace(STATUS['pending'], STATUS['review']))
         
+        # Notify Ferdy via Slack DM
+        self._slack_draft_notification(keyword, keyword_data["cluster"].get("category", "General"), content, str(review_file))
+        
         return str(review_file)
     
     def publish_to_posts(self, article_path: str, keyword_data: Dict) -> str:
@@ -325,47 +328,335 @@ Category: {category} | Status: Placeholder (AI generation needs config)
         
         return str(output_file)
     
-    def _convert_markdown_to_html(self, markdown: str, title: str, category: str) -> str:
-        """Convert markdown content to BoldlyBalance post HTML structure."""
-        # Get template
+    def _convert_markdown_to_html(self, markdown: str, keyword: str, category: str) -> str:
+        """Convert markdown content to BoldlyBalance post HTML using post-template.html."""
+        from html import escape
+        import re as _re
+
         template_file = TEMPLATES_DIR / "post-template.html"
-        if template_file.exists():
-            template = template_file.read_text()
-        else:
-            # Use a basic template if none exists
-            template = "<html><head><title>{title}</title></head><body>{content}</body></html>"
-        
-        # Basic markdown to HTML conversion
-        html_body = markdown
-        
-        # Simple conversions
-        html_body = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html_body, flags=re.MULTILINE)
-        html_body = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html_body, flags=re.MULTILINE)
-        html_body = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html_body, flags=re.MULTILINE)
-        html_body = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', html_body)
-        html_body = re.sub(r'\*(.+?)\*', r'<em>\1</em>', html_body)
-        html_body = re.sub(r'\n', '<br>\n', html_body)
-        
-        # Build final HTML
-        final_html = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title}</title>
-    <meta name="description" content="Expert guidance on {category.lower()} for BoldlyBalance">
-</head>
-<body>
-    <article>
-        <h1>{title}</h1>
-        <div class="content">
-{html_body}
-        </div>
-    </article>
-</body>
-</html>"""
-        
-        return final_html
+        template = template_file.read_text()
+
+        lines = markdown.strip().split('\n')
+        # Flat sections dict: heading_text -> content (for meta/TL;DR lookups and simple sections)
+        sections = {}
+        current_heading = None
+        current_content = []
+        for line in lines:
+            m = re.match(r'^#{2,4} (.+)$', line.strip())
+            if m:
+                if current_heading:
+                    sections[current_heading] = '\n'.join(current_content).strip()
+                current_heading = m.group(1).strip()
+                current_content = []
+            else:
+                current_content.append(line)
+        if current_heading:
+            sections[current_heading] = '\n'.join(current_content).strip()
+
+        def md(text):
+            text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+            text = re.sub(r'\*(.+?)\*', r'<em>\1</em>', text)
+            text = re.sub(r'^#{2,4} (.+)$', r'<h3>\1</h3>', text, flags=re.MULTILINE)
+            text = re.sub(r'^- (.+)$', r'<li>\1</li>', text, flags=re.MULTILINE)
+            text = re.sub(r'(<li>.*?</li>\n?)+', lambda m: '<ul>' + m.group(0) + '</ul>', text)
+            paragraphs = []
+            for para in text.split('\n\n'):
+                para = para.strip()
+                if not para:
+                    continue
+                if para.startswith(('<h', '<ul', '<ol', '<li')):
+                    paragraphs.append(para)
+                else:
+                    paragraphs.append(f'<p>{para}</p>')
+            return '\n'.join(paragraphs)
+
+        # Helper: extract subsections under a heading keyword
+        # Heading hierarchy in generated articles:
+        # # = doc title (skip), ## = article intro (skip), ### = section (h2), #### = subsection (h3)
+        # We traverse looking for h3 (level==3) as parent sections, h4 (level==4) as their children.
+
+        def get_subsections(parent_keyword):
+            """Return dict of h4 sub-section -> content for all h4s that appear after the matching h3."""
+            parent_lower = parent_keyword.lower()
+            found_parent = False
+            subs = {}
+            current_sub = None
+            current_content = []
+
+            def save_sub():
+                if current_sub:
+                    subs[current_sub] = '\n'.join(current_content).strip()
+
+            for idx, line in enumerate(lines):
+                m = re.match(r'^(#{1,4}) (.+)$', line.strip())
+                if m:
+                    hashes, heading = m.groups()
+                    level = len(hashes)
+                    if level == 1:
+                        found_parent = False
+                        save_sub()
+                        current_sub = None
+                        current_content = []
+                    elif level == 2:
+                        found_parent = False
+                        save_sub()
+                        current_sub = None
+                        current_content = []
+                    elif level == 3:
+                        save_sub()
+                        found_parent = heading.strip().lower() == parent_lower
+                        current_sub = None
+                        current_content = []
+                    elif level == 4:
+                        save_sub()
+                        if found_parent:
+                            current_sub = heading.strip()
+                            current_content = []
+                elif current_sub is not None:
+                    current_content.append(line)
+                else:
+                    pass  # content when not in a sub-section
+
+            save_sub()
+            return subs
+
+        def get_h3_section(keyword):
+            """Get all content under a h3 heading (direct text, no h4 children)."""
+            keyword_lower = keyword.lower()
+            content_lines = []
+            found = False
+            for line in lines:
+                m = re.match(r'^(#{1,4}) (.+)$', line.strip())
+                if m:
+                    _, heading = m.groups()
+                    level = len(m.group(1))
+                    if level == 1 or level == 2:
+                        found = False
+                        content_lines = []
+                    elif level == 3:
+                        found = heading.strip().lower() == keyword_lower
+                        if not found:
+                            content_lines = []
+                    elif level == 4:
+                        if found:
+                            break
+                elif found:
+                    content_lines.append(line)
+            return '\n'.join(content_lines) if content_lines else ''
+        why_subs = get_subsections('Why This Approach Is Making It Worse')
+        why_targets = [
+            ('The Anxiety Loop', 'anxiety loop'),
+            ('The Sleep Effort Paradox', 'sleep effort paradox'),
+            ('The Light-Dark Blind Spot', 'light-dark blind spot'),
+            ('The Meal Timing Blind Spot', 'meal timing blind spot'),
+        ]
+        why_parts = []
+        for label, kw in why_targets:
+            for k, v in why_subs.items():
+                if kw in k.lower() and v.strip():
+                    why_parts.append(f'<h3>{label}</h3>\n{md(v)}')
+                    break
+        why_worse_html = '<h2>Why This Approach Is Making It Worse</h2>\n' + '\n'.join(why_parts) if why_parts else ''
+
+        # Evidence-Based Solution — h3 section content + h4 children (Science, Principles)
+        ebs_intro = get_h3_section('Evidence-Based Solution')  # text before first h4
+        ebs_subs = get_subsections('Evidence-Based Solution')    # h4 children
+        science_content = ebs_subs.get('The Science Behind It', '') or \
+                         sections.get('The Science Behind It', '')
+        principles_content = ebs_subs.get('Key Principles', '') or \
+                             sections.get('Key Principles', '')
+
+        # Day subsections — h4 children under h3 "Action Steps"
+        day_subs = get_subsections('Action Steps: Your 7-Day Protocol')
+        # Normalize keys for matching: replace en-dashes/em-dashes with hyphens, remove markdown bold
+        def normalize_key(s):
+            return s.replace('–', '-').replace('—', '-').replace('**', '').lower()
+        # Map normalized key -> original key
+        day_norm_to_orig = {normalize_key(k): k for k in day_subs}
+        day_order = [
+            ('Day 1: Awareness', ['day 1']),
+            ('Days 2–3: Foundation', ['day 2', 'day 3']),
+            ('Days 4–5: Implementation', ['day 4', 'day 5']),
+            ('Days 6–7: Integration', ['day 6', 'day 7']),
+        ]
+        def key_contains(keywords, norm_k):
+            """Check if any keyword is contained in norm_k, handling dash-separated day ranges."""
+            for kw in keywords:
+                if kw in norm_k:
+                    return True
+                # Also check after splitting on dashes (day 2 vs days 2-3)
+                for part in norm_k.replace('-', ' ').replace('/', ' ').split():
+                    if kw in part:
+                        return True
+            return False
+        day_parts = []
+        for label, keywords in day_order:
+            for norm_k, orig_k in day_norm_to_orig.items():
+                if key_contains(keywords, norm_k) and day_subs[orig_k].strip():
+                    day_parts.append(f'<h3>{label}</h3>\n{md(day_subs[orig_k])}')
+                    break
+        days_html = '<h2>Action Steps: Your 7-Day Protocol</h2>\n' + '\n'.join(day_parts)
+
+        # Problem section — use the flat sections dict (h3 heading)
+        problem_html = f'<h2>The Problem</h2>\n{md(sections.get("The Problem", ""))}' if sections.get("The Problem") else ''
+
+        # References
+        refs_html = f'<h2>References</h2>\n{md(sections.get("References", ""))}' if sections.get("References") else ''
+
+        # Build final content HTML
+        content_parts = [problem_html, why_worse_html]
+        if science_content or principles_content or ebs_intro:
+            content_parts.append('<h2>Evidence-Based Solution</h2>')
+            if ebs_intro.strip():
+                content_parts.append(md(ebs_intro))
+            if science_content.strip():
+                content_parts.append(f'<h3>The Science Behind It</h3>\n{md(science_content)}')
+            if principles_content.strip():
+                content_parts.append(f'<h3>Key Principles</h3>\n{md(principles_content)}')
+        content_parts.append(days_html)
+        if refs_html:
+            content_parts.append(refs_html)
+
+        content_html = '\n'.join(content_parts).strip()
+
+        # Generate slug and metadata
+        slug = keyword.lower().replace(' ', '-').replace("'", '').replace('"', '')
+        today = datetime.now().strftime('%Y-%m-%d')
+        word_count = len(markdown.split())
+        reading_time = max(1, word_count // 200)
+
+        # Meta description from first paragraph
+        meta_desc = sections.get('The Problem', keyword)[ : 160].strip()
+
+        # TL;DR from science section
+        tldr = sections.get('The Science Behind It', meta_desc)[ : 200].strip()
+
+        # Photo pool — cycle through Unsplash fitness/wellness photos
+        photo_ids = [
+            'photo-1544367567-0f2fcb009e0b',  # yoga
+            'photo-1571019613454-1cb2f99b2d8b',  # fitness
+            'photo-1518611012118-696072aa579a',  # wellness
+            'photo-1493836512294-502baa1986e2',  # lifestyle
+            'photo-1545205597-3d9d02c29597',  # recovery
+        ]
+        photo_id = photo_ids[hash(keyword) % len(photo_ids)]
+
+        # Related posts (static — pull from existing posts.json)
+        related = self._get_related_posts(category, slug)
+        rel1, rel2, rel3 = related
+
+        # Share URLs
+        share_x = f"https://twitter.com/intent/tweet?text={escape(keyword)}&url=https://lifestyle.boldlybalance.life/posts/{slug}.html"
+        share_fb = f"https://www.facebook.com/sharer/sharer.php?u=https://lifestyle.boldlybalance.life/posts/{slug}.html"
+        share_bs = f"https://bsky.app/profile/boldlybalance.bsky.social"
+        share_li = f"https://www.linkedin.com/shareArticle?mini=true&url=https://lifestyle.boldlybalance.life/posts/{slug}.html"
+
+        # Fill template
+        html = (template
+            .replace('TITLE', escape(keyword.title()))
+            .replace('SLUG', slug)
+            .replace('META_DESCRIPTION', escape(meta_desc))
+            .replace('CATEGORY', category)
+            .replace('CATEGORY_SLUG', category.lower().replace(' ', '-'))
+            .replace('DATE_PUBLISHED', today)
+            .replace('DATE_MODIFIED', today)
+            .replace('WORD_COUNT', str(word_count))
+            .replace('READING_TIME', str(reading_time))
+            .replace('ARTICLE_TAGS', escape(keyword))
+            .replace('ARTICLE_IMAGE_ALT', escape(f'{keyword} — Boldly Balance'))
+            .replace('PHOTO_ID', photo_id)
+            .replace('CONTENT_GOES_HERE', content_html)
+            .replace('TLDR_CONTENT', escape(tldr))
+            .replace('RELATED_LINK_1', rel1['url'])
+            .replace('RELATED_IMG_1', rel1['img'])
+            .replace('RELATED_TITLE_1', escape(rel1['title']))
+            .replace('RELATED_DESC_1', escape(rel1['desc']))
+            .replace('RELATED_CAT_1', rel1['cat'])
+            .replace('RELATED_LINK_2', rel2['url'])
+            .replace('RELATED_IMG_2', rel2['img'])
+            .replace('RELATED_TITLE_2', escape(rel2['title']))
+            .replace('RELATED_DESC_2', escape(rel2['desc']))
+            .replace('RELATED_CAT_2', rel2['cat'])
+            .replace('RELATED_LINK_3', rel3['url'])
+            .replace('RELATED_IMG_3', rel3['img'])
+            .replace('RELATED_TITLE_3', escape(rel3['title']))
+            .replace('RELATED_DESC_3', escape(rel3['desc']))
+            .replace('RELATED_CAT_3', rel3['cat'])
+            .replace('SHARE_X', share_x)
+            .replace('SHARE_FB', share_fb)
+            .replace('SHARE_BS', share_bs)
+            .replace('SHARE_LI', share_li)
+        )
+
+        return html
+
+    def _get_related_posts(self, category: str, exclude_slug: str) -> list:
+        """Get 3 related posts from posts.json, falling back to popular defaults."""
+        try:
+            posts_file = PROJECT_ROOT / "posts.json"
+            if posts_file.exists():
+                with open(posts_file) as f:
+                    all_posts = json.load(f)
+                # Same category first, then any
+                same_cat = [p for p in all_posts if p.get('category') == category and p.get('slug') != exclude_slug]
+                others = [p for p in all_posts if p.get('slug') != exclude_slug]
+                pool = same_cat + others
+                chosen = pool[:3]
+                # If less than 3, pad with defaults
+                defaults = [
+                    {'title': 'Why Rest Days Are Not Optional', 'slug': 'why-rest-days-are-not-optional', 'category': 'Fitness'},
+                    {'title': 'The Morning Routine Myth', 'slug': 'the-morning-routine-myth-why-perfect-am-rituals-backfire', 'category': 'Mind'},
+                    {'title': 'Why Sleep Tracking Is Making You Sleep Worse', 'slug': 'why-sleep-tracking-is-making-you-sleep-worse', 'category': 'Sleep'},
+                ]
+                while len(chosen) < 3:
+                    for d in defaults:
+                        if d['slug'] != exclude_slug and d not in chosen:
+                            chosen.append(d)
+                            break
+                    else:
+                        break
+                result = []
+                for p in chosen[:3]:
+                    img_pool = [
+                        'photo-1544367567-0f2fcb009e0b',
+                        'photo-1571019613454-1cb2f99b2d8b',
+                        'photo-1518611012118-696072aa579a',
+                    ]
+                    result.append({
+                        'url': f'https://lifestyle.boldlybalance.life/posts/{p["slug"]}.html',
+                        'img': f'https://images.unsplash.com/{img_pool[len(result)]}?w=400&h=250&fit=crop',
+                        'title': p.get('title', ''),
+                        'desc': p.get('meta_description', '')[:100] or 'Practical wisdom for a balanced life.',
+                        'cat': p.get('category', 'Wellness'),
+                    })
+                return result
+        except Exception:
+            pass
+        # Fallback
+        return [
+            {'url': '/posts/why-rest-days-are-not-optional.html', 'img': 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop', 'title': 'Why Rest Days Are Not Optional', 'desc': 'Recovery is your superpower.', 'cat': 'Fitness'},
+            {'url': '/posts/the-morning-routine-myth-why-perfect-am-rituals-backfire.html', 'img': 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop', 'title': 'The Morning Routine Myth', 'desc': 'Perfect AM rituals might be holding you back.', 'cat': 'Mind'},
+            {'url': '/posts/why-sleep-tracking-is-making-you-sleep-worse.html', 'img': 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=250&fit=crop', 'title': 'Why Sleep Tracking Is Making You Sleep Worse', 'desc': 'The data is not helping you.', 'cat': 'Sleep'},
+        ]
+
+    def _slack_draft_notification(self, keyword: str, category: str, excerpt: str, draft_path: str):
+        """Post draft notification to Slack DM with Ferdy."""
+        import urllib.request
+        slug = keyword.lower().replace(' ', '-').replace("'", '')
+        msg = {
+            "channel": "D0AQAM0DECA",
+            "text": f"📝 *New article draft ready for review*\n\n*Keyword:* {keyword}\n*Category:* {category}\n*Draft:* `seo-pipeline/review/{slug}-review.md`\n\n---\n{excerpt[:300]}...\n\n—\nReply `publish` to move live, `rewrite [note]` to send back to Aria."
+        }
+        try:
+            req = urllib.request.Request(
+                "https://slack.com/api/chat.postMessage",
+                data=json.dumps(msg).encode(),
+                headers={"Content-Type": "application/json"},
+            )
+            with urllib.request.urlopen(req, timeout=10):
+                pass
+        except Exception as e:
+            print(f"[Slack notification] {e}")
     
     def run_workflow(self, keywords_count: int = 10) -> List[Dict[str, Any]]:
         """Run the full pipeline for specified number of keywords."""
@@ -389,37 +680,29 @@ Category: {category} | Status: Placeholder (AI generation needs config)
             for kw_data in batch:
                 try:
                     # Step 1: Generate Outline
-                    print(f"    Step 1/5: Generating outline for '{kw_data['keyword']}'...")
+                    print(f"    Step 1/3: Generating outline for '{kw_data['keyword']}'...")
                     outline_path = self.generate_outline(kw_data)
-                    
+
                     # Step 2: AI Content Generation
-                    print(f"    Step 2/5: AI content generation for '{kw_data['keyword']}'...")
+                    print(f"    Step 2/3: AI content generation for '{kw_data['keyword']}'...")
                     loop = asyncio.new_event_loop()
                     asyncio.set_event_loop(loop)
                     try:
                         article_path = loop.run_until_complete(self.generate_ai_content(kw_data, outline_path))
                     finally:
                         loop.close()
-                    
-                    # Step 3: Create Review Request
-                    print(f"    Step 3/5: Creating review request for '{kw_data['keyword']}'...")
+
+                    # Step 3: Send to review — STOP here, Ferdy approves before publishing
+                    print(f"    Step 3/3: Sending '{kw_data['keyword']}' to review for your approval...")
                     review_path = self.create_review_request(article_path, kw_data)
-                    
-                    # Step 4: Publish (if approved - skip review for now to speed up)
-                    # For 10+ articles/week, we'll auto-publish with review flag
-                    print(f"    Step 4/5: Publishing '{kw_data['keyword']}'...")
-                    output_path = self.publish_to_posts(article_path, kw_data)
-                    
-                    # Step 5: Mark complete
-                    print(f"    Step 5/5: Marking complete for '{kw_data['keyword']}'...")
-                    
+
                     results.append({
                         "keyword": kw_data["keyword"],
-                        "status": STATUS['completed'],
+                        "status": STATUS['review'],
                         "outline": outline_path,
                         "article": article_path,
                         "review": review_path,
-                        "published": output_path
+                        "published": None  # Ferdy publishes via Slack DM reply
                     })
                     
                 except Exception as e:
@@ -455,30 +738,71 @@ Category: {category} | Status: Placeholder (AI generation needs config)
 
 
 def main():
-    """Main entry point for the pipeline."""
+    """Main entry point for the pipeline. Supports: run, publish_pending, publish <keyword>."""
     pipeline = SEO_Pipeline()
-    
+    import sys
+
     print("=" * 60)
     print("BoldlyBalance SEO Content Pipeline")
     print("=" * 60)
     print()
-    
-    # Run workflow for requested number of keywords (default: 10 for weekly target)
-    keywords_count = pipeline.config.get("articles_per_week", 10)
-    results = pipeline.run_workflow(keywords_count=keywords_count)
-    
-    print()
-    print("Pipeline Results:")
-    for r in results:
-        if r.get("status") == STATUS['completed']:
-            print(f"  ✅ {r['keyword']}: published")
-        else:
-            print(f"  ❌ {r['keyword']}: {r.get('error', 'Unknown error')}")
-    
-    print()
-    print("Pipeline Progress:", pipeline.get_progress())
-    
-    return results
+
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "run"
+
+    if cmd == "publish_pending":
+        # Show all articles awaiting review
+        reviews = sorted(pipeline.review_dir.glob("*-review.md"))
+        if not reviews:
+            print("No pending reviews.")
+        for r in reviews:
+            print(f"  📝 {r.stem.replace('-review', '')}")
+        return
+
+    elif cmd == "publish" and len(sys.argv) > 2:
+        # Publish a specific article by keyword
+        keyword = " ".join(sys.argv[2:])
+        slug = keyword.lower().replace(' ', '-').replace("'", '')
+        article_file = pipeline.articles_dir / f"{slug}.md"
+        if not article_file.exists():
+            print(f"Article not found: {article_file}")
+            return
+        # Find matching keyword data from clusters
+        kw_data = {"keyword": keyword, "cluster": {"category": "General"}}
+        clusters_data = pipeline.load_keywords()
+        for cluster in clusters_data.get("clusters", {}).values():
+            for seed_kw in cluster.get("seed_keywords", []):
+                if seed_kw.lower() == keyword.lower():
+                    kw_data = {"keyword": seed_kw, "cluster": {"category": cluster.get("category", "General")}}
+                    break
+        output = pipeline.publish_to_posts(str(article_file), kw_data)
+        # Remove review file
+        review_file = pipeline.review_dir / f"{slug}-review.md"
+        if review_file.exists():
+            review_file.unlink()
+        print(f"✅ Published: {output}")
+        return
+
+    elif cmd == "run":
+        keywords_count = pipeline.config.get("articles_per_week", 10)
+        results = pipeline.run_workflow(keywords_count=keywords_count)
+        print()
+        print("Pipeline Results:")
+        for r in results:
+            if r.get("status") == STATUS['review']:
+                print(f"  📝 {r['keyword']}: in review — reply `publish {r['keyword']}` to go live")
+            elif r.get("status") == STATUS['completed']:
+                print(f"  ✅ {r['keyword']}: published")
+            else:
+                print(f"  ❌ {r['keyword']}: {r.get('error', 'Unknown error')}")
+        print()
+        print("Pipeline Progress:", pipeline.get_progress())
+        return results
+
+    else:
+        print("Usage:")
+        print("  python pipeline.py run              # Generate articles (stops at review)")
+        print("  python pipeline.py publish_pending  # List articles awaiting review")
+        print("  python pipeline.py publish <kw>    # Publish a specific article")
 
 
 if __name__ == "__main__":
