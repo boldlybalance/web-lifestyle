@@ -2649,3 +2649,37 @@ footer {
 .hover-opacity:hover {
     opacity: 0.85;
 }
+
+/* Inline Style Replacements */
+.tldr-box {
+    background: var(--color-bg-elevated);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.tldr-label {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.tldr-content {
+    margin: 0;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+
+.gap-grid {
+    gap: 1.5rem;
+}
