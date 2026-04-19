@@ -24,3 +24,11 @@ secrets/
 *.netrc
 .netrc
 *.py
+
+# Generated directories
+queues/
+scripts/
+
+# Other
+*.py
+*.md
